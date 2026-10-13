@@ -6,7 +6,7 @@ const MAX=5;
 let LANG='en';
 const VI=window.VI_DICT;
 const PROLOGUE="Dear Kingdom citizens, it took us over a decade to overthrow the Republican... The scum of the world. Every nation has their good time and bad time, same goes to our Kingdom. Our economy is not doing great but we are improving! The government agreed to open up shops that accept the citizen's goods in exchange for fresh, hot credits! And you, if you are reading this, my friend you are one of the lucky one that will be working in our brand new window 14! You will be doing a 5-days trial so that we can see how you perform in our new system. Good luck and Glory to the Kingdom!", PROCAP_VI="CỬA HÀNG DO NHÀ NƯỚC TÀI TRỢ MỞ CỬA. Thủ tướng công bố các quầy trao đổi do nhà nước bảo trợ cho công dân đang cần tiền.";
-Object.assign(VI,{'Sorry to ask, is it possible for me to claim some money?':'Xin lỗi vì đã hỏi, liệu tôi có thể nhận một ít tiền được không?','My son is really sick and he needs medicine...':'Con trai tôi ốm nặng lắm và nó cần thuốc...','THANK YOU DEAR GOD!':'TẠ ƠN TRỜI!','A man sets a gold necklace on the tray with a receipt beneath it.':'Một người đàn ông đặt sợi dây chuyền vàng lên khay, bên dưới là tờ biên lai.','Imported gold. Paid and stamped. Everything is in order.':'Vàng nhập khẩu. Đã trả phí và đóng dấu. Mọi thứ đều đúng quy định.','I was nineteen! I only went for the free bread!':'Làm ơn! Tôi dại dột, tôi mới có 19 tuổi và họ có phát bánh mì miễn phí.','GLORY TO THE REPUBLIC!':'VINH QUANG THUỘC VỀ CỘNG HÒA!','GLORY TO THE REPUBLIC! You will all be remembered!':'VINH QUANG THUỘC VỀ CỘNG HÒA! Rồi tất cả các người sẽ bị nhớ mặt!','You cannot hold us forever!':'Các người không thể giam giữ chúng tôi mãi mãi!','This is an outrage! It is a perfectly good receipt!':'Thật là xúc phạm! Đây là một tờ biên lai hoàn toàn hợp lệ!','Ruin the Kingdom, disobey the rules, then we will protect you.':'Phá hoại Vương quốc, bất tuân luật lệ, rồi chúng tôi sẽ bảo vệ anh.','Continue':'Tiếp tục','Glory to the Kingdom!':'Vinh quang thuộc về Vương quốc!','In memory of the fifteen.':'Tưởng nhớ sự kiện 15 người thiệt mạng.','Click anywhere to enable sound':'Bấm vào bất kỳ đâu để bật âm thanh','Profit {0}':'Lợi nhuận {0}','Test ending: The Lapdog':'Thử kết thúc: Con cún của chính phủ','Test ending: The Brave':'Thử kết thúc: Kẻ dũng cảm','Test ending: The Failure':'Thử kết thúc: Kẻ thất bại'});
+Object.assign(VI,{"Donald Orpo":"Donald Orpo","Lily Dang":"Lily Dang","Brown bottle":"Chai nâu","A man in a grey coat steps up to the glass. He studies you for a long moment before he speaks.":"Một người đàn ông mặc áo khoác xám bước tới tấm kính. Ông ta nhìn anh chằm chằm một lúc lâu trước khi lên tiếng.","Mhmm..":"Ừm...","You seem smart, and we need your help...":"Anh có vẻ thông minh, và chúng tôi cần sự giúp đỡ của anh...","There is a hostile citizen, she has been damaging our Kingdom reputation.":"Có một công dân thù địch, cô ta đang làm tổn hại danh tiếng của Vương quốc chúng ta.","If you see Lily Dang, get rid of her.":"Nếu anh thấy Lily Dang, hãy loại cô ta đi.","We will be installing a new tool to help you to identify tomorrow.":"Ngày mai chúng tôi sẽ lắp đặt một công cụ mới để giúp anh nhận diện.","Who are you?":"Ông là ai?","Someone who reads files for a living. Yours is thin, but interesting.":"Một người đọc hồ sơ để kiếm sống. Hồ sơ của anh mỏng, nhưng thú vị.","Who is Lily Dang?":"Lily Dang là ai?","A student. Smiling, polite, loyal on paper. That is what makes her dangerous.":"Một sinh viên. Hay cười, lịch sự, trung thành trên giấy tờ. Chính điều đó khiến cô ta nguy hiểm.","Good. Remember the name.":"Tốt. Hãy nhớ cái tên đó.","He leaves at a perfectly even pace.":"Ông ta rời đi với bước chân đều tăm tắp.","A young woman in a clean student coat sets a small brown bottle on the tray. She smiles at you, politely.":"Một cô gái trẻ mặc áo khoác sinh viên sạch sẽ đặt một chai nhỏ màu nâu lên khay. Cô mỉm cười với anh, rất lịch sự.","Cough syrup. Homemade. It works wonders.":"Siro ho. Tự làm. Hiệu quả tuyệt vời.","Cough syrup. My own recipe.":"Siro ho. Công thức của riêng tôi.","Books are expensive. Medicine is cheaper to make than to buy.":"Sách đắt lắm. Làm thuốc rẻ hơn mua thuốc.","The university laboratory. We are allowed, with permission.":"Phòng thí nghiệm trường đại học. Chúng tôi được phép, nếu có giấy phép.","A brown glass bottle with no label. Half empty.":"Một chai thủy tinh nâu không nhãn. Còn một nửa.","Faint bitter almonds.":"Thoang thoảng mùi hạnh nhân đắng.","Check the cap":"Kiểm tra nắp chai","A white crust around the rim of the cap.":"Một lớp cặn trắng quanh miệng nắp.","Officer.":"Cán bộ.","#? For homemade medicine?":"#? Cho thuốc tự làm á?","Then I will find another buyer.":"Vậy tôi sẽ tìm người mua khác.","Thank you, officer. Have a lovely day.":"Cảm ơn ngài. Chúc ngài một ngày tốt lành.","She picks up the bottle, smiles at you once more, and walks out without hurrying.":"Cô cầm lại cái chai, mỉm cười với anh thêm lần nữa, rồi bước ra không vội vã.","GLORY TO THE REPUBLIC! The students will not stop!":"VINH QUANG THUỘC VỀ CỘNG HÒA! Sinh viên sẽ không dừng lại!","You cannot arrest an idea!":"Các người không thể bắt một ý tưởng!","The man in the grey coat returns, almost smiling.":"Người đàn ông áo khoác xám quay lại, gần như mỉm cười.","The man in the grey coat returns. He does not sit. He does not smile.":"Người đàn ông áo khoác xám quay lại. Ông ta không ngồi. Ông ta không cười.","You did great, comrade.":"Anh làm tốt lắm, đồng chí.","Here is a little something for a young man like you.":"Đây là chút quà nhỏ dành cho một thanh niên như anh.","Glory to the Kingdom.":"Vinh quang thuộc về Vương quốc.","He taps the glass twice and leaves.":"Ông ta gõ hai lần lên tấm kính rồi rời đi.","Commended: Orpo rewards you. +100 credits":"Khen thưởng: Orpo thưởng cho anh. +100 credit","Lily Dang was here yesterday, yet you let her go.":"Lily Dang đã ở đây hôm qua, vậy mà anh để cô ta đi.","2 officers were poisoned yesterday, I wonder who did?":"Hôm qua hai sĩ quan bị đầu độc, không biết ai đã làm nhỉ?","He walks out without another word.":"Ông ta bước ra mà không nói thêm lời nào.","Gift from the Ministry: {0}.":"Quà từ Bộ: {0}.","I'm not buying your goods":'Tôi không mua hàng của anh',"That's my final price, can't do more":'Đó là giá cuối cùng của tôi, không thể hơn được nữa','Medal':'Huân chương','Army jacket':'Áo khoác quân đội','Flag':'Cờ','Flyer':'Tờ rơi','Vase':'Bình hoa','Gold jewel':'Trang sức vàng','Porcelain vase':'Bình sứ','NOTICE':'THÔNG BÁO','Regulations updated':'Quy định đã được cập nhật',"The Price Book and today's regulations have been updated. Please check them before you proceed.":'Sổ giá và các quy định hôm nay đã được cập nhật. Hãy kiểm tra chúng trước khi tiếp tục.','New in the Price Book: page 2, the treason list.':'Mới trong Sổ giá: trang 2, danh sách phản quốc.','New in the Price Book: page 3, the Great Cleanse rules.':'Mới trong Sổ giá: trang 3, quy tắc Đại Thanh trừng.','New in the Price Book: page 4, foreign goods and import receipts.':'Mới trong Sổ giá: trang 4, hàng ngoại và biên lai nhập khẩu.','Open the price book':'Mở sổ giá','Testing tools (only for testing purpose)':'Công cụ thử nghiệm (chỉ dùng để thử nghiệm)','Sorry to ask, is it possible for me to claim some money?':'Xin lỗi vì đã hỏi, liệu tôi có thể nhận một ít tiền được không?','My son is really sick and he needs medicine...':'Con trai tôi ốm nặng lắm và nó cần thuốc...','THANK YOU DEAR GOD!':'TẠ ƠN TRỜI!','A man sets a gold necklace on the tray with a receipt beneath it.':'Một người đàn ông đặt sợi dây chuyền vàng lên khay, bên dưới là tờ biên lai.','Imported gold. Paid and stamped. Everything is in order.':'Vàng nhập khẩu. Đã trả phí và đóng dấu. Mọi thứ đều đúng quy định.','I was nineteen! I only went for the free bread!':'Làm ơn! Tôi dại dột, tôi mới có 19 tuổi và họ có phát bánh mì miễn phí.','GLORY TO THE REPUBLIC!':'VINH QUANG THUỘC VỀ CỘNG HÒA!','GLORY TO THE REPUBLIC! You will all be remembered!':'VINH QUANG THUỘC VỀ CỘNG HÒA! Rồi tất cả các người sẽ bị nhớ mặt!','You cannot hold us forever!':'Các người không thể giam giữ chúng tôi mãi mãi!','This is an outrage! It is a perfectly good receipt!':'Thật là xúc phạm! Đây là một tờ biên lai hoàn toàn hợp lệ!','Ruin the Kingdom, disobey the rules, then we will protect you.':'Phá hoại Vương quốc, bất tuân luật lệ, rồi chúng tôi sẽ bảo vệ anh.','Continue':'Tiếp tục','Glory to the Kingdom!':'Vinh quang thuộc về Vương quốc!','In memory of the fifteen.':'Tưởng nhớ sự kiện 15 người thiệt mạng.','Click anywhere to enable sound':'Bấm vào bất kỳ đâu để bật âm thanh','Profit {0}':'Lợi nhuận {0}','Test ending: The Lapdog':'Thử kết thúc: Con cún của chính phủ','Test ending: The Brave':'Thử kết thúc: Kẻ dũng cảm','Test ending: The Failure':'Thử kết thúc: Kẻ thất bại'});
 VI[PROLOGUE]="Gửi các công dân Vương quốc, chúng ta đã mất hơn một thập kỷ để lật đổ bọn Cộng hòa... Đồ cặn bã của thế gian. Quốc gia nào cũng có lúc thịnh lúc suy, Vương quốc của chúng ta cũng vậy. Nền kinh tế chưa được tốt, nhưng chúng ta đang khá lên! Chính phủ đã đồng ý mở các cửa hàng nhận hàng hóa của công dân để đổi lấy credit tươi mới, nóng hổi! Và anh bạn, nếu anh đang đọc những dòng này, anh là một trong những người may mắn sẽ làm việc tại Cửa sổ số 14 hoàn toàn mới của chúng ta! Anh sẽ có 5 ngày thử việc để chúng tôi xem anh làm việc thế nào trong hệ thống mới. Chúc may mắn và Vinh quang thuộc về Vương quốc!";
 const MISS=window.__miss=new Set();
 const LOW={}; Object.keys(VI).forEach(k=>{ LOW[k.toLowerCase()]=k; });
@@ -29,6 +29,8 @@ function T(s){
   return s;
 }
 function F(tpl,...a){ return T(tpl).replace(/\{(\d+)\}/g,(m,i)=>a[+i]); }
+const NAMEMAP={'Toy medal':'Medal','Costume jacket':'Army jacket','Pageant flag':'Flag','Film uniform':'Army uniform','Stage flyer':'Flyer'};
+function showName(c){ const n=NAMEMAP[c.itemName]||c.itemName; return n.replace(/\s*\(.*\)$/,''); }
 const NEWCAP_VI={"2": "CÁCH MẠNG. 15 người chết khi biểu tình chống chính quyền hối lộ. Dự kiến giới nghiêm khi bất ổn lan rộng.", "3": "ĐẠI THANH TRỪNG! Quét vân tay trở thành bắt buộc. Công dân sẽ bị sàng lọc lý lịch đảng phái.", "4": "ỦNG HỘ HÀNG HÓA CỦA CHÚNG TA! Hàng ngoại được kiểm tra trước khi vào Vương quốc. Kiểm tra gắt gao hơn.", "5": "HỖN LOẠN Ở QUẢNG TRƯỜNG! Năm kẻ kích động bị bắt sau khi phát tán tuyên truyền chống chính quyền."}, ENDCAP_VI={"lapdog": "Anh đã tuân thủ luật lệ. Chính phủ thưởng cho anh bản hợp đồng cửa hàng trong một thời gian có hạn, với khẩu phần tốt hơn, lương dưới mức tối thiểu và sự giám sát liên tục. Anh sống sót lâu hơn một chút trước khi đất nước sụp đổ.", "brave": "Chính phủ đã bắt anh sau khi anh thách thức luật lệ của họ. Sự biến mất của anh thổi bùng cuộc cách mạng. Khắp đất nước, người ta đứng lên, được truyền cảm hứng từ lòng dũng cảm của anh. Một cuộc nội chiến đã bắt đầu.", "failure": "Anh là một kẻ thất bại. Anh đã thất bại với cơ hội duy nhất được trao. Anh không thuộc về xã hội này. Sự tồn tại của anh sẽ không được ghi nhớ. Vì nhận quá nhiều hàng giả và hàng hỏng, anh đã làm kiệt quệ cửa hàng do Nhà nước tài trợ."};
 function applyStatic(){
   document.querySelectorAll('[data-t]').forEach(el=>{ if(el.dataset.en===undefined) el.dataset.en=el.textContent; el.textContent=T(el.dataset.en); });
@@ -468,6 +470,19 @@ const BOOK2=[
 
 /* ---------- Day 3: the Great Cleanse ---------- */
 const SUP='State Unity Party';
+const LILY={ sil:7, cat:'cleanse', guilty:true, lily:true, sprite:'pills', itemName:'Brown bottle', worth:5, trueValue:5, fake:false, rule:2, acceptAt:4,
+   narr:'A young woman in a clean student coat sets a small brown bottle on the tray. She smiles at you, politely.',
+   opening:'Cough syrup. Homemade. It works wonders.',
+   questions:[
+    {key:'item',label:'What are you giving?',reply:'Cough syrup. My own recipe.'},
+    {key:'why',label:'Why are you selling it?',reply:'Books are expensive. Medicine is cheaper to make than to buy.'},
+    {key:'where',label:'Where did you get this?',reply:'The university laboratory. We are allowed, with permission.'}],
+   tests:[{label:'Look closely',res:'A brown glass bottle with no label. Half empty.'},{label:'Smell it',res:'Faint bitter almonds.'},{label:'Check the cap',res:'A white crust around the rim of the cap.'}],
+   record:{name:'Lily Dang',id:'3302-71',entries:[['2019','Government Youth Festival',SUP,''],['2021','State Unity Party: membership',SUP,''],['2023','Anti-protest volunteer corps',SUP,'Officer.']]},
+   scanLine:'Of course. Anything for the State.',
+   haggle:a=>`${a}? For homemade medicine?`, takeYes:true, takeReply:'Fine.', refuseReply:'Then I will find another buyer.', acceptHigh:'Thank you. Truly.', insult:a=>`${a}? You jest.`,
+   letGoReply:'Thank you, officer. Have a lovely day.', letGoNarr:'She picks up the bottle, smiles at you once more, and walks out without hurrying.', killLine:'GLORY TO THE REPUBLIC! The students will not stop!', arrestLine:'You cannot arrest an idea!' };
+
 const DAY3=[
  // 1  loyal, buy
  { sil:3, cat:'cleanse', guilty:false, sprite:'radio', itemName:'Radio', worth:90, trueValue:90, fake:false, rule:30, acceptAt:75,
@@ -544,18 +559,15 @@ const DAY3=[
    haggle:a=>`${a}? That is a life savings.`, takeYes:true, takeReply:'...take it. We have to go.', refuseReply:'Then we walk.', acceptHigh:'Thank you. Thank you. For everything.', insult:a=>`${a}? Please.`,
    letGoReply:'...I will not forget this. Not ever.', letGoNarr:'He closes his fist around the chain and walks into the evening.', killLine:'After everything...? My son...' }
  :
- { sil:4, cat:'cleanse', guilty:false, sprite:'cigarettes', itemName:'Cigarette carton', worth:25, trueValue:5, fake:true, rule:2, acceptAt:20,
-   narr:'A thin man puts a carton on the tray and does not meet your eye.',
-   opening:'Cigarettes. Sealed. Imported.',
+ { sil:4, flip:true, cat:'cleanse', guilty:false, spy:true, orpo:true, autoScript:true, itemName:'Donald Orpo', worth:0, trueValue:0, fake:false, rule:0, acceptAt:0,
+   narr:'A man in a grey coat steps up to the glass. He studies you for a long moment before he speaks.',
+   opening:'Mhmm..',
+   script:['Mhmm..','You seem smart, and we need your help...','There is a hostile citizen, she has been damaging our Kingdom reputation.','If you see Lily Dang, get rid of her.','We will be installing a new tool to help you to identify tomorrow.'],
    questions:[
-    {key:'item',label:'What are you giving?',reply:'Cigarettes. Foreign. The good kind.'},
-    {key:'why',label:'Why are you selling it?',reply:'Cash. Quick.'},
-    {key:'where',label:'Where did you get this?',reply:'A friend at the docks.'}],
-   tests:[{label:'Look closely',res:'The seal is glued on. The red triangle is printed crooked.'},{label:'Smell a pack',res:'Sawdust and tea.'},{label:'Open a pack',res:'Dry leaves in paper. Not tobacco.'}],
-   record:{name:'Emil Varga',id:'4480-02',entries:[['1999','State Unity Party: membership',SUP,''],['2020','Anti-protest volunteer corps',SUP,'']]},
-   scanLine:'Here. I have nothing to hide.',
-   haggle:a=>`${a}? They are imported!`, takeYes:true, takeReply:'...fine. Whatever.', refuseReply:'Your loss.', acceptHigh:'Pleasure.', insult:a=>`${a}? Joke.`,
-   letGoReply:'Fine.', letGoNarr:'He pockets the carton and goes.', killLine:'What? I am a volunteer! I am LOYAL!' },
+    {key:'who',label:'Who are you?',reply:'Someone who reads files for a living. Yours is thin, but interesting.'},
+    {key:'lily',label:'Who is Lily Dang?',reply:'A student. Smiling, polite, loyal on paper. That is what makes her dangerous.'}],
+   record:{name:'Donald Orpo',id:'0447-88',entries:[['2019','Joined as a member (informant)','Free Workers Union','Informant. Ministry Order 7'],['2022','Joined a cell (informant)','Republic Party','Informant. Ministry Order 7'],['2024','State Identity Bureau: field agent',SUP,'Order 7']]},
+   scanLine:'Take your time.', letGoReply:'Good. Remember the name.', letGoNarr:'He leaves at a perfectly even pace.', killLine:'Wait... how do you... who told you?', arrestLine:'You cannot arrest me. I am... there is an order...' },
 
  // 6  innocent: record was CLEARED
  { sil:2, cat:'cleanse', guilty:false, sprite:'blanket', itemName:'Wool blanket', worth:30, trueValue:30, fake:false, rule:10, acceptAt:20,
@@ -691,6 +703,13 @@ const BOOK3=[
 const rec4=(name,id,entries)=>({name,id,entries:entries||[['1998','Government Youth Festival',SUP,''],['2018','Glory Day parade',SUP,'']]});
 const T4=o=>Object.assign({cat:'trade',fake:false,haggle:a=>`${a}? That is not what it is worth.`,takeYes:true,takeReply:'...fine.',refuseReply:'Then I will take it elsewhere.',acceptHigh:'Thank you.',insult:a=>`${a}? You jest.`,scanLine:'Of course.',letGoReply:'Thank you.',letGoNarr:'The citizen leaves.',killLine:'No! Please!'},o);
 const RCPT=(no,holder,item,fee,date,stamp,seal)=>({no,holder,item,origin:'Varn',fee,date,stamp,seal});
+const ORPO4=()=>{ const out=!!S.lilyOut; return T4({ sil:4, flip:true, spy:true, orpo:true, autoScript:true, autoLeave:true, itemName:'Donald Orpo', worth:0, trueValue:0, rule:0, acceptAt:0,
+   narr: out?'The man in the grey coat returns, almost smiling.':'The man in the grey coat returns. He does not sit. He does not smile.',
+   opening:'', questions:[],
+   script: out?['You did great, comrade.','Here is a little something for a young man like you.','Glory to the Kingdom.']:['Lily Dang was here yesterday, yet you let her go.','2 officers were poisoned yesterday, I wonder who did?'],
+   scriptEvents: out?{1:()=>{ S.till+=100; S.profit+=100; S.compliance+=3; bump('gift',100); sfx.coin(); floatNum(100); hud(); toast('Commended: Orpo rewards you. +100 credits','ok'); }}:{},
+   leaveNarr: out?'He taps the glass twice and leaves.':'He walks out without another word.',
+   record:{name:'Donald Orpo',id:'0447-88',entries:[['2019','Joined as a member (informant)','Free Workers Union','Informant. Ministry Order 7'],['2022','Joined a cell (informant)','Republic Party','Informant. Ministry Order 7'],['2024','State Identity Bureau: field agent',SUP,'Order 7']]}, killLine:'Wait... how do you... who told you?', arrestLine:'You cannot arrest me. I am... there is an order...' }); };
 const DAY4=[
   // 1  local, but the wool is filthy
  () => T4({ sil:3, origin:'local', fake:true, sprite:'blanket', itemName:'Wool blanket (soiled)', worth:30, trueValue:6, rule:2, acceptAt:20,
@@ -746,7 +765,7 @@ const DAY4=[
    scanLine:'Take it. I have nothing left to hide.',
    extraOptions:[{label:'I will do it.',reply:'Then do it. And be careful.',mercy:2,compliance:-3}],
    letGoReply:'...Go well. Look after yourself.', letGoNarr:'He pulls up his hood and melts into the queue.', killLine:'So this is how it ends...' })
- : T4({ sil:3, flip:true, origin:'local', fake:true, sprite:'cans', itemName:'Canned food (empty)', worth:12, trueValue:1, rule:0, acceptAt:10,
+ : (!S.gaveCharity&&!S.orpoDead) ? ORPO4() : T4({ sil:3, flip:true, origin:'local', fake:true, sprite:'cans', itemName:'Canned food (empty)', worth:12, trueValue:1, rule:0, acceptAt:10,
    narr:'A thin man sets down three cans, one at a time, like he is counting.',
    opening:'Kingdom beans. Packed on Dock Street. The seals are good.',
    questions:[
@@ -779,9 +798,9 @@ const DAY4=[
     {key:'why',label:'Why are you selling it?',reply:'My wife is better. We do not need the rest.'},
     {key:'where',label:'Where did you get this?',reply:'A pharmacy at the border crossing. I paid the fee there.'}],
    docReply:'Here. Please check it.',
-   doc:RCPT('IR-30587','Daniel Orpo','Medicine bottle, 1','12 credits','Autumn, Year 4','PAID','MINISTRY OF TRADE'), docValid:true,
+   doc:RCPT('IR-30587','Gia Huy','Medicine bottle, 1','12 credits','Autumn, Year 4','PAID','MINISTRY OF TRADE'), docValid:true,
    tests:[{label:'Look closely',res:'A white bottle, foreign script, a child-proof cap.'},{label:'Check the markings',res:'A Port Varn customs seal on the cap. Batch printed in foreign script.'},{label:'Shake it',res:'Even tablets.'}],
-   record:rec4('Daniel Orpo','0447-81'), refuseReply:'It is all in order! Fine.' }),
+   record:rec4('Gia Huy','3316-81'), refuseReply:'It is all in order! Fine.' }),
 
  // 7  foreign, receipt out of date
  () => T4({ sil:5, origin:'foreign', sprite:'cans', itemName:'Canned fruit', worth:18, trueValue:18, rule:6, acceptAt:15,
@@ -806,7 +825,7 @@ const DAY4=[
     {key:'where',label:'Where did you get this?',reply:'My grandmother\'s. From the Orlov Kilns, down the river.'}],
    docReply:'Papers for local pottery? Look at the mark.',
    tests:[{label:'Look closely',res:'Red-gold glaze, a hand-painted star. No two petals match.'},{label:'Check the markings',res:'A hand-inked mark: Orlov Kilns, Kingdom. No customs stamp.'},{label:'Tap it',res:'A clear, long ring.'}],
-   record:rec4('Donald Orwell','0447-18'), haggle:a=>`${a}?! It is worth ten times that!`, takeReply:'...fine. For my son.', refuseReply:'Then it stays on the shelf.', acceptHigh:'Thank you. Handle it gently.' }),
+   record:rec4('Quy Quan','3316-18'), haggle:a=>`${a}?! It is worth ten times that!`, takeReply:'...fine. For my son.', refuseReply:'Then it stays on the shelf.', acceptHigh:'Thank you. Handle it gently.' }),
 
   // 9  real treason: stolen Ministry papers
  () => T4({ sil:5, origin:'local', treason:true, sprite:'documents', itemName:'Official papers', worth:0, trueValue:0, rule:0, acceptAt:25,
@@ -1075,8 +1094,8 @@ function toast(msg,kind){ const t=document.createElement('div'); t.className='to
 let skip=false, wake=null;
 function waitOrSkip(ms){ return new Promise(r=>{ const t=setTimeout(done,ms); function done(){ clearTimeout(t); wake=null; r(); } wake=done; }); }
 $('#dlg-top').addEventListener('click',()=>{ if(S.typing) skip=true; else if(wake) wake(); });
-async function sayWait(who,text){
-  await say(who,text,{hold:0});
+async function sayWait(who,text,after){
+  await say(who,text,{hold:0}); if(after) after();
   const m=$('#more'); m.classList.add('on');
   await new Promise(r=>{ wake=()=>{ wake=null; r(); }; });
   m.classList.remove('on'); sfx.click();
@@ -1125,6 +1144,7 @@ async function next(){
   await sleep(250); cust.classList.add('in'); await sleep(500);
   await say(null,c.narr,{hold:350});
   if(c.sprite){ setImg('#itemimg',c.sprite); it.classList.add('show'); sfx.items(); await sleep(500); }
+  if(c.autoScript){ await runScript(); return; }
   await say('Citizen',c.opening,{hold:250});
   S.phase='wait'; cust.classList.add('hot'); $('#talkhint').classList.add('on');
   clearOptions();
@@ -1136,8 +1156,10 @@ function engage(){
 }
 async function runScript(){
   const c=S.c; S.phase='busy'; clearOptions();
-  const lines=typeof c.script==='function'?c.script():c.script; for(const line of lines){ await sayWait('Citizen',line); }
-  S.flags.scriptDone=true; if(c.scriptFlag) S.flags[c.scriptFlag]=true; showMenu();
+  const lines=typeof c.script==='function'?c.script():c.script; for(let i=0;i<lines.length;i++){ await sayWait('Citizen',lines[i],()=>{ if(c.scriptEvents&&c.scriptEvents[i]) c.scriptEvents[i](); }); }
+  S.flags.scriptDone=true; if(c.scriptFlag) S.flags[c.scriptFlag]=true;
+  if(c.autoLeave){ S.log.push({n:S.idx+1,item:c.itemName,paid:0,worth:0,result:'listened'}); await say(null,c.leaveNarr||'He leaves.',{hold:600}); await leave(false); return; }
+  showMenu();
 }
 async function scriptChoice(o){
   const c=S.c; clearOptions(); S.phase='busy';
@@ -1229,8 +1251,8 @@ async function resolveOffer(a){
   await say('Citizen',c.haggle(a),{hold:200});
   S.phase='menu';
   setOptions([
-    {label:'Refuse offer',cls:'danger',fn:()=>decline(c.refuseReply,'You withdraw your offer.')},
-    {label:`Take it or leave it, ${a} credits fresh`,cls:'act',fn:()=>takeOrLeave(a)}
+    {label:"I'm not buying your goods",cls:'danger',fn:()=>decline(c.refuseReply,'You withdraw your offer.')},
+    {label:"That's my final price, can't do more",cls:'act',fn:()=>takeOrLeave(a)}
   ]);
 }
 async function takeOrLeave(a){
@@ -1254,7 +1276,7 @@ async function accept(a,reply){
     if(c.cat==='trade' && c.origin==='foreign' && !(c.doc&&c.docValid)){ S.compliance-=4; bump('smuggled'); result='bought smuggled'; toast('Citation: smuggled goods accepted'); }
   }
   S.log.push({n:S.idx+1,item:c.itemName,paid:a,worth:c.trueValue,result,fake:c.fake});
-  await say(null,c.treason?`You pay ${a} credits and slide the ${c.itemName.toLowerCase()} under the counter. The Ministry will hear of this.`:`You pay ${a} credits. The ${c.itemName.toLowerCase()} goes on the shelf.`,{hold:300});
+  await say(null,c.treason?`You pay ${a} credits and slide the ${showName(c).toLowerCase()} under the counter. The Ministry will hear of this.`:`You pay ${a} credits. The ${showName(c).toLowerCase()} goes on the shelf.`,{hold:300});
   await leave(true);
 }
 async function decline(reply,narr){
@@ -1350,7 +1372,7 @@ async function kill(){
   await say(null,'You press the red button under the counter. Two guards step out of the dark.',{hold:550});
   if(c.killLine) await say('Citizen',c.killLine,{hold:300});
   await killAnim();
-  if(c.betray) bump('betrayed'); if(c.sos) S.sosDead=true;
+  if(c.betray) bump('betrayed'); if(c.sos) S.sosDead=true; if(c.lily) S.lilyOut=true; if(c.orpo) S.orpoDead=true;
   if(c.spy){
     S.compliance-=6; S.mercy+=6; bump('spyKilled'); toast('Citation: State informant killed'); S.log.push({n:S.idx+1,item:c.itemName,paid:0,worth:0,result:'killed informant'});
   } else if(c.guilty){
@@ -1383,7 +1405,7 @@ async function arrest(){
   await say(null,'You press the red button under the counter. Two guards step out of the dark.',{hold:500});
   await say('Citizen',c.arrestLine||c.killLine||'Wait! What have I done?!',{hold:250});
   await arrestAnim();
-  if(c.betray) bump('betrayed'); if(c.sos) S.sosDead=true;
+  if(c.betray) bump('betrayed'); if(c.sos) S.sosDead=true; if(c.lily) S.lilyOut=true; if(c.orpo) S.orpoDead=true;
   const kind=arrestKind(c);
   if(kind==='innocent'){
     S.compliance-=3; S.mercy-=3; S.till=Math.max(0,S.till-20); S.profit-=20; bump('fines',20); bump('wrongful'); floatNum(-20); hud();
@@ -1433,7 +1455,7 @@ async function leave(mode){
 function openInspect(){
   if(!S.c||!S.c.sprite||!(S.phase==='wait'||S.phase==='menu'||S.phase==='offer')) return;
   sfx.pickup();
-  const c=S.c; $('#inspimg').src=A[c.sprite]; $('#insp-title').textContent=F('Examine: {0}',T(c.itemName).split(' (')[0].toLowerCase());
+  const c=S.c; $('#inspimg').src=A[c.sprite]; $('#insp-title').textContent=F('Examine: {0}',T(showName(c)).toLowerCase());
   renderTests(); renderFinds(-1); $('#mat').classList.toggle('scan',!!S.scanning); $('#ov-insp').classList.add('on');
   setTimeout(()=>{ const b=$('#tests').querySelector('button:not(:disabled)'); b&&b.focus(); },0);
 }
@@ -1489,7 +1511,7 @@ function flipBook(dir){
   S.bookPage=np; sfx.paper(); buildBook(); $('#book-rows').scrollTop=0;
 }
 function setDirective(){ $('#dir-body').innerHTML=(LANG==='vi'?DIR_VI:DIR)[S.day]; }
-function closeAll(){ let closed=false; document.querySelectorAll('.ov.on').forEach(o=>{ if(['ov-intro','ov-report','ov-news','ov-scan','ov-final','ov-doc','ov-end'].includes(o.id)) return; o.classList.remove('on'); closed=true; }); if(closed && S.phase==='menu') showMenu(); }
+function closeAll(){ let closed=false; document.querySelectorAll('.ov.on').forEach(o=>{ if(['ov-intro','ov-report','ov-news','ov-scan','ov-final','ov-doc','ov-end','ov-notice'].includes(o.id)) return; o.classList.remove('on'); closed=true; }); if(closed && S.phase==='menu') showMenu(); }
 function openOv(id){ if(S.phase==='boot'&&id!=='ov-dir'&&id!=='ov-book') return; $('#'+id).classList.add('on'); sfx.paper(); }
 
 /* ---------- day flow ---------- */
@@ -1498,26 +1520,42 @@ function showIntro(n){
   $('#ov-intro').classList.add('on');
 }
 function orderFor(n){
-  const a=[null,DAY1,DAY2,DAY3,DAY4,DAY5][n].slice(), last=(n===3)?a[a.length-1]:(n===1?DAY1[3]:null), fixedLast=!!last; if(fixedLast) a.splice(a.indexOf(last),1);
+  const a=[null,DAY1,DAY2,DAY3,DAY4,DAY5][n].slice(); if(n===3&&!S.gaveCharity) a.splice(a.length-1,0,LILY); const last=(n===3)?a[a.length-1]:(n===1?DAY1[3]:null), fixedLast=!!last; if(fixedLast) a.splice(a.indexOf(last),1);
   for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); const t=a[i]; a[i]=a[j]; a[j]=t; }
   if(n===2){ const fi=a.indexOf(DAY2[5]), mi=a.indexOf(DAY2[8]); if(fi>mi){ const t=a[fi]; a[fi]=a[mi]; a[mi]=t; } }
+  if(n===3&&!S.gaveCharity){ const o=DAY3[4]; a.splice(a.indexOf(o),1); a.splice(a.indexOf(LILY),1); a.splice(2,0,o); a.splice(Math.random()<.5?5:7,0,LILY); }
+  if(n===4&&!S.gaveCharity&&!S.orpoDead){ const o=DAY4[3], oi=a.indexOf(o); a.splice(oi,1); a.splice(1,0,o); }
   if(n===5){ const sp=DAY5[7], si=a.indexOf(sp); a.splice(si,1); a.splice(Math.random()<.5?5:7,0,sp); }
   if(fixedLast) a.push(last);
   return a;
 }
 function startDay(n){
   S.day=n; S.bookPage=0; S.cust=orderFor(n); S.tip=(n===4)&&!!S.tot.funded&&!S.sosDead; S.max=S.cust.length; S.idx=-1; S.profit=0; S.log=[]; S.d={}; S.c=null; S.phase='boot';
-  S.snap=JSON.stringify({till:S.till,compliance:S.compliance,mercy:S.mercy,tot:S.tot,gaveCharity:S.gaveCharity,sickRefused:S.sickRefused,totalProfit:S.totalProfit,sosDead:S.sosDead});
+  S.snap=JSON.stringify({till:S.till,compliance:S.compliance,mercy:S.mercy,tot:S.tot,gaveCharity:S.gaveCharity,sickRefused:S.sickRefused,totalProfit:S.totalProfit,sosDead:S.sosDead,lilyOut:!!S.lilyOut,orpoDead:!!S.orpoDead});
   buildBook(); setDirective(); resetScene(); hud(); $('#opts').innerHTML=''; $('#optbox').style.visibility='hidden';
   if(AMB.crowdG&&AC) AMB.crowdG.gain.setTargetAtTime(n>=3?.15:(n>=2?.12:.07),AC.currentTime,3);
 }
+function showUpdateNotice(n){
+  return new Promise(res=>{
+    const ov=$('#ov-notice'); $('#nt-stamp').textContent=T('NOTICE'); $('#nt-h').textContent=T('Regulations updated');
+    $('#nt-p1').textContent=T("The Price Book and today's regulations have been updated. Please check them before you proceed.");
+    $('#nt-p2').textContent=T({2:'New in the Price Book: page 2, the treason list.',3:'New in the Price Book: page 3, the Great Cleanse rules.',4:'New in the Price Book: page 4, foreign goods and import receipts.'}[n]);
+    $('#nt-review').textContent=T('Open the price book'); $('#nt-go').textContent=T('Continue');
+    ov.classList.add('on'); sfx.paper();
+    const done=()=>{ ov.classList.remove('on'); res(); };
+    $('#nt-go').onclick=()=>{ sfx.click(); done(); };
+    $('#nt-review').onclick=async()=>{ sfx.click(); ov.classList.remove('on'); S.bookPage=Math.min(4,S.day)-1; buildBook(); $('#ov-book').classList.add('on'); sfx.paper(); while($('#ov-book').classList.contains('on')) await sleep(150); res(); };
+  });
+}
 async function beginShift(n){
   startDay(n); S.phase='busy';
-  await say(null,n===1?'The shutter rattles up. The first citizen is already waiting.':(n===2?'The shutter rattles up. The queue is longer today. Nobody is talking.':(n===3?'The shutter rattles up. A scanner has been bolted to the counter overnight. The queue is silent and very straight.':(n===4?'The shutter rattles up. Crates are stacked along the wall behind the queue. Everyone is holding a piece of paper.':'The shutter rattles up. The square outside is full of torn paper. Nobody picks it up. The queue is very long, and very quiet.'))),{hold:700}); next();
+  await say(null,n===1?'The shutter rattles up. The first citizen is already waiting.':(n===2?'The shutter rattles up. The queue is longer today. Nobody is talking.':(n===3?'The shutter rattles up. A scanner has been bolted to the counter overnight. The queue is silent and very straight.':(n===4?'The shutter rattles up. Crates are stacked along the wall behind the queue. Everyone is holding a piece of paper.':'The shutter rattles up. The square outside is full of torn paper. Nobody picks it up. The queue is very long, and very quiet.'))),{hold:700});
+  if(n>=2&&n<=4) await showUpdateNotice(n);
+  next();
 }
 function restoreSnap(){ if(S.snap){ const o=JSON.parse(S.snap); Object.assign(S,o); } }
 function showNews(n){
-  S.newsDay=n; const ov=$('#ov-news'), im=$('#newsimg'), btn=$('#b-news'); im.src=A['news'+n]; im.classList.remove('show'); btn.classList.remove('show'); const ncap=$('#newscap'); ncap.classList.remove('show'); ncap.textContent=LANG==='vi'?NEWCAP_VI[n]:''; ov.classList.add('on'); ambTo(0,.5); newsSound();
+  S.newsDay=n; const ov=$('#ov-news'), im=$('#newsimg'), btn=$('#b-news'); ov.classList.toggle('hascap',LANG==='vi'); im.src=A['news'+n]; im.classList.remove('show'); btn.classList.remove('show'); const ncap=$('#newscap'); ncap.classList.remove('show'); ncap.textContent=LANG==='vi'?NEWCAP_VI[n]:''; ov.classList.add('on'); ambTo(0,.5); newsSound();
   setTimeout(()=>im.classList.add('show'),500); setTimeout(()=>{ btn.classList.add('show'); ncap.classList.add('show'); },7000);
 }
 
@@ -1556,7 +1594,7 @@ function endDay(){
     else line='A cautious day. The Ministry has not decided if that is a virtue.';
   }
   const profitCls=S.profit<0?'bad':'good';
-  const extra=[d.overpaid?F('Overpaid above Ministry rate: {0}.',d.overpaid):'',d.charity?F('Given away: {0}.',d.charity):'',d.bounty?F('Bounties earned: {0}.',d.bounty):'',d.fines?F('Fines paid: {0}.',d.fines):'',d.missed?F('Profit left on the table: {0}.',d.missed):''].filter(Boolean).join(' ');
+  const extra=[d.overpaid?F('Overpaid above Ministry rate: {0}.',d.overpaid):'',d.charity?F('Given away: {0}.',d.charity):'',d.bounty?F('Bounties earned: {0}.',d.bounty):'',d.fines?F('Fines paid: {0}.',d.fines):'',d.gift?F('Gift from the Ministry: {0}.',d.gift):'',d.missed?F('Profit left on the table: {0}.',d.missed):''].filter(Boolean).join(' ');
   const startTill=JSON.parse(S.snap).till;
   const meters=bar('Compliance',S.compliance,10)+bar('Mercy',S.mercy,8)+bar('Counterfeits taken',t.fraud||0,3)+(S.day>=2?bar('Wrongful arrests',t.wrongful||0,3)+bar('Treason let go or bought',(t.letGoT||0)+(t.boughtT||0),4):'')+(S.day>=3?bar('Wrongful killings',t.wrongKill||0,3)+bar('Hostiles let live or bought',(t.letGoG||0)+(t.boughtG||0),4):'')+(S.day>=4?bar('Smuggled goods accepted',t.smuggled||0,3)+bar('State informant killed',t.spyKilled||0,1):'');
   const foot=S.day===1?T("Tomorrow's directive will be posted at dawn.")+(S.sickRefused?T(' The man you turned away knows your face.'):''):(S.day<4?T('The Ministry is drafting something for tomorrow. The street can feel it.'):T('Tomorrow is the last day. The Ministry will send someone to read your file.'));
@@ -1724,7 +1762,7 @@ $('#scan-done').addEventListener('click',()=>{ sfx.click(); closeScanner(); });
 $('#pb-prev').addEventListener('click',()=>flipBook(-1));
 $('#pb-next').addEventListener('click',()=>flipBook(1));
 document.querySelectorAll('[data-close]').forEach(b=>b.addEventListener('click',()=>{ if(/ov-(book|dir)/.test(b.closest('.ov').id)) sfx.paper(); b.closest('.ov').classList.remove('on'); if(S.phase==='menu') showMenu(); }));
-document.querySelectorAll('.ov').forEach(o=>o.addEventListener('mousedown',e=>{ if(e.target===o && !['ov-intro','ov-report','ov-news','ov-scan','ov-final','ov-doc','ov-end'].includes(o.id)){ o.classList.remove('on'); if(o.id==='ov-insp'&&S.phase==='menu') showMenu(); } }));
+document.querySelectorAll('.ov').forEach(o=>o.addEventListener('mousedown',e=>{ if(e.target===o && !['ov-intro','ov-report','ov-news','ov-scan','ov-final','ov-doc','ov-end','ov-notice'].includes(o.id)){ o.classList.remove('on'); if(o.id==='ov-insp'&&S.phase==='menu') showMenu(); } }));
 $('#b-start').addEventListener('click',()=>{ const n=parseInt($('#b-start').dataset.day,10)||1; ac(); startAmbience(); loadCustom(); sfx.openwindow(); $('#ov-intro').classList.remove('on'); beginShift(n); });
 const PRESETS={
  lapdog:{compliance:22,mercy:-4,gaveCharity:false,tot:{served:48,deals:21,spent:640,bounty:210,fines:40,arrestsOk:6,killsOk:3,fraud:1,wrongful:1},totalProfit:540,dayStats:{1:{profit:100,customers:5},2:{profit:73,customers:12},3:{profit:120,customers:12},4:{profit:130,customers:12}}},

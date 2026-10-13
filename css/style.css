@@ -267,6 +267,8 @@ table.rep th.r,table.rep td.r{padding-left:14px}
 #endbtns{position:relative;z-index:6}
 #sndhint{font-size:clamp(16px,2vw,20px);color:var(--dim);margin-top:14px;opacity:0;transition:opacity 1s;letter-spacing:.06em;min-height:1.2em}
 #sndhint.show{opacity:.85}
+#ov-news.hascap #newsimg{max-height:calc(100vh - 210px)}
+#ov-news{padding-top:16px;padding-bottom:16px}
 #newscap{max-width:min(720px,92vw);text-align:center;font-size:clamp(18px,2.4vw,23px);color:var(--tan);font-style:italic;opacity:0;transition:opacity 1.5s;min-height:1px}
 #newscap.show{opacity:1}
 #ov-end{overflow:hidden}

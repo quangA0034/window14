@@ -36,6 +36,9 @@ Replacing a file with a new one that has the same name is all you need. The game
 - `text: directives` : the daily rules paper and the bulletin shown before each day.
 - `const BOOK1` ... `BOOK4` : the price book pages.
 - `end of day` : the ledger. `endingKey()` : the rules for which ending you get. `const FIN` : the inspector's lines.
+- Item names shown to the player come from `showName()`: it strips things like "(replica)" and renames giveaways (`NAMEMAP`, e.g. Toy medal -> Medal). The real name still appears in the end-of-day ledger.
+- The "regulations updated" notice on days 2 to 4 is `showUpdateNotice()` (called from `beginShift()`).
+- The "father not helped" storyline: `LILY` (Day 3, hidden at slot 6 or 8), Orpo's Day 3 visit (inside `DAY3[4]`) and his two Day 4 returns (`ORPO4`). The flags `lilyOut` and `orpoDead` are saved with the day snapshot. `autoScript` / `autoLeave` on a customer make a scene play line by line without menus.
 - Customer order is shuffled in `orderFor()` (a few have fixed slots: the Day 1 father is last, the Day 2 father comes
   before the medal man, the Day 3 finale is last, the real Donald Orpo is customer 6 or 8 on Day 5).
 
