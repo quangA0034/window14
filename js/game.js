@@ -665,7 +665,7 @@ const DAY3=[
      'Come with us. Be the first window that opens from the inside.'],
    questions:[
     {key:'many',label:'How many are you?',reply:'Enough. More every hour.'},
-    {key:'why',label:'Why come here?',reply:'To see the face of the person who paid. Faces matter.'}],
+    {key:'why',label:'Why come here?',reply:'To see the face of the person who helped. Faces matter.'}],
    record:{name:'Unknown. Alias on file: S0S-301',id:'-',entries:[['2009','Organizer','Free Workers Union',''],['Last month','Cell leader','Republic Party',''],['This week','Led the march','Unlicensed protest','']]},
    scanLine:'Take it. I have nothing left to hide.',
    extraOptions:[{label:'I will be there.',reply:'Then we will leave the window open. Be careful.',mercy:6,compliance:-5}],
