@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Window 14</title>
+<link href="https://fonts.googleapis.com/css2?family=VT323&family=Special+Elite&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="app">
+  <div id="hud">
+    <div class="stat"><span data-t>Day</span><b id="h-day">1</b></div>
+    <div class="stat"><span data-t>Till</span><b id="h-till">400</b></div>
+    <div class="stat"><span data-t>Profit</span><b id="h-profit">0</b></div>
+    <div class="btns">
+      <button class="hbtn" id="b-snd" aria-label="Toggle sound">Sound: on</button>
+    </div>
+  </div>
+  <div id="stage">
+    <div id="scene"><div id="inner">
+      <img class="bg" id="bgimg" alt="A shop window with a metal tray and a lamp">
+      <div id="win"><svg id="crack" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><g fill="none" stroke="rgba(255,255,255,.7)" stroke-width=".5"><path d="M50 45L8 6M50 45L94 10M50 45L97 62M50 45L40 98M50 45L2 70M50 45L72 2M50 45L30 4"/><path d="M50 45L30 28L22 30M50 45L68 30L76 36M50 45L56 70L66 76M50 45L38 64L30 62"/><circle cx="50" cy="45" r="2.2" fill="#050302"/></g><path d="M48 46C42 56 44 70 46 84C47 90 51 90 52 82C54 66 56 56 52 46Z" fill="rgba(110,18,12,.7)"/></svg><div id="guards"></div><div id="cust"></div><div id="glass"></div></div>
+      <div id="stampArrest">ARRESTED</div>
+      <img id="pistol" alt="">
+      <div id="flash"></div>
+      <div id="talkhint" data-t>click the customer to talk</div>
+      <button class="prop" id="item" data-tip="Inspect"><img id="itemimg" alt="Item on the tray"></button>
+      <button class="prop" id="book" data-tip="Price book"><img id="bookimg" alt="Price book"></button>
+      <button class="prop" id="directive" data-tip="Today's directive"><img id="dirimg" alt="Directive"></button>
+    </div></div>
+  </div>
+  <div id="dlg">
+    <div class="box" style="margin-bottom:6px"><div id="dlg-top"><span id="spk"></span><span id="txt"></span><span id="more" data-t>▼ click to continue</span></div></div>
+    <div class="box" id="optbox" style="padding:6px"><div id="opts"></div></div>
+  </div>
+</div>
+
+<div class="tstack" id="toasts"></div>
+
+<div class="ov on" id="ov-menu"><div id="slides"></div><div id="menu-shade"></div>
+  <div id="menu-box"><div id="menu-title" data-t>WINDOW 14</div><div id="menu-sub" data-t>A profitable citizen is a loyal citizen.</div>
+  <button class="mbtn" id="m-play" data-t>Play</button><button class="mbtn" id="m-lang" aria-label="Language"><span class="lg on" data-l="en">ENG</span> / <span class="lg" data-l="vi">VIE</span></button><div id="sndhint" data-t>Click anywhere to enable sound</div></div></div>
+
+<div class="ov on" id="ov-intro"><div class="paper">
+  <div id="intro-body"></div>
+  <button class="pbtn" id="b-start" data-t>Open the window</button>
+  <div id="skips" style="margin-top:6px"><button class="pbtn alt" data-end="lapdog" data-t>Test ending: The Lapdog</button><button class="pbtn alt" data-end="brave" data-t>Test ending: The Brave</button><button class="pbtn alt" data-end="failure" data-t>Test ending: The Failure</button></div>
+</div></div>
+
+<div class="ov" id="ov-prologue"><div id="pro-wrap">
+  <div id="pro-left"><img id="proimg" alt="The National Herald: National funded shops open"><div id="procap"></div></div>
+  <div id="pro-right"><div id="protext"></div><button class="pbtn" id="pro-go" data-t>Continue</button></div>
+</div></div>
+
+<div class="ov" id="ov-dir"><div class="paper">
+  <div id="dir-body"></div>
+  <button class="pbtn" data-close data-t>Back to the window</button>
+</div></div>
+
+<div class="ov" id="ov-book"><div class="paper pricebook">
+  <div class="pbtop"><h2 data-t>Price Book</h2><button class="pbtn pbclose" data-close data-t>Close the book</button></div>
+  <div class="pbhead"><span data-t>Listed worth is what the State resells for. Ministry rate: pay one third.</span></div>
+  <div id="book-rows"></div>
+  <div class="pbnav" id="pbnav"><button class="pbn" id="pb-prev" data-t>‹ Previous page</button><span id="pb-ind"></span><button class="pbn" id="pb-next" data-t>Next page ›</button></div>
+</div></div>
+
+<div class="ov" id="ov-insp"><div style="max-width:880px;width:100%">
+  <div class="insp">
+    <div class="box mat" id="mat"><img id="inspimg" alt=""></div>
+    <div class="box side">
+      <h4 id="insp-title">Inspect</h4>
+      <div id="tests"></div>
+      <div class="finds" id="finds"></div>
+      <button class="tbtn" id="insp-done"><span data-t>Done</span><span>Esc</span></button>
+    </div>
+  </div>
+</div></div>
+
+<div class="ov" id="ov-news"><img id="newsimg" alt="The National Herald front page: Revolution, 15 people dead to protest against bribery government"><div id="newscap"></div><button class="pbtn" id="b-news" data-t>Turn the page</button></div>
+
+<div class="ov" id="ov-scan"><div class="scanwrap">
+  <div class="box fpad" id="fpad"><div id="scan-fp"></div><div id="fpstat" data-t>Place finger on the glass</div><button class="tbtn" id="scan-done" style="width:auto;gap:18px"><span data-t>Done</span><span>Esc</span></button></div>
+  <div class="paper recpaper" id="record"></div>
+</div></div>
+
+<div class="ov" id="ov-doc"><div class="paper" id="docpaper" style="max-width:520px"></div></div>
+
+<div class="ov" id="ov-end"><img id="endimg" alt="The ending"><div id="endcap"></div><div id="credits"></div><div id="endbig"></div><button class="hbtn" id="cr-skip" data-t>Skip credits</button><div id="endbtns"><button class="pbtn" id="end-replay" data-t>Replay Day 5</button><button class="pbtn alt" id="end-over" data-t>Main menu</button></div></div>
+
+<div class="ov" id="ov-report"><div class="paper" style="max-width:720px" id="report"></div></div>
+
+<script src="js/assets.js"></script>
+<script src="js/lang-vi.js"></script>
+<script src="js/game.js"></script>
+</body>
+</html>
