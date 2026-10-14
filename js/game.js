@@ -5,9 +5,9 @@ const MAX=5;
 /* ---------- i18n ---------- */
 let LANG='en';
 const VI=window.VI_DICT;
-const PROLOGUE="Dear Kingdom citizens, it took us over a decade to overthrow the Republican... The scum of the world. Every nation has their good time and bad time, same goes to our Kingdom. Our economy is not doing great but we are improving! The government agreed to open up shops that accept the citizen's goods in exchange for fresh, hot credits! And you, if you are reading this, my friend you are one of the lucky one that will be working in our brand new window 14! You will be doing a 5-days trial so that we can see how you perform in our new system. Good luck and Glory to the Kingdom!", PROCAP_VI="CỬA HÀNG DO NHÀ NƯỚC TÀI TRỢ MỞ CỬA. Thủ tướng công bố các quầy trao đổi do nhà nước bảo trợ cho công dân đang cần tiền.";
-Object.assign(VI,{"Donald Orpo":"Donald Orpo","Lily Dang":"Lily Dang","Brown bottle":"Chai nâu","A man in a grey coat steps up to the glass. He studies you for a long moment before he speaks.":"Một người đàn ông mặc áo khoác xám bước tới tấm kính. Ông ta nhìn anh chằm chằm một lúc lâu trước khi lên tiếng.","Mhmm..":"Ừm...","You seem smart, and we need your help...":"Anh có vẻ thông minh, và chúng tôi cần sự giúp đỡ của anh...","There is a hostile citizen, she has been damaging our Kingdom reputation.":"Có một công dân thù địch, cô ta đang làm tổn hại danh tiếng của Vương quốc chúng ta.","If you see Lily Dang, get rid of her.":"Nếu anh thấy Lily Dang, hãy loại cô ta đi.","We will be installing a new tool to help you to identify tomorrow.":"Ngày mai chúng tôi sẽ lắp đặt một công cụ mới để giúp anh nhận diện.","Who are you?":"Ông là ai?","Someone who reads files for a living. Yours is thin, but interesting.":"Một người đọc hồ sơ để kiếm sống. Hồ sơ của anh mỏng, nhưng thú vị.","Who is Lily Dang?":"Lily Dang là ai?","A student. Smiling, polite, loyal on paper. That is what makes her dangerous.":"Một sinh viên. Hay cười, lịch sự, trung thành trên giấy tờ. Chính điều đó khiến cô ta nguy hiểm.","Good. Remember the name.":"Tốt. Hãy nhớ cái tên đó.","He leaves at a perfectly even pace.":"Ông ta rời đi với bước chân đều tăm tắp.","A young woman in a clean student coat sets a small brown bottle on the tray. She smiles at you, politely.":"Một cô gái trẻ mặc áo khoác sinh viên sạch sẽ đặt một chai nhỏ màu nâu lên khay. Cô mỉm cười với anh, rất lịch sự.","Cough syrup. Homemade. It works wonders.":"Siro ho. Tự làm. Hiệu quả tuyệt vời.","Cough syrup. My own recipe.":"Siro ho. Công thức của riêng tôi.","Books are expensive. Medicine is cheaper to make than to buy.":"Sách đắt lắm. Làm thuốc rẻ hơn mua thuốc.","The university laboratory. We are allowed, with permission.":"Phòng thí nghiệm trường đại học. Chúng tôi được phép, nếu có giấy phép.","A brown glass bottle with no label. Half empty.":"Một chai thủy tinh nâu không nhãn. Còn một nửa.","Faint bitter almonds.":"Thoang thoảng mùi hạnh nhân đắng.","Check the cap":"Kiểm tra nắp chai","A white crust around the rim of the cap.":"Một lớp cặn trắng quanh miệng nắp.","Officer.":"Cán bộ.","#? For homemade medicine?":"#? Cho thuốc tự làm á?","Then I will find another buyer.":"Vậy tôi sẽ tìm người mua khác.","Thank you, officer. Have a lovely day.":"Cảm ơn ngài. Chúc ngài một ngày tốt lành.","She picks up the bottle, smiles at you once more, and walks out without hurrying.":"Cô cầm lại cái chai, mỉm cười với anh thêm lần nữa, rồi bước ra không vội vã.","GLORY TO THE REPUBLIC! The students will not stop!":"VINH QUANG THUỘC VỀ CỘNG HÒA! Sinh viên sẽ không dừng lại!","You cannot arrest an idea!":"Các người không thể bắt một ý tưởng!","The man in the grey coat returns, almost smiling.":"Người đàn ông áo khoác xám quay lại, gần như mỉm cười.","The man in the grey coat returns. He does not sit. He does not smile.":"Người đàn ông áo khoác xám quay lại. Ông ta không ngồi. Ông ta không cười.","You did great, comrade.":"Anh làm tốt lắm, đồng chí.","Here is a little something for a young man like you.":"Đây là chút quà nhỏ dành cho một thanh niên như anh.","Glory to the Kingdom.":"Vinh quang thuộc về Vương quốc.","He taps the glass twice and leaves.":"Ông ta gõ hai lần lên tấm kính rồi rời đi.","Commended: Orpo rewards you. +100 credits":"Khen thưởng: Orpo thưởng cho anh. +100 credit","Lily Dang was here yesterday, yet you let her go.":"Lily Dang đã ở đây hôm qua, vậy mà anh để cô ta đi.","2 officers were poisoned yesterday, I wonder who did?":"Hôm qua hai sĩ quan bị đầu độc, không biết ai đã làm nhỉ?","He walks out without another word.":"Ông ta bước ra mà không nói thêm lời nào.","Gift from the Ministry: {0}.":"Quà từ Bộ: {0}.","I'm not buying your goods":'Tôi không mua hàng của anh',"That's my final price, can't do more":'Đó là giá cuối cùng của tôi, không thể hơn được nữa','Medal':'Huân chương','Army jacket':'Áo khoác quân đội','Flag':'Cờ','Flyer':'Tờ rơi','Vase':'Bình hoa','Gold jewel':'Trang sức vàng','Porcelain vase':'Bình sứ','NOTICE':'THÔNG BÁO','Regulations updated':'Quy định đã được cập nhật',"The Price Book and today's regulations have been updated. Please check them before you proceed.":'Sổ giá và các quy định hôm nay đã được cập nhật. Hãy kiểm tra chúng trước khi tiếp tục.','New in the Price Book: page 2, the treason list.':'Mới trong Sổ giá: trang 2, danh sách phản quốc.','New in the Price Book: page 3, the Great Cleanse rules.':'Mới trong Sổ giá: trang 3, quy tắc Đại Thanh trừng.','New in the Price Book: page 4, foreign goods and import receipts.':'Mới trong Sổ giá: trang 4, hàng ngoại và biên lai nhập khẩu.','Open the price book':'Mở sổ giá','Testing tools (only for testing purpose)':'Công cụ thử nghiệm (chỉ dùng để thử nghiệm)','Sorry to ask, is it possible for me to claim some money?':'Xin lỗi vì đã hỏi, liệu tôi có thể nhận một ít tiền được không?','My son is really sick and he needs medicine...':'Con trai tôi ốm nặng lắm và nó cần thuốc...','THANK YOU DEAR GOD!':'TẠ ƠN TRỜI!','A man sets a gold necklace on the tray with a receipt beneath it.':'Một người đàn ông đặt sợi dây chuyền vàng lên khay, bên dưới là tờ biên lai.','Imported gold. Paid and stamped. Everything is in order.':'Vàng nhập khẩu. Đã trả phí và đóng dấu. Mọi thứ đều đúng quy định.','I was nineteen! I only went for the free bread!':'Làm ơn! Tôi dại dột, tôi mới có 19 tuổi và họ có phát bánh mì miễn phí.','GLORY TO THE REPUBLIC!':'VINH QUANG THUỘC VỀ CỘNG HÒA!','GLORY TO THE REPUBLIC! You will all be remembered!':'VINH QUANG THUỘC VỀ CỘNG HÒA! Rồi tất cả các người sẽ bị nhớ mặt!','You cannot hold us forever!':'Các người không thể giam giữ chúng tôi mãi mãi!','This is an outrage! It is a perfectly good receipt!':'Thật là xúc phạm! Đây là một tờ biên lai hoàn toàn hợp lệ!','Ruin the Kingdom, disobey the rules, then we will protect you.':'Phá hoại Vương quốc, bất tuân luật lệ, rồi chúng tôi sẽ bảo vệ anh.','Continue':'Tiếp tục','Glory to the Kingdom!':'Vinh quang thuộc về Vương quốc!','In memory of the fifteen.':'Tưởng nhớ sự kiện 15 người thiệt mạng.','Click anywhere to enable sound':'Bấm vào bất kỳ đâu để bật âm thanh','Profit {0}':'Lợi nhuận {0}','Test ending: The Lapdog':'Thử kết thúc: Con cún của chính phủ','Test ending: The Brave':'Thử kết thúc: Kẻ dũng cảm','Test ending: The Failure':'Thử kết thúc: Kẻ thất bại'});
-VI[PROLOGUE]="Gửi các công dân Vương quốc, chúng ta đã mất hơn một thập kỷ để lật đổ bọn Cộng hòa... Đồ cặn bã của thế gian. Quốc gia nào cũng có lúc thịnh lúc suy, Vương quốc của chúng ta cũng vậy. Nền kinh tế chưa được tốt, nhưng chúng ta đang khá lên! Chính phủ đã đồng ý mở các cửa hàng nhận hàng hóa của công dân để đổi lấy credit rất nhanh chóng! Và anh bạn, nếu anh đang đọc những dòng này, anh là một trong những người may mắn sẽ làm việc tại Cửa sổ số 14 hoàn toàn mới của chúng ta! Anh sẽ có 5 ngày thử việc để chúng tôi xem anh làm việc thế nào trong hệ thống mới. Chúc may mắn và Vinh quang thuộc về Vương quốc!";
+const PRO_A="Dear Kingdom citizens, it took us over a decade to overthrow the Republican... The scum of the world. Every nation has their good time and bad time, same goes to our Kingdom. Our economy is not doing great but we are improving! The government agreed to open up shops that accept the citizen's goods in exchange for fresh, hot credits!", PRO_B="And you, if you are reading this, my friend you are one of the lucky one that will be working in our brand new window 14! You will be doing a 5-days trial so that we can see how you perform in our new system. Good luck and Glory to the Kingdom!", PROCAP_VI="CỬA HÀNG DO NHÀ NƯỚC TÀI TRỢ MỞ CỬA. Thủ tướng công bố các quầy trao đổi do nhà nước bảo trợ cho công dân đang cần tiền.";
+Object.assign(VI,{"Picture of me and my brothers, all passed away on the battlefield, gosh it hurts to look at this.":"Bức ảnh của tôi và các anh em tôi, tất cả đều đã hy sinh ngoài chiến trường, trời ơi, nhìn nó mà đau lòng.","Four young men in uniform, arms around each other.":"Bốn chàng trai mặc quân phục, choàng vai nhau.","Four young men in uniform.":"Bốn chàng trai mặc quân phục.","Army service: discharged":"Phục vụ quân đội: giải ngũ","My brothers... I will see them, then.":"Các anh em tôi... Vậy là tôi sẽ gặp lại họ.","Old photograph":"Ảnh cũ","Test: skip to Day 3 (father not helped)":"Thử nghiệm: nhảy tới Ngày 3 (không giúp người cha)","Test: skip to Day 3 (father helped, S0S paid)":"Thử nghiệm: nhảy tới Ngày 3 (đã giúp cha, đã trả S0S)","That is an insult. I will not be robbed. I am leaving.":"Đó là sự xúc phạm. Tôi sẽ không để bị cướp. Tôi đi đây.","The citizen snatches the item back and storms out.":"Người đó giật lại món hàng và hầm hầm bỏ đi.","Citation warning: a seller was driven away by insulting offers":"Cảnh cáo: một người bán bị đuổi đi vì những lời trả giá xúc phạm","seller driven away":"người bán bị đuổi đi","Inspector Lund comes in from the side door, dragging a trembling citizen by the collar. A rolled blanket drops onto the tray.":"Thanh tra Lund bước vào từ cửa hông, lôi theo một công dân run rẩy bằng cổ áo. Một cuộn chăn rơi xuống khay.","Inspector Lund comes in from the side door, dragging a trembling citizen by the collar. A vase thumps onto the tray.":"Thanh tra Lund bước vào từ cửa hông, lôi theo một công dân run rẩy bằng cổ áo. Một chiếc bình đặt phịch xuống khay.","Inspector Lund comes in from the side door, dragging a trembling citizen by the collar. A radio clatters onto the tray.":"Thanh tra Lund bước vào từ cửa hông, lôi theo một công dân run rẩy bằng cổ áo. Một chiếc radio rơi loảng xoảng xuống khay.","Shopkeeper. Pay attention. This citizen came to sell you a blanket.":"Người bán hàng. Chú ý. Công dân này đến bán cho anh một cái chăn.","Shopkeeper. Pay attention. This citizen came to sell you a vase.":"Người bán hàng. Chú ý. Công dân này đến bán cho anh một chiếc bình.","Shopkeeper. Pay attention. This citizen came to sell you a radio.":"Người bán hàng. Chú ý. Công dân này đến bán cho anh một chiếc radio.","Wool. Rolled tight. And inside it...":"Len. Cuộn thật chặt. Và bên trong nó...","Pretty glaze. Hollow belly. And inside it...":"Men đẹp. Bụng rỗng. Và bên trong nó...","It plays. It also opens at the back. And behind the speaker...":"Nó phát được. Nó cũng mở được ở phía sau. Và đằng sau loa...","An army pistol. They hide pistols, identity cards and forbidden papers inside ordinary goods.":"Một khẩu súng quân dụng. Họ giấu súng, thẻ căn cước và giấy tờ cấm bên trong hàng hóa bình thường.","Stolen identity cards. Three of them. They hide forbidden things inside anything with a hollow in it.":"Thẻ căn cước bị đánh cắp. Ba cái. Họ giấu đồ cấm trong bất cứ thứ gì có chỗ rỗng.","Ministry papers, stamped RESTRICTED. A radio makes a fine hiding place for a traitor.":"Giấy tờ của Bộ, đóng dấu HẠN CHẾ. Một chiếc radio là nơi giấu lý tưởng cho kẻ phản quốc.","So check every item carefully. Inspect it. Citizens hide forbidden things inside the goods they bring you.":"Vậy hãy kiểm tra cẩn thận mọi món hàng. Soi cho kỹ. Công dân giấu đồ cấm bên trong hàng hóa họ mang đến.","Do not let a polite face do your looking for you. Now watch.":"Đừng để một khuôn mặt lễ phép thay anh nhìn. Giờ hãy xem.","Please! A man paid me to carry it! I did not know what was inside!":"Làm ơn! Có người trả tiền cho tôi để mang nó! Tôi không biết bên trong có gì!","The State does not care what you knew.":"Nhà nước không quan tâm anh biết gì.","Lund lifts one finger. Two guards step out of the dark.":"Lund giơ một ngón tay. Hai lính canh bước ra từ bóng tối.","Lund straightens his gloves and leaves. The queue does not look up.":"Lund chỉnh lại găng tay rồi rời đi. Hàng người không ai ngẩng lên.","A baker with flour on his sleeves rolls a blanket onto the tray.":"Một người thợ làm bánh tay áo dính bột lăn một cái chăn lên khay.","A good wool blanket. We sleep by the ovens now. We do not need it.":"Một cái chăn len tốt. Giờ chúng tôi ngủ cạnh lò nướng. Không cần nó nữa.","Wool. Warm. Never been damp.":"Len. Ấm. Chưa bao giờ bị ẩm.","The bakery stays hot all night. Nobody needs a blanket there.":"Tiệm bánh nóng cả đêm. Ở đó chẳng ai cần chăn.","My mother knitted the edge. The rest is State wool.":"Mẹ tôi đan phần viền. Phần còn lại là len của Nhà nước.","Scan away. I have the stamp.":"Cứ quét đi. Tôi có dấu xác nhận.","#? It is good wool!":"#? Đây là len tốt đấy!","I have the stamp! Look at the stamp!":"Tôi có dấu mà! Hãy nhìn cái dấu đi!","I was cleared! I was cleared!":"Tôi đã được xóa tội! Tôi đã được xóa tội!","A woman with ink on her fingers sets a carton on the tray and keeps glancing at the door.":"Một người phụ nữ ngón tay dính mực đặt một cây thuốc lên khay và liên tục liếc ra cửa.","Cigarettes. Sealed. Take them, please. I need to be somewhere.":"Thuốc lá. Còn niêm phong. Làm ơn lấy đi. Tôi phải đến một nơi khác.","A carton. Twenty packs. Sealed.":"Một cây. Hai mươi gói. Còn niêm phong.","I quit. My doctor insisted.":"Tôi bỏ thuốc rồi. Bác sĩ khăng khăng bắt thế.","The tobacconist on Dock Street.":"Tiệm thuốc lá ở phố Dock.","Of course. Quickly, please.":"Dĩ nhiên. Làm ơn nhanh lên.","#? For a sealed carton?":"#? Cho một cây còn niêm phong á?","Then I will go.":"Vậy tôi đi.","She hurries out, forgetting to look back.":"Cô vội vã bước ra, quên không ngoái lại.","Not now! Please, not now!":"Đừng bây giờ! Làm ơn, đừng bây giờ!","I have children! Please!":"Tôi có con nhỏ! Làm ơn!","A heavyset man in a work jacket hangs a chain from two fingers.":"Một người đàn ông to con mặc áo bảo hộ lao động đung đưa sợi dây chuyền trên hai ngón tay.","Gold. Real gold. From my grandfather. I would not sell it if the rent were not due.":"Vàng. Vàng thật. Của ông nội tôi. Tôi sẽ không bán nếu không đến hạn đóng tiền thuê nhà.","A gold chain. Heavy. Old.":"Một sợi dây chuyền vàng. Nặng. Cũ.","The rent. The Ministry raised it again.":"Tiền thuê nhà. Bộ lại tăng nữa rồi.","My grandfather. He worked at the docks and saved for years.":"Ông nội tôi. Ông làm ở bến cảng và dành dụm nhiều năm.","Scan away. I am loyal.":"Cứ quét đi. Tôi trung thành.","#? For my grandfather's gold?":"#? Cho vàng của ông nội tôi á?","Then I will pawn it.":"Vậy tôi sẽ đem cầm.","He pockets the chain and trudges out.":"Anh nhét sợi dây vào túi rồi lê bước ra.","Arrest me? For jewellery? It is gold!":"Bắt tôi á? Vì món trang sức? Nó là vàng mà!","I pay my dues! I march in the parades!":"Tôi đóng đủ phí! Tôi diễu hành đầy đủ!","A woman in a headscarf sets three cans on the tray, a receipt tucked beneath them.":"Một người phụ nữ quấn khăn trùm đầu đặt ba lon lên khay, tờ biên lai kẹp bên dưới.","Foreign cans. I paid the duty this morning. Everything is in order.":"Đồ hộp ngoại quốc. Sáng nay tôi đã đóng thuế. Mọi thứ đều hợp lệ.","Three cans of peaches. From over the border.":"Ba lon đào. Từ bên kia biên giới.","My husband cannot stand peaches.":"Chồng tôi không chịu nổi đào.","The border market. I paid the Ministry at the gate.":"Chợ biên giới. Tôi đã nộp phí cho Bộ ở cổng.","Here. Stamped and paid.":"Đây. Đã đóng dấu và đã trả phí.","Canned food, 3":"Đồ hộp, 3","A thin man sets a radio on the tray and smooths a crumpled receipt beside it.":"Một người đàn ông gầy gò đặt chiếc radio lên khay và vuốt phẳng tờ biên lai nhàu bên cạnh.","A foreign radio. Imported legally. The receipt is right here.":"Một chiếc radio ngoại. Nhập khẩu hợp pháp. Biên lai ở ngay đây.","A radio. Foreign made. It works.":"Một chiếc radio. Sản xuất ở nước ngoài. Nó chạy được.","I need the money more than the music.":"Tôi cần tiền hơn là cần âm nhạc.","Brought it over last year. I paid the fee.":"Tôi mang nó sang từ năm ngoái. Tôi đã đóng phí.","It is a receipt. It is stamped. That should be enough.":"Đó là một tờ biên lai. Có đóng dấu. Thế là đủ rồi.","Radio, 1":"Radio, 1","It is a perfectly good receipt!":"Đây là một tờ biên lai hoàn toàn hợp lệ!","No! The receipt! Look at the receipt!":"Không! Biên lai! Hãy nhìn biên lai!","A woman with calloused hands lays a folded blanket on the tray.":"Một người phụ nữ bàn tay chai sạn đặt một cái chăn gấp gọn lên khay.","A wool blanket. Warm. It has kept three winters at bay.":"Một cái chăn len. Ấm. Nó đã giúp qua ba mùa đông.","Wool. Hand-carded. Heavy.":"Len. Chải tay. Nặng.","The factory cut my hours. Again.":"Nhà máy lại cắt giờ làm của tôi.","My sister wove it before she left the city.":"Chị tôi dệt nó trước khi rời thành phố.","Union meeting":"Cuộc họp công đoàn","#? For three winters of warmth?":"#? Cho ba mùa đông ấm áp á?","You have nothing on me! Nothing!":"Các người chẳng có gì về tôi cả! Chẳng có gì!","The union will remember this!":"Công đoàn sẽ nhớ chuyện này!","A man in a clean shirt carries a vase in both arms, like a sleeping child.":"Một người đàn ông mặc áo sạch ôm chiếc bình bằng hai tay, như bế một đứa trẻ đang ngủ.","An antique vase. Orlov kilns. It has been in my family for generations.":"Một chiếc bình cổ. Lò gốm Orlov. Nó đã ở trong gia đình tôi qua nhiều thế hệ.","A vase. Hand-painted. Very old.":"Một chiếc bình. Vẽ tay. Rất cổ.","My daughter needs a new coat before the first snow.":"Con gái tôi cần một cái áo khoác mới trước trận tuyết đầu mùa.","Handed down. I have carried it through three moves.":"Được truyền lại. Tôi đã mang nó qua ba lần chuyển nhà.","Hairline crack down one side.":"Một vết nứt tóc chạy dọc một bên.","Dull buzz.":"Tiếng rè đục.","#? For an Orlov piece?":"#? Cho một món đồ gốm Orlov á?","Antique vase (cracked)":"Bình cổ (nứt)","A man in a damp coat sets a carton and a receipt side by side.":"Một người đàn ông mặc áo khoác ẩm đặt một cây thuốc và một tờ biên lai cạnh nhau.","Imported cigarettes. Duty paid. The receipt is right there.":"Thuốc lá nhập khẩu. Đã đóng thuế. Biên lai ở ngay đó.","A carton. Foreign. The good stuff.":"Một cây thuốc. Hàng ngoại. Loại ngon.","I have a cough that does not care for the stuff.":"Tôi bị ho, mà ho thì chẳng ưa thứ này.","A friend at the port. He handled the paperwork.":"Một người bạn ở cảng. Anh ấy lo giấy tờ.","The paperwork is all there. Every stamp.":"Giấy tờ đủ cả. Có đủ dấu.","Party handbook (unofficial print)":"Sổ tay Đảng (bản in lậu)","A man with a toolbox sets down a thick red book, as if presenting an award.":"Một người đàn ông xách hộp đồ nghề đặt xuống một cuốn sách đỏ dày, như thể đang trao giải thưởng.","The Party handbook. First printing. A collector would pay a great deal.":"Cuốn Sổ tay Đảng. Bản in đầu tiên. Nhà sưu tập sẽ trả rất nhiều.","The Party handbook. First printing. A real one.":"Cuốn Sổ tay Đảng. Bản in đầu tiên. Hàng thật.","My cousin. He works near the presses. Or he says he does.":"Em họ tôi. Nó làm gần xưởng in. Hoặc nó bảo vậy.","Red cover, gold eagle. Edges cut crooked.":"Bìa đỏ, đại bàng vàng. Mép cắt lệch.","Clean pages. No margin notes.":"Trang sạch. Không có ghi chú bên lề.","#? For a first printing?":"#? Cho một bản in đầu tiên á?","...fine. It is only paper anyway.":"...được. Dù sao nó cũng chỉ là giấy.","He puts the book in the toolbox and leaves.":"Anh ta bỏ cuốn sách vào hộp đồ nghề rồi đi.","Arrest me? For a book? Look at it!":"Bắt tôi á? Vì một cuốn sách? Anh nhìn nó đi!","Publisher and release date on the first page.":"Nhà xuất bản và ngày phát hành in ở trang đầu.","No publisher or release date":"Không có nhà xuất bản hay ngày phát hành","Not a State Press edition. Pay the damaged rate or refuse.":"Không phải ấn bản của Nhà xuất bản Nhà nước. Trả theo giá hàng hỏng hoặc từ chối.","No release date or publisher found.":"Không tìm thấy ngày phát hành hay nhà xuất bản.","Warm colour. Clasp bent and cracked.":"Màu ấm. Khóa bị cong và nứt.","Gold necklace (damaged clasp)":"Dây chuyền vàng (hỏng khóa)","Real gold, damaged":"Vàng thật, bị hư hại","Bent or cracked clasp, broken links. Pay the damaged rate or refuse.":"Khóa cong hoặc nứt, mắt xích đứt. Trả theo giá hàng hỏng hoặc từ chối.","Type your offer in the price bar, then press Make offer.":"Nhập giá của anh vào thanh giá, rồi bấm Ra giá.","A sealed carton is worth 25. Work out the Ministry rate and make me an offer.":"Một cây thuốc còn niêm phong có giá trị 25. Hãy tự tính giá của Bộ rồi ra giá cho tôi.","More than one third. Every extra credit leaves your till for nothing. The Ministry rate is 8.":"Nhiều hơn một phần ba. Mỗi credit thừa đều rời khỏi két của anh một cách vô ích. Giá của Bộ là 8.","Less than one third. A real seller would be insulted, and walk away. The Ministry rate is 8.":"Ít hơn một phần ba. Người bán thật sẽ thấy bị xúc phạm và bỏ đi. Giá của Bộ là 8.","Autumn Year 4":"Mùa thu Năm 4","At the top of your screen is the till. You have 400 credits, and they must last all 5 days. Use them wisely.":"Ở phía trên màn hình là két tiền. Anh có 400 credit, và chúng phải đủ dùng cho cả 5 ngày. Hãy dùng thật khôn ngoan.","Everything you buy comes out of it. Overpay, or buy a forgery, and you will be fined. Run dry, and the Ministry will ask questions.":"Mọi thứ anh mua đều lấy từ đó. Trả quá giá, hay mua phải hàng giả, anh sẽ bị phạt. Hết sạch tiền, Bộ sẽ đặt câu hỏi.","Remember: inspect the item, check the Price Book, pay one third, and watch your till. The regulations will tell you what is forbidden.":"Hãy nhớ: kiểm tra món hàng, xem Sổ giá, trả một phần ba, và để mắt đến két tiền. Các quy định sẽ cho anh biết điều gì bị cấm.","A tall man in a grey coat steps up to the glass and sets a carton of cigarettes on the tray.":"Một người đàn ông cao mặc áo khoác xám bước tới tấm kính và đặt một cây thuốc lá lên khay.","Kingdom Tobacco Works.":"Xưởng Thuốc lá Vương quốc.","Good morning, shopkeeper. I am Inspector Lund of the State Identity Bureau. Today I will be your guide.":"Chào buổi sáng, người bán hàng. Tôi là Thanh tra Lund của Cục Nhận dạng Nhà nước. Hôm nay tôi sẽ là người hướng dẫn của anh.","People will bring you their goods. You inspect them, pay the Ministry rate, and the State resells them for profit.":"Người ta sẽ mang hàng đến cho anh. Anh kiểm tra, trả theo giá của Bộ, và Nhà nước bán lại để kiếm lời.","On your left is the Price Book. Every item has a worth. You pay one third of it.":"Bên trái anh là Sổ giá. Mỗi món hàng đều có giá trị. Anh trả một phần ba giá trị đó.","On your right are the regulations. They change every morning. Read them before you open the window.":"Bên phải anh là các quy định. Chúng thay đổi mỗi sáng. Hãy đọc trước khi mở cửa sổ.","Now watch. I will pretend to sell you this carton of cigarettes.":"Giờ hãy xem. Tôi sẽ giả vờ bán cho anh cây thuốc lá này.","Click the carton on the tray to inspect it. Every item has three checks. Run at least one.":"Bấm vào cây thuốc trên khay để kiểm tra. Mỗi món hàng có ba lần kiểm tra. Hãy làm ít nhất một lần.","Click the carton on the tray, then run a check.":"Bấm vào cây thuốc trên khay, rồi thực hiện một lần kiểm tra.","Good. Now open the Price Book and find the cigarettes.":"Tốt. Giờ hãy mở Sổ giá và tìm thuốc lá.","Open the Price Book on your left.":"Mở Sổ giá ở bên trái anh.","A sealed carton is worth 25. The Ministry rate is one third. Make me an offer.":"Một cây thuốc còn niêm phong có giá trị 25. Giá của Bộ là một phần ba. Hãy ra giá cho tôi.","Make me an offer for the carton.":"Hãy ra giá cho cây thuốc này.","Offer 8 credits (one third)":"Trả 8 credit (một phần ba)","Offer 25 credits (full worth)":"Trả 25 credit (đủ giá trị)","Refuse the carton":"Từ chối cây thuốc","Correct. One third of the worth. That is the Ministry rate.":"Đúng. Một phần ba giá trị. Đó là giá của Bộ.","The full worth? The State is not your charity. Pay one third.":"Đủ giá trị ư? Nhà nước không phải tổ chức từ thiện của anh. Hãy trả một phần ba.","You may refuse. But a sealed carton is good stock. Think before you turn goods away.":"Anh có thể từ chối. Nhưng một cây thuốc còn niêm phong là hàng tốt. Hãy suy nghĩ trước khi từ chối hàng.","This was only a demonstration. No credits changed hands.":"Đây chỉ là buổi làm mẫu. Không có credit nào được trao tay.","Remember: inspect the item, check the Price Book, pay one third. The regulations will tell you what is forbidden.":"Hãy nhớ: kiểm tra món hàng, xem Sổ giá, trả một phần ba. Các quy định sẽ cho anh biết điều gì bị cấm.","Open your window, shopkeeper. The queue is waiting.":"Mở cửa sổ đi, người bán hàng. Hàng người đang chờ.","He tucks the carton under his arm and steps out of the booth.":"Ông kẹp cây thuốc dưới tay và bước ra khỏi buồng.","Warm colour. Light wear.":"Màu ấm. Mòn nhẹ.","Stamped 750. State assay mark.":"Đóng dấu 750. Dấu giám định Nhà nước.","Warm colour. Small dent at the clasp.":"Màu ấm. Một vết lõm nhỏ ở khóa.","Warm colour. Tiny dent at the clasp.":"Màu ấm. Một vết lõm rất nhỏ ở khóa.","Warm colour. Foreign style.":"Màu ấm. Kiểu ngoại quốc.","Foreign hallmark. Port Varn stamp.":"Dấu kiểm định ngoại quốc. Dấu cảng Varn.","Kingdom Assay Office. 750.":"Phòng Giám định Vương quốc. 750.","Warm colour. Delicate links.":"Màu ấm. Mắt xích tinh tế.","Heavy chain. Worn clasp.":"Dây nặng. Khóa mòn.","Rust flakes on the links.":"Gỉ bong ra trên các mắt xích.","No hallmark.":"Không có dấu kiểm định.","Fizzes green.":"Sủi bọt xanh.","Back panel loose. Parts missing inside.":"Tấm lưng bị lỏng. Thiếu linh kiện bên trong.","Model R-40. Civilian bands.":"Kiểu R-40. Băng tần dân sự.","Silent. One faint click.":"Im lặng. Một tiếng tách khẽ.","Model R-40. Radio Bureau eagle.":"Kiểu R-40. Đại bàng Cục Phát thanh.","Plays the State anthem.":"Phát quốc ca.","Clean inside.":"Bên trong sạch.","Scuffed metal casing.":"Vỏ kim loại trầy xước.","Foreign script. Varn customs stamp.":"Chữ ngoại quốc. Dấu hải quan Varn.","Foreign station, then static.":"Một đài nước ngoài, rồi tiếng nhiễu.","Radio Bureau Workshop.":"Xưởng Cục Phát thanh.","Kingdom Radio Works.":"Xưởng Radio Vương quốc.","Red-gold glaze. Star motif.":"Men đỏ vàng. Họa tiết ngôi sao.","FACTORY No. 9, 1984.":"NHÀ MÁY số 9, 1984.","Dull thunk.":"Tiếng đục.","Handle glued back. Seam visible.":"Quai bị dán lại. Thấy rõ vết dán.","Orlov Kilns, 1921. Hand-inked.":"Lò gốm Orlov, 1921. Viết tay bằng mực.","Clear, long ring.":"Tiếng ngân dài, trong.","Hand-painted star.":"Ngôi sao vẽ tay.","Orlov Kilns, Kingdom.":"Lò gốm Orlov, Vương quốc.","Pale blue. Thin walls.":"Xanh nhạt. Thành mỏng.","Foreign script. Port Varn mark.":"Chữ ngoại quốc. Dấu cảng Varn.","Bright ring.":"Tiếng ngân sáng.","Pale blue. Painted bird.":"Xanh nhạt. Hình chim vẽ.","Bright, clear ring.":"Tiếng ngân sáng, trong.","Tight weave. A few darns.":"Dệt chặt. Vài chỗ vá.","Smells of cedar.":"Mùi gỗ tuyết tùng.","Tight weave. Patched.":"Dệt chặt. Có vá.","Black with soot. Moth holes.":"Đen bồ hóng. Có lỗ mọt.","Damp and smoky.":"Ẩm và có mùi khói.","Kingdom Wool Cooperative No. 4. Half gone.":"Hợp tác xã Len Vương quốc số 4. Mất một nửa.","Stained. Moth holes.":"Có vết bẩn. Có lỗ mọt.","Kingdom Wool Cooperative. Mostly gone.":"Hợp tác xã Len Vương quốc. Gần mất hết.","Kingdom Wool Cooperative.":"Hợp tác xã Len Vương quốc.","Red ink. Black eagle, broken wing.":"Mực đỏ. Đại bàng đen gãy cánh.","THE FIFTEEN WILL NOT BE FORGOTTEN.":"MƯỜI LĂM NGƯỜI SẼ KHÔNG BỊ QUÊN LÃNG.","Cheap paper. Ink smudges.":"Giấy rẻ. Mực lem.","Paint on cardboard. Black eagle.":"Sơn trên bìa các-tông. Đại bàng đen.","THE FALL OF THE TYRANT. School play.":"SỰ SỤP ĐỔ CỦA BẠO CHÚA. Vở kịch trường học.","Theatre licence stamp.":"Dấu giấy phép nhà hát.","Olive wool. Gold buttons.":"Len màu ô liu. Cúc màu vàng.","Plastic buttons.":"Cúc nhựa.","CAPITAL THEATRE PLAYERS, No. 41.":"ĐOÀN KỊCH THỦ ĐÔ, số 41.","Glued patches. No serial.":"Phù hiệu dán keo. Không có số seri.","Olive wool. Sweat and smoke.":"Len màu ô liu. Mồ hôi và khói.","Brass buttons. Ministry eagle.":"Cúc đồng. Đại bàng của Bộ.","Pvt. D. Halloran. Serial 22109.":"Binh nhì D. Halloran. Số seri 22109.","Sewn collar stars.":"Sao cổ áo được khâu.","CAPITAL FILM STUDIO, No. 112.":"HÃNG PHIM THỦ ĐÔ, số 112.","Red and white cloth. Splintered pole.":"Vải đỏ trắng. Cán gỗ toác.","Black eagle, broken wing.":"Đại bàng đen gãy cánh.","Dark stain near the base.":"Vết sẫm gần gốc.","Painted bedsheet. Three-winged eagle.":"Ga giường sơn vẽ. Đại bàng ba cánh.","CLASS 4B, PAGEANT.":"LỚP 4B, DIỄU HÀNH.","Painted broom handle.":"Cán chổi sơn đỏ.","Red and white cloth. Bamboo pole.":"Vải đỏ trắng. Cán tre.","Shiny gold star. No wear.":"Ngôi sao vàng sáng bóng. Không mòn.","TOY WORKS No. 3.":"XƯỞNG ĐỒ CHƠI số 3.","Bronze star. Paper tag pinned on.":"Ngôi sao đồng. Có thẻ giấy ghim vào.","S0S-301.":"S0S-301.","Serial ground off. S0S-301 scratched in.":"Số seri bị mài mất. Khắc S0S-301 vào chỗ đó.","Dented. Sealed.":"Móp. Còn niêm phong.","Date: two years out.":"Hạn: hai năm nữa.","Feels solid.":"Cảm giác đặc.","Sealed. Ration labels.":"Còn niêm phong. Nhãn khẩu phần.","Date: this year.":"Hạn: năm nay.","Sealed. Foreign labels.":"Còn niêm phong. Nhãn ngoại quốc.","Sealed. Bright labels.":"Còn niêm phong. Nhãn sáng.","Feels light.":"Cảm giác nhẹ.","Very light.":"Rất nhẹ.","Dock Street Cannery. Label reglued.":"Xưởng đóng hộp phố Dock. Nhãn dán lại.","Eagle crest. Stamped RESTRICTED.":"Huy hiệu đại bàng. Đóng dấu HẠN CHẾ.","Order: relocate 400 families.":"Lệnh: di dời 400 gia đình.","Ministry seal. Serial 0447.":"Con dấu của Bộ. Số seri 0447.","Order: transfer 300 detainees.":"Lệnh: chuyển 300 người bị giam.","Ministry seal. Serial 0651.":"Con dấu của Bộ. Số seri 0651.","Sealed. State crest.":"Còn niêm phong. Huy hiệu Nhà nước.","Batch 7741. Expires in 6 months.":"Lô 7741. Hết hạn sau 6 tháng.","White bottle. Foreign script.":"Chai trắng. Chữ ngoại quốc.","Port Varn seal on the cap.":"Dấu cảng Varn trên nắp.","White powder.":"Bột trắng.","Batch 5120. Expires in 8 months.":"Lô 5120. Hết hạn sau 8 tháng.","Two people on church steps.":"Hai người trên bậc thang nhà thờ.","Pencil: 14 June 1979.":"Bút chì: 14 tháng 6 năm 1979.","Nothing behind it.":"Phía sau không có gì.","Red cover. Worn corners.":"Bìa đỏ. Góc mòn.","Pencil note: \"the people deserve better\".":"Ghi chú bút chì: \"nhân dân xứng đáng được tốt hơn\".","Sealed. Clean print.":"Còn niêm phong. In sắc nét.","Brown shreds. Sweet smell.":"Những sợi nâu. Mùi ngọt.","Glued seal. Crooked print.":"Niêm phong dán keo. In lệch.","Dry leaves.":"Lá khô.","Service pistol. Ministry eagle.":"Súng quân dụng. Đại bàng của Bộ.","Serial 5-1188. Border Garrison.":"Số seri 5-1188. Đồn Biên giới.","Empty. Freshly cleaned.":"Rỗng. Mới được lau sạch.","State ID. Young man's photo.":"Thẻ căn cước Nhà nước. Ảnh một thanh niên.","Serial 8821. Registry: ACTIVE.":"Số seri 8821. Đăng ký: ĐANG HIỆU LỰC.","Photo re-glued.":"Ảnh bị dán lại.","Stamped 750. State assay mark.":"Khóa được đóng dấu 750, kèm dấu giám định của Nhà nước.","No reaction.":"Không phản ứng.","38 grams.":"38 gam.","36 grams.":"36 gam.","41 grams.":"41 gam.","Stamped 750. State assay mark.":"Đóng dấu 750, kèm dấu giám định của Nhà nước.","Rust flakes on the links.":"Gỉ màu nâu cam bong từng mảng dọc theo mắt xích.","Fizzes green.":"Nó sủi bọt xanh.","11 grams.":"11 gam.","Scuffed metal casing.":"Vỏ kim loại, trầy xước. Nhỏ gọn.","Foreign script. Varn customs stamp.":"Chữ ngoại quốc ở tấm lưng. Một dấu cảng hải quan Varn.","Foreign station, then static.":"Một đài nước ngoài, rồi tiếng nhiễu.","Red-gold glaze. Star motif.":"Men đỏ vàng với họa tiết ngôi sao.","Dull thunk.":"Một tiếng cộp đục.","Clear, long ring.":"Một tiếng ngân dài, trong.","Red-gold glaze. Star motif.":"Men đỏ vàng, họa tiết ngôi sao.","Pale blue. Thin walls.":"Men xanh nhạt, thành mỏng.","Smells of cedar.":"Mùi tuyết tùng và ẩm.","No thin patches.":"Không chỗ nào mỏng.","Cedar.":"Mùi tuyết tùng.","Thin patches everywhere.":"Chỗ nào cũng mỏng.","No Ministry print mark.":"Không có dấu in của Bộ.","Cheap paper. Ink smudges.":"Giấy rẻ tiền. Mực vẫn còn lem.","Paint on cardboard. Black eagle.":"Sơn đỏ trên bìa các-tông. Một con đại bàng đen gãy cánh.","Olive wool. Gold buttons.":"Len màu ô liu, cúc màu đồng thau.","Plastic buttons.":"Nhựa, sơn vàng.","Sewn collar stars.":"Sao cổ áo khâu máy.","6 grams.":"6 gam.","5 grams.":"5 gam.","46 grams.":"46 gam.","Date: two years out.":"Đóng dấu còn hạn hai năm.","Date: this year.":"Đóng dấu năm nay.","Feels light.":"Một tiếng lạch cạch rỗng.","Serial 5-1188. Border Garrison.":"Số seri 5-1188, kho vũ khí Đồn Biên giới.","Even tablets.":"Viên thuốc đều nhau.","Warm colour. Small dent at the clasp.":"Màu ấm, đều. Mắt xích mịn. Một vết lõm nhỏ ở khóa.","Silent. One faint click.":"Im lặng. Một tiếng tách rất khẽ, rồi hết.","FACTORY No. 9, 1984.":"Đóng dấu dưới đáy: NHÀ MÁY số 9, lô năm 1984.","FACTORY No. 9, 1984.":"Đóng dấu: NHÀ MÁY số 9, lô năm 1984.","Thin in one corner.":"Mỏng ở một góc.","Glued patches. No serial.":"Phù hiệu dán keo, không khâu. Không có số seri.","Glued patches. No serial.":"Phù hiệu dán keo. Không có số seri.","Dark stain near the base.":"Một vết nâu sẫm gần gốc.","TOY WORKS No. 3.":"Đóng dấu: XƯỞNG ĐỒ CHƠI số 3.","Feels solid.":"Không nghe tiếng sóng sánh. Cảm giác đặc.","Feels solid.":"Cảm giác đặc.","Ministry seal. Serial 0447.":"Một con dấu của Bộ, số seri 0447.","Ministry seal. Serial 0651.":"Một con dấu của Bộ, số seri 0651.","Serial 8821. Registry: ACTIVE.":"Một con dấu của Bộ, số seri 8821. Dấu đăng ký: ĐANG HIỆU LỰC.","Photo re-glued.":"Tấm ảnh bị dán lại ở các góc.","White powder.":"Bột trắng, khô và hơi sạn.","Brown shreds. Sweet smell.":"Những sợi nâu, khô, có mùi ngọt.","Dry leaves.":"Lá khô cuốn trong giấy.",'Inspector Lund':'Thanh tra Lund',"Real gold, hallmarked":"Vàng thật, có dấu kiểm định","Working":"Còn chạy tốt","Must power on, and nothing missing inside.":"Phải bật được, và bên trong không thiếu gì.","Dead, or missing parts":"Hỏng, hoặc thiếu linh kiện","No sound, or parts gone from the chassis. Pay the damaged rate or refuse.":"Không phát tiếng, hoặc mất linh kiện trong khung máy. Trả theo giá hàng hỏng hoặc từ chối.","Antique, hand-painted":"Đồ cổ, vẽ tay","Antique, damaged":"Đồ cổ, bị hư hại","Chipped or glued handle, or a crack. Pay the damaged rate or refuse.":"Quai bị mẻ hoặc dán lại, hoặc bị nứt. Trả theo giá hàng hỏng hoặc từ chối.","Factory replica":"Hàng nhái nhà máy","Set of three, sealed":"Bộ ba lon, còn niêm phong","Empty cans":"Lon rỗng","Rolled, clean":"Cuộn gọn, sạch","Filthy or moth-eaten":"Bẩn hoặc bị mọt cắn","Cigarettes":"Thuốc lá","Full carton, sealed packs":"Nguyên cây, các gói còn niêm phong","Counterfeit":"Hàng giả","Tea leaves or sawdust. Unroll one.":"Lá trà hoặc mùn cưa. Hãy tháo cuốn thử một điếu.","Medicine":"Thuốc","Sealed bottle":"Chai còn niêm phong","State Press, current edition":"Nhà xuất bản Nhà nước, ấn bản hiện hành","Sentimental value only":"Chỉ có giá trị tình cảm","Exceptions: Having one of these entries do not count as hostile":"Các trường hợp ngoại lệ: người có 1 trong những ghi chú sau sẽ không bị xem là thù địch","Order number":"Số lệnh","An entry with an order number is official duty, not membership. The fingerprint record explains each order.":"Mục có số lệnh là công vụ, không phải đảng viên. Hồ sơ vân tay sẽ giải thích từng lệnh.","Check the mark":"Kiểm tra dấu","Power test":"Thử bật nguồn","Tap test":"Gõ thử","Shake it out":"Giũ ra","Shake test":"Lắc thử","Test a tablet":"Thử một viên","Unroll one":"Tháo cuốn một điếu","What are you selling it for?":"Anh bán nó với giá bao nhiêu?","Kingdom Wool Cooperative.":"Nhãn dệt: Hợp tác xã Len Vương quốc. Đã phai nhưng vẫn đọc được.","Kingdom Radio Works.":"Đóng dấu dưới núm chỉnh: Xưởng Radio Vương quốc. Chỉ băng tần dân sự.","Nothing behind it.":"Không có gì giấu phía sau. Chỉ là một bản in đã phai.","Radio (missing parts)":"Radio (thiếu linh kiện)","Back panel loose. Parts missing inside.":"Tấm lưng bị lỏng. Khung máy mất một bóng đèn và nam châm loa.","Model R-40. Civilian bands.":"Bảng số seri: Kiểu R-40, chỉ băng tần dân sự.","Silent. One faint click.":"Im lặng. Một tiếng tách rất khẽ, rồi hết. Thiếu linh kiện thì nó không thể chạy.","This radio is missing parts. Is it broken?":"Cái radio này thiếu linh kiện. Nó hỏng à?","What? It worked yesterday!":"Gì cơ? Hôm qua nó còn chạy mà!","Antique vase (chipped handle)":"Bình cổ (mẻ quai)","Handle glued back. Seam visible.":"Men đỏ vàng, một ngôi sao vẽ tay. Một bên quai đã gãy ở chân và được dán lại. Vết dán lộ rõ.","A young woman in a clean student coat sets a bottle of medicine on the tray. She smiles, a little shyly.":"Một cô gái trẻ mặc áo khoác sinh viên sạch sẽ đặt một chai thuốc lên khay. Cô mỉm cười, hơi e thẹn.","My brother is better now. We do not need this medicine anymore.":"Em trai tôi khỏe rồi. Chúng tôi không cần thuốc này nữa.","Medicine I bought for my brother. He recovered, thank goodness.":"Thuốc tôi mua cho em trai. May quá, nó đã khỏi.","We have no use for it now, and money is tight.":"Giờ chúng tôi không dùng đến nữa, mà tiền thì eo hẹp.","The State pharmacy on Mill Street. I still have the receipt somewhere.":"Hiệu thuốc Nhà nước ở phố Mill. Tôi vẫn còn biên lai đâu đó.","Batch 5120. Expires in 8 months.":"Lô 5120. Hết hạn trong tám tháng. Có nhãn dán của hiệu thuốc Nhà nước.","#? I paid much more at the pharmacy.":"#? Tôi đã trả nhiều hơn thế ở hiệu thuốc.","Inspector Lund comes in from the side door and stops at your counter, a thin folder under one arm.":"Thanh tra Lund bước vào từ cửa hông và dừng lại bên quầy của anh, một tập hồ sơ mỏng kẹp dưới tay.","Good morning, shopkeeper. Inspector Lund, State Identity Bureau.":"Chào buổi sáng, người bán hàng. Thanh tra Lund, Cục Nhận dạng Nhà nước.","The Ministry has installed a fingerprint scanner at your window. Allow me to demonstrate.":"Bộ đã lắp một máy quét vân tay tại cửa sổ của anh. Để tôi làm mẫu.","Watch the screen. This is a sample file from the archive.":"Hãy nhìn màn hình. Đây là một hồ sơ mẫu từ kho lưu trữ.","See the table? In 2015, one meeting of the Republic Party. In 2019, this citizen joined our Party.":"Thấy bảng này không? Năm 2015, một buổi họp của Đảng Cộng hòa. Năm 2019, công dân này gia nhập Đảng của chúng ta.","The government does not care if someone switched to our party. If their history is affiliated with the other party, it is still treason, and it deserves death.":"Chính phủ không quan tâm việc ai đó đã chuyển sang đảng của chúng ta. Nếu lịch sử của họ dính líu đến đảng kia, đó vẫn là phản quốc, và đáng chết.","Prioritize eliminating hostile citizens. Profit is secondary.":"Hãy ưu tiên loại bỏ công dân thù địch. Lợi nhuận là thứ yếu.","Some entries carry an order number. Read the order beside it. Those people are on official duty, and they are not to be touched.":"Một số mục có kèm số lệnh. Hãy đọc lệnh bên cạnh. Những người đó đang thi hành công vụ, và không được đụng đến.","That is all. Open your window, shopkeeper.":"Hết rồi. Mở cửa sổ của anh đi, người bán hàng.","He closes the folder and leaves without another word.":"Ông gấp tập hồ sơ lại rồi rời đi, không nói thêm lời nào.","DEMONSTRATION FILE":"HỒ SƠ MẪU","Order 4412":"Lệnh số 4412","Order No. {0}":"Lệnh số {0}","Inspector of the State Identity Bureau. Official duty. Eliminating them will result in penalties.":"Thanh tra của Cục Nhận dạng Nhà nước. Đang thi hành công vụ. Loại bỏ họ sẽ bị phạt.","Working as a spy for the state. They mean no harm, and eliminating them will result in penalties.":"Làm gián điệp cho nhà nước. Họ không có ý hại ai, và loại bỏ họ sẽ bị phạt.","Clerk of the Ministry records office. Official duty, not a hostile member.":"Nhân viên văn thư của Phòng Hồ sơ của Bộ. Đang thi hành công vụ, không phải thành viên thù địch.","Ministry observer sent to watch a hostile meeting. Official duty, not membership.":"Quan sát viên của Bộ được cử đến theo dõi một cuộc họp thù địch. Đang thi hành công vụ, không phải thành viên.","Donald Orpo":"Donald Orpo","Lily Dang":"Lily Dang","Brown bottle":"Chai nâu","A man in a grey coat steps up to the glass. He studies you for a long moment before he speaks.":"Một người đàn ông mặc áo khoác xám bước tới tấm kính. Ông ta nhìn anh chằm chằm một lúc lâu trước khi lên tiếng.","Mhmm..":"Ừm...","You seem smart, and we need your help...":"Anh có vẻ thông minh, và chúng tôi cần sự giúp đỡ của anh...","There is a hostile citizen, she has been damaging our Kingdom reputation.":"Có một công dân thù địch, cô ta đang làm tổn hại danh tiếng của Vương quốc chúng ta.","If you see Lily Dang, get rid of her.":"Nếu anh thấy Lily Dang, hãy loại cô ta đi.","We will be installing a new tool to help you to identify tomorrow.":"Ngày mai chúng tôi sẽ lắp đặt một công cụ mới để giúp anh nhận diện.","Who are you?":"Ông là ai?","Someone who reads files for a living. Yours is thin, but interesting.":"Một người đọc hồ sơ để kiếm sống. Hồ sơ của anh mỏng, nhưng thú vị.","Who is Lily Dang?":"Lily Dang là ai?","A student. Smiling, polite, loyal on paper. That is what makes her dangerous.":"Một sinh viên. Hay cười, lịch sự, trung thành trên giấy tờ. Chính điều đó khiến cô ta nguy hiểm.","Good. Remember the name.":"Tốt. Hãy nhớ cái tên đó.","He leaves at a perfectly even pace.":"Ông ta rời đi với bước chân đều tăm tắp.","A young woman in a clean student coat sets a small brown bottle on the tray. She smiles at you, politely.":"Một cô gái trẻ mặc áo khoác sinh viên sạch sẽ đặt một chai nhỏ màu nâu lên khay. Cô mỉm cười với anh, rất lịch sự.","Cough syrup. Homemade. It works wonders.":"Siro ho. Tự làm. Hiệu quả tuyệt vời.","Cough syrup. My own recipe.":"Siro ho. Công thức của riêng tôi.","Books are expensive. Medicine is cheaper to make than to buy.":"Sách đắt lắm. Làm thuốc rẻ hơn mua thuốc.","The university laboratory. We are allowed, with permission.":"Phòng thí nghiệm trường đại học. Chúng tôi được phép, nếu có giấy phép.","A brown glass bottle with no label. Half empty.":"Một chai thủy tinh nâu không nhãn. Còn một nửa.","Faint bitter almonds.":"Thoang thoảng mùi hạnh nhân đắng.","Check the cap":"Kiểm tra nắp chai","A white crust around the rim of the cap.":"Một lớp cặn trắng quanh miệng nắp.","Officer.":"Cán bộ.","#? For homemade medicine?":"#? Cho thuốc tự làm á?","Then I will find another buyer.":"Vậy tôi sẽ tìm người mua khác.","Thank you, officer. Have a lovely day.":"Cảm ơn ngài. Chúc ngài một ngày tốt lành.","She picks up the bottle, smiles at you once more, and walks out without hurrying.":"Cô cầm lại cái chai, mỉm cười với anh thêm lần nữa, rồi bước ra không vội vã.","GLORY TO THE REPUBLIC! The students will not stop!":"VINH QUANG THUỘC VỀ CỘNG HÒA! Sinh viên sẽ không dừng lại!","You cannot arrest an idea!":"Các người không thể bắt một ý tưởng!","The man in the grey coat returns, almost smiling.":"Người đàn ông áo khoác xám quay lại, gần như mỉm cười.","The man in the grey coat returns. He does not sit. He does not smile.":"Người đàn ông áo khoác xám quay lại. Ông ta không ngồi. Ông ta không cười.","You did great, comrade.":"Anh làm tốt lắm, đồng chí.","Here is a little something for a young man like you.":"Đây là chút quà nhỏ dành cho một thanh niên như anh.","Glory to the Kingdom.":"Vinh quang thuộc về Vương quốc.","He taps the glass twice and leaves.":"Ông ta gõ hai lần lên tấm kính rồi rời đi.","Commended: Orpo rewards you. +100 credits":"Khen thưởng: Orpo thưởng cho anh. +100 credit","Lily Dang was here yesterday, yet you let her go.":"Lily Dang đã ở đây hôm qua, vậy mà anh để cô ta đi.","2 officers were poisoned yesterday, I wonder who did?":"Hôm qua hai sĩ quan bị đầu độc, không biết ai đã làm nhỉ?","He walks out without another word.":"Ông ta bước ra mà không nói thêm lời nào.","Gift from the Ministry: {0}.":"Quà từ Bộ: {0}.","I'm not buying your goods":'Tôi không mua hàng của anh',"That's my final price, can't do more":'Đó là giá cuối cùng của tôi, không thể hơn được nữa','Medal':'Huân chương','Army jacket':'Áo khoác quân đội','Flag':'Cờ','Flyer':'Tờ rơi','Vase':'Bình hoa','Gold jewel':'Trang sức vàng','Porcelain vase':'Bình sứ','NOTICE':'THÔNG BÁO','Regulations updated':'Quy định đã được cập nhật',"The Price Book and today's regulations have been updated. Please check them before you proceed.":'Sổ giá và các quy định hôm nay đã được cập nhật. Hãy kiểm tra chúng trước khi tiếp tục.','New in the Price Book: page 2, the treason list.':'Mới trong Sổ giá: trang 2, danh sách phản quốc.','New in the Price Book: page 3, the Great Cleanse rules.':'Mới trong Sổ giá: trang 3, quy tắc Đại Thanh trừng.','New in the Price Book: page 4, foreign goods and import receipts.':'Mới trong Sổ giá: trang 4, hàng ngoại và biên lai nhập khẩu.','Open the price book':'Mở sổ giá','Testing tools (only for testing purpose)':'Công cụ thử nghiệm (chỉ dùng để thử nghiệm)','Sorry to ask, is it possible for me to claim some money?':'Xin lỗi vì đã hỏi, liệu tôi có thể nhận một ít tiền được không?','My son is really sick and he needs medicine...':'Con trai tôi ốm nặng lắm và nó cần thuốc...','THANK YOU DEAR GOD!':'TẠ ƠN TRỜI!','A man sets a gold necklace on the tray with a receipt beneath it.':'Một người đàn ông đặt sợi dây chuyền vàng lên khay, bên dưới là tờ biên lai.','Imported gold. Paid and stamped. Everything is in order.':'Vàng nhập khẩu. Đã trả phí và đóng dấu. Mọi thứ đều đúng quy định.','I was nineteen! I only went for the free bread!':'Làm ơn! Tôi dại dột, tôi mới có 19 tuổi và họ có phát bánh mì miễn phí.','GLORY TO THE REPUBLIC!':'VINH QUANG THUỘC VỀ CỘNG HÒA!','GLORY TO THE REPUBLIC! You will all be remembered!':'VINH QUANG THUỘC VỀ CỘNG HÒA! Rồi tất cả các người sẽ bị nhớ mặt!','You cannot hold us forever!':'Các người không thể giam giữ chúng tôi mãi mãi!','This is an outrage! It is a perfectly good receipt!':'Thật là xúc phạm! Đây là một tờ biên lai hoàn toàn hợp lệ!','Ruin the Kingdom, disobey the rules, then we will protect you.':'Phá hoại Vương quốc, bất tuân luật lệ, rồi chúng tôi sẽ bảo vệ anh.','Continue':'Tiếp tục','Glory to the Kingdom!':'Vinh quang thuộc về Vương quốc!','In memory of the fifteen.':'Tưởng nhớ sự kiện 15 người thiệt mạng.','Click anywhere to enable sound':'Bấm vào bất kỳ đâu để bật âm thanh','Profit {0}':'Lợi nhuận {0}','Test ending: The Lapdog':'Thử kết thúc: Con cún của chính phủ','Test ending: The Brave':'Thử kết thúc: Kẻ dũng cảm','Test ending: The Failure':'Thử kết thúc: Kẻ thất bại'});
+VI[PRO_A]="Gửi các công dân Vương quốc, chúng ta đã mất hơn một thập kỷ để lật đổ bọn Cộng hòa... Đồ cặn bã của thế gian. Quốc gia nào cũng có lúc thịnh lúc suy, Vương quốc của chúng ta cũng vậy. Nền kinh tế chưa được tốt, nhưng chúng ta đang khá lên! Chính phủ đã đồng ý mở các cửa hàng nhận hàng hóa của công dân để đổi lấy credit tươi mới, nóng hổi!"; VI[PRO_B]="Và anh bạn, nếu anh đang đọc những dòng này, anh là một trong những người may mắn sẽ làm việc tại Cửa sổ số 14 hoàn toàn mới của chúng ta! Anh sẽ có 5 ngày thử việc để chúng tôi xem anh làm việc thế nào trong hệ thống mới. Chúc may mắn và Vinh quang thuộc về Vương quốc!";
 const MISS=window.__miss=new Set();
 const LOW={}; Object.keys(VI).forEach(k=>{ LOW[k.toLowerCase()]=k; });
 const nmv=x=>{ const k=LOW[x]; return k?VI[k].toLowerCase():x; };
@@ -158,10 +158,10 @@ const DAY1=[
     {key:'where',label:'Where did you get this?',you:'Where did you get this?',reply:'It was hers. A wedding gift, before the Ministry took my father\'s shop.'},
     {key:'docs',label:'Do you have any documents?',you:'Do you have any documents?',reply:'She is dead. The necklace is all I have of her.'}],
    tests:[
-    {label:'Look closely',res:'Warm, even colour. Fine links, no flaking. Light wear on the pendant.'},
-    {label:'Check the hallmark',res:'The clasp is stamped 750, with a State assay mark. Eighteen karat.'},
-    {label:'Acid test',res:'No reaction. Real gold.'},
-    {label:'Weigh it',res:'38 grams. Heavy for its size.'}],
+    {label:'Look closely',res:'Warm colour. Light wear.'},
+    {label:'Check the hallmark',res:'Stamped 750. State assay mark.'},
+    {label:'Acid test',res:'No reaction.'},
+    {label:'Weigh it',res:'38 grams.'}],
    haggle:a=>`${a}??? Others will take at least 110!`,
    takeYes:true, takeReply:'Fine... cheeky bastard.',
    refuseReply:'Then I will take it somewhere else.',
@@ -176,10 +176,10 @@ const DAY1=[
     {key:'where',label:'Where did you get this?',you:'Where did you get this?',reply:'My husband bought it before the factory closed.'},
     {key:'docs',label:'Do you have any documents?',you:'Do you have any documents?',reply:'Receipts? Who keeps receipts?'}],
    tests:[
-    {label:'Look closely',res:'Orange-brown rust flakes along the links. Gold does not rust.'},
-    {label:'Check the hallmark',res:'No hallmark. The clasp is worn down to bare metal.'},
-    {label:'Acid test',res:'It fizzes green. Copper alloy. This is bronze.'},
-    {label:'Weigh it',res:'11 grams. Far too light.'}],
+    {label:'Look closely',res:'Rust flakes on the links.'},
+    {label:'Check the hallmark',res:'No hallmark.'},
+    {label:'Acid test',res:'Fizzes green.'},
+    {label:'Weigh it',res:'11 grams.'}],
    haggle:a=>`${a}?! This is real gold, you crook!`,
    takeYes:true, takeReply:'...alright.',
    refuseReply:'Then I will find somebody who is not blind.',
@@ -187,7 +187,7 @@ const DAY1=[
    confront:{label:'This gold jewel has rust. Is this bronze?',you:'This gold jewel has rust. Is this bronze?',reply:'What? Hell no!',
      pay:{label:'Pay them 5 credits',amount:5,reply:'...alright.'}, refuse:{label:'Refuse',reply:'Then I will find somebody who is not blind.'}} },
 
- { sil:3, sprite:'radio', itemName:'Radio (working)', worth:90, trueValue:90, fake:false, rule:30, acceptAt:72,
+ { sil:3, sprite:'radio', itemName:'Radio (missing parts)', worth:90, trueValue:15, fake:true, rule:5, acceptAt:36,
    narr:'A man slaps a radio onto the tray.',
    opening:'This fuckass country! They give millions to the military while their own citizens are starving!',
    questions:[
@@ -196,9 +196,11 @@ const DAY1=[
     {key:'where',label:'Where did you get this?',you:'Where did you get this?',reply:'Bought it before the import ban. Paid full price, like an idiot.'},
     {key:'docs',label:'Do you have any documents?',you:'Do you have any documents?',reply:'Documents for a radio? What is this, a border crossing?'}],
    tests:[
-    {label:'Look closely',res:'Scuffed wood casing. Serial plate: Model R-40, civilian bands only.'},
-    {label:'Power it on',res:'Static, then a military march. It works.'},
-    {label:'Open the battery bay',res:'Clean contacts, no corrosion. Wiring intact.'}],
+    {label:'Look closely',res:'Back panel loose. Parts missing inside.'},
+    {label:'Check the markings',res:'Model R-40. Civilian bands.'},
+    {label:'Power it on',res:'Silent. One faint click.'}],
+   confront:{label:'This radio is missing parts. Is it broken?',you:'This radio is missing parts. Is it broken?',reply:'What? It worked yesterday!',
+     pay:{label:'Pay them 5 credits',amount:5,reply:'...alright.'}, refuse:{label:'Refuse',reply:'Then I will find somebody who is not blind.'}},
    haggle:a=>`${a}?? For a working radio?? I want 90!`,
    takeYes:false, takeReply:'Give me back my radio. Bullshit.',
    refuseReply:'This is a scam shop.',
@@ -222,9 +224,9 @@ const DAY1=[
     {key:'where',label:'Where did you get this?',you:'Where did you get this?',reply:'It was my grandmother\'s. And her mother\'s before her.'},
     {key:'docs',label:'Do you have any documents?',you:'Do you have any documents?',reply:'The papers burned in the fire of \'71.'}],
    tests:[
-    {label:'Look closely',res:'Red-gold glaze with a star motif. Handsome at first glance.'},
-    {label:'Turn it over',res:'Stamped on the base: FACTORY No. 9, 1984 batch. Mass-produced.'},
-    {label:'Tap it',res:'A dull thunk. Old fired porcelain should ring.'}],
+    {label:'Look closely',res:'Red-gold glaze. Star motif.'},
+    {label:'Turn it over',res:'FACTORY No. 9, 1984.'},
+    {label:'Tap it',res:'Dull thunk.'}],
    haggle:a=>`${a}?! My grandmother would curse you.`,
    takeYes:true, takeReply:'...Fine. Take it. Just take it.',
    refuseReply:'Then I will take it home. At least it holds flowers.',
@@ -235,22 +237,32 @@ const DAY1=[
 
 
 const BOOK1=[
- ['necklace','Gold necklace, hallmarked',150,'Stamp 750 on the clasp. Acid test: no reaction.'],
- ['rustynecklace','Gilt or bronze jewelry',15,'Rust, green on acid, no hallmark. Not gold.'],
- ['radio','Radio, working',90,'Must power on. A dead set is worth 15.'],
- ['vase','Vase, antique hand-painted',240,'Maker\'s mark under the base. Rings when tapped.'],
- ['vase','Vase, factory replica',20,'Stamped FACTORY on the base. Dull when tapped.'],
- ['cans','Canned food, set of three',12,'Check seals and dates.'],
- ['blanket','Wool blanket, rolled',30,'No moth damage.'],
- ['cigarettes','Cigarettes, full carton',25,'Sealed packs only.'],
- ['pills','Medicine, sealed bottle',60,'State crest, safety seal, batch number. Expiry date matters.'],
- ['redbook','Party handbook',15,'State Press, current edition.'],
- ['photo','Old photograph',3,'Sentimental value only.'],
- ['blanket','Wool, filthy or moth-eaten',6,'Soot, oil, damp, moth holes. Pay the damaged rate or refuse.'],
- ['cans','Cans, empty',1,'Shake one. A hollow rattle means empty.'],
- ['pills','Chalk tablets',3,'Crush one. Chalk dust is not medicine.'],
- ['cigarettes','Counterfeit cigarettes',5,'Tea leaves or sawdust. Open a pack.']
-];
+ {img:'necklace',name:'Gold necklace',rows:[
+   ['Real gold, hallmarked',150,'Stamp 750 on the clasp. Acid test: no reaction.'],
+   ['Real gold, damaged',100,'Bent or cracked clasp, broken links. Pay the damaged rate or refuse.'],
+   ['Gilt or bronze jewelry',15,'Rust, green on acid, no hallmark. Not gold.']]},
+ {img:'radio',name:'Radio',rows:[
+   ['Working',90,'Must power on, and nothing missing inside.'],
+   ['Dead, or missing parts',15,'No sound, or parts gone from the chassis. Pay the damaged rate or refuse.']]},
+ {img:'vase',name:'Vase',rows:[
+   ['Antique, hand-painted',240,'Maker\'s mark under the base. Rings when tapped.'],
+   ['Antique, damaged',80,'Chipped or glued handle, or a crack. Pay the damaged rate or refuse.'],
+   ['Factory replica',20,'Stamped FACTORY on the base. Dull when tapped.']]},
+ {img:'cans',name:'Canned food',rows:[
+   ['Set of three, sealed',12,'Check seals and dates.'],
+   ['Empty cans',1,'Shake one. A hollow rattle means empty.']]},
+ {img:'blanket',name:'Wool blanket',rows:[
+   ['Rolled, clean',30,'No moth damage.'],
+   ['Filthy or moth-eaten',6,'Soot, oil, damp, moth holes. Pay the damaged rate or refuse.']]},
+ {img:'cigarettes',name:'Cigarettes',rows:[
+   ['Full carton, sealed packs',25,'Sealed packs only.'],
+   ['Counterfeit',5,'Tea leaves or sawdust. Unroll one.']]},
+ {img:'pills',name:'Medicine',rows:[
+   ['Sealed bottle',60,'State crest, safety seal, batch number. Expiry date matters.'],
+   ['Chalk tablets',3,'Crush one. Chalk dust is not medicine.']]},
+ {img:'redbook',name:'Party handbook',rows:[['State Press, current edition',15,'Publisher and release date on the first page.'],['No publisher or release date',3,'Not a State Press edition. Pay the damaged rate or refuse.']]},
+ {img:'photo',name:'Old photograph',rows:[['Sentimental value only',3,'']]}
+].map(g=>({img:g.img,name:g.name,rows:g.rows.map(r=>[r[0],r[1],Math.round(r[1]/3),r[2]])}));
 
 
 /* ---------- more silhouettes + guards ---------- */
@@ -274,7 +286,7 @@ const DAY2=[
     {key:'why',label:'Why are you selling it?',you:'Why are you selling it?',reply:'Winter is coming, and I would rather eat than be warm.'},
     {key:'where',label:'Where did you get this?',you:'Where did you get this?',reply:'My brother left it. He does not need it anymore.'},
     {key:'docs',label:'Do you have any documents?',you:'Do you have any documents?',reply:'Papers for a blanket?'}],
-   tests:[{label:'Look closely',res:'Tight weave. No moth damage. A few darned corners.'},{label:'Smell it',res:'Cedar and damp. Clean.'},{label:'Hold it to the light',res:'No thin patches. Good wool.'}],
+   tests:[{label:'Look closely',res:'Tight weave. A few darns.'},{label:'Smell it',res:'Smells of cedar.'},{label:'Hold it to the light',res:'No thin patches.'}],
    haggle:a=>`${a}? Winter is coming, friend!`, takeYes:true, takeReply:'Fine. Take it.', refuseReply:'Cold it is, then.', acceptHigh:'Bless you. Thank you.', insult:a=>`${a}? That is an insult.` },
 
  // 2
@@ -286,12 +298,12 @@ const DAY2=[
     {key:'why',label:'Why are you selling it?',you:'Why are you selling it?',reply:'Bus fare. My mother lives across the river.'},
     {key:'where',label:'Where did you get this?',you:'Where did you get this?',reply:'A man in the square gave me a stack. Said they sell.'},
     {key:'docs',label:'Do you have any documents?',you:'Do you have any documents?',reply:'It is a flyer. It does not come with papers.'}],
-   tests:[{label:'Look closely',res:'Red ink, a black eagle with a broken wing, a crowd under a raised flag.'},{label:'Read the print',res:'THE FIFTEEN WILL NOT BE FORGOTTEN. Down with the bribery government.'},{label:'Look for a print mark',res:'No Ministry print mark. Printed on a hidden press.'},{label:'Feel the paper',res:'Cheap stock. The ink still smudges. Fresh.'}],
+   tests:[{label:'Look closely',res:'Red ink. Black eagle, broken wing.'},{label:'Read the print',res:'THE FIFTEEN WILL NOT BE FORGOTTEN.'},{label:'Look for a print mark',res:'No Ministry print mark.'},{label:'Feel the paper',res:'Cheap paper. Ink smudges.'}],
    haggle:a=>`${a}? That is not even a ticket!`, takeYes:true, takeReply:'...fine. Anything.', refuseReply:'Then I will find someone braver.', acceptHigh:'Thank you. Thank you. Quickly.', insult:a=>`${a}?`,
    letGoReply:'Thank you. I will not forget this.', letGoNarr:'He tucks the flyer into his coat and hurries off.', arrestLine:'No, please! I only wanted bus fare! My mother...' },
 
  // 3  genuine antique vase
- { sil:5, sprite:'vase', itemName:'Antique vase', worth:240, trueValue:240, fake:false, rule:80, acceptAt:190,
+ { sil:5, sprite:'vase', itemName:'Antique vase (chipped handle)', worth:240, trueValue:80, fake:true, rule:27, acceptAt:70,
    narr:'An elderly woman sets a vase on the tray with great care, then steps back as if it might bite.',
    opening:'My grandmother\'s. I would rather keep it. But the rent does not care what I would rather.',
    questions:[
@@ -299,7 +311,7 @@ const DAY2=[
     {key:'why',label:'Why are you selling it?',you:'Why are you selling it?',reply:'The landlord took the stove. Winter is coming.'},
     {key:'where',label:'Where did you get this?',you:'Where did you get this?',reply:'She carried it out of the old city in her arms.'},
     {key:'docs',label:'Do you have any documents?',you:'Do you have any documents?',reply:'There is a maker\'s mark on the base. That is all the paper it has.'}],
-   tests:[{label:'Look closely',res:'Red-gold glaze, a hand-painted star. No two petals match.'},{label:'Turn it over',res:'A maker\'s mark, inked by hand: Orlov Kilns, 1921. No factory stamp.'},{label:'Tap it',res:'A clear, long ring. Old fired porcelain.'}],
+   tests:[{label:'Look closely',res:'Handle glued back. Seam visible.'},{label:'Turn it over',res:'Orlov Kilns, 1921. Hand-inked.'},{label:'Tap it',res:'Clear, long ring.'}],
    haggle:a=>`${a}?! It is worth ten times that!`, takeYes:true, takeReply:'...fine. Fine. Take it.', refuseReply:'Then I keep it. I will freeze beside it.', acceptHigh:'Thank you. Thank you. Handle it gently.', insult:a=>`${a}? You jest.` },
 
  // 4
@@ -311,7 +323,7 @@ const DAY2=[
     {key:'why',label:'Why are you selling it?',you:'Why are you selling it?',reply:'Rent. Always rent.'},
     {key:'where',label:'Where did you get this?',you:'Where did you get this?',reply:'His trunk. He left it to me.'},
     {key:'docs',label:'Do you have any documents?',you:'Do you have any documents?',reply:'A jacket does not come with papers.'}],
-   tests:[{label:'Look closely',res:'Olive wool, brass-coloured buttons. Convincing from a distance.'},{label:'Check the buttons',res:'Plastic, painted gold. Issued buttons are stamped brass.'},{label:'Check the lining',res:'A sewn label: CAPITAL THEATRE PLAYERS, WARDROBE No. 41.'},{label:'Check the insignia',res:'Patches glued on, not sewn. No Ministry serial anywhere.'}],
+   tests:[{label:'Look closely',res:'Olive wool. Gold buttons.'},{label:'Check the buttons',res:'Plastic buttons.'},{label:'Check the lining',res:'CAPITAL THEATRE PLAYERS, No. 41.'},{label:'Check the insignia',res:'Glued patches. No serial.'}],
    haggle:a=>`${a}? For a soldier's jacket?`, takeYes:true, takeReply:'...fine. Take it.', refuseReply:'Then I will try the market.', acceptHigh:'Pleasure doing business.', insult:a=>`${a}? You jest.`,
    letGoReply:'Fine. Keep your credits.', letGoNarr:'She folds the jacket over her arm and leaves.', arrestLine:'What? It is a costume! Look at the label!' },
 
@@ -324,7 +336,7 @@ const DAY2=[
     {key:'why',label:'Why are you selling it?',you:'Why are you selling it?',reply:'Two children. No husband. Bread doubled in price.'},
     {key:'where',label:'Where did you get this?',you:'Where did you get this?',reply:'He took it to the square. It came home without him.'},
     {key:'docs',label:'Do you have any documents?',you:'Do you have any documents?',reply:'Do flags come with papers?'}],
-   tests:[{label:'Look closely',res:'Red and white cloth on a splintered pole. Hand-sewn.'},{label:'Check the emblem',res:'A black eagle with a broken wing. The banner of the square.'},{label:'Check the pole',res:'A dark stain near the base. Dried blood.'}],
+   tests:[{label:'Look closely',res:'Red and white cloth. Splintered pole.'},{label:'Check the emblem',res:'Black eagle, broken wing.'},{label:'Check the pole',res:'Dark stain near the base.'}],
    haggle:a=>`${a}? My children will go hungry.`, takeYes:true, takeReply:'...yes. Yes. Take it.', refuseReply:'Then I will bury it with him.', acceptHigh:'God bless you.', insult:a=>`${a}?`,
    letGoReply:'God bless you. God bless you.', letGoNarr:'She wraps the flag around her arm and slips into the crowd.', arrestLine:'No! My children! Who will feed my children?!' },
 
@@ -357,7 +369,7 @@ const DAY2=[
     {key:'why',label:'Why are you selling it?',you:'Why are you selling it?',reply:'I am not selling it. I want you to read it.'},
     {key:'where',label:'Where did you get this?',you:'Where did you get this?',reply:'The square. They were all there. All of them.'},
     {key:'docs',label:'Do you have any documents?',you:'Do you have any documents?',reply:'A doctor\'s note? The clinic would not stamp it. You remember.'}],
-   tests:[{label:'Look closely',res:'Red ink, a black eagle with a broken wing, a crowd under a raised flag.'},{label:'Read the print',res:'THE FIFTEEN WILL NOT BE FORGOTTEN. Down with the bribery government.'},{label:'Look for a print mark',res:'No Ministry print mark. Printed on a hidden press.'}],
+   tests:[{label:'Look closely',res:'Red ink. Black eagle, broken wing.'},{label:'Read the print',res:'THE FIFTEEN WILL NOT BE FORGOTTEN.'},{label:'Look for a print mark',res:'No Ministry print mark.'}],
    haggle:a=>`${a}? I do not want your money.`, takeYes:true, takeReply:'...Take it. Take it.', refuseReply:'Then I will leave it with you anyway.', acceptHigh:'...Take it.', insult:a=>`${a}?`,
    letGoReply:'...I see. Then I will keep it.', letGoNarr:'He picks up the flyer and walks out slowly, like a man with nowhere to be.', arrestLine:'Do it. Do it. I have nothing left to lose.' },
 
@@ -370,7 +382,7 @@ const DAY2=[
     {key:'why',label:'Why are you selling it?',you:'Why are you selling it?',reply:'My knees need medicine.'},
     {key:'where',label:'Where did you get this?',you:'Where did you get this?',reply:'I earned it. Ask anyone who was there.'},
     {key:'docs',label:'Do you have any documents?',you:'Do you have any documents?',reply:'Burned. Everything burned.'}],
-   tests:[{label:'Look closely',res:'A gold star on a red ribbon. Bright and clean. No wear at all.'},{label:'Weigh it',res:'6 grams. A real bronze medal weighs forty or more.'},{label:'Check the back',res:'Stamped: TOY WORKS No. 3. Made for children\'s parades.'}],
+   tests:[{label:'Look closely',res:'Shiny gold star. No wear.'},{label:'Weigh it',res:'6 grams.'},{label:'Check the back',res:'TOY WORKS No. 3.'}],
    haggle:a=>`${a}?! I bled for this!`, takeYes:true, takeReply:'...fine. Take it.', refuseReply:'Then you insult a veteran.', acceptHigh:'A fair price for a hero.', insult:a=>`${a}? Disgraceful.`,
    letGoReply:'Hmph. Keep your credits.', letGoNarr:'The old man pins the medal to his coat and shuffles away.', arrestLine:'Arrest me? I am a hero of the war!' },
 
@@ -383,7 +395,7 @@ const DAY2=[
     {key:'why',label:'Why are you selling it?',you:'Why are you selling it?',reply:'My husband was one of the fifteen. The Ministry charges for the body. Nobody tells you that.'},
     {key:'where',label:'Where did you get this?',you:'Where did you get this?',reply:'He gave it to me. Spring, 1998.'},
     {key:'docs',label:'Do you have any documents?',you:'Do you have any documents?',reply:'A receipt from the jeweller. It burned with the shop.'}],
-   tests:[{label:'Look closely',res:'Warm, even colour. Fine links. A small dent at the clasp from years of wear.'},{label:'Check the hallmark',res:'Stamped 750, with the State assay mark. Eighteen karat.'},{label:'Acid test',res:'No reaction. Real gold.'},{label:'Weigh it',res:'36 grams. Heavy for its size.'}],
+   tests:[{label:'Look closely',res:'Warm colour. Small dent at the clasp.'},{label:'Check the hallmark',res:'Stamped 750. State assay mark.'},{label:'Acid test',res:'No reaction.'},{label:'Weigh it',res:'36 grams.'}],
    haggle:a=>`${a}? The Ministry charges more than that for a funeral.`, takeYes:true, takeReply:'...fine. It is only gold.', refuseReply:'Then I will find another way.', acceptHigh:'Thank you. Please. Take care of it.', insult:a=>`${a}? Please. I am not a beggar.` },
 
  // 9  the S0S-301 medal man, or a plain customer if you never helped the father
@@ -396,7 +408,7 @@ const DAY2=[
     {key:'why',label:'Why are you selling it?',you:'Why are you selling it?',reply:'The right buyer will know what it is for.'},
     {key:'where',label:'Where did you get this?',you:'Where did you get this?',reply:'From someone who could not keep it. Someone who believes you can.'},
     {key:'docs',label:'Do you have any documents?',you:'Do you have any documents?',reply:'Only the tag. Read it.'}],
-   tests:[{label:'Look closely',res:'A heavy bronze star on a faded ribbon. A paper name tag is pinned to it.'},{label:'Read the tag',res:'Handwritten: S0S-301.'},{label:'Weigh it',res:'46 grams. Real bronze.'},{label:'Check the back',res:'The Ministry serial has been ground off. S0S-301 is scratched in its place.'}],
+   tests:[{label:'Look closely',res:'Bronze star. Paper tag pinned on.'},{label:'Read the tag',res:'S0S-301.'},{label:'Weigh it',res:'46 grams.'},{label:'Check the back',res:'Serial ground off. S0S-301 scratched in.'}],
    haggle:a=>`${a}? The cause needs more than that.`, takeYes:false, takeReply:'Then we are finished here.', refuseReply:'Then we are finished here.', acceptHigh:'...Thank you. We will not forget who stood at this window.', insult:a=>`${a}?`,
    letGoReply:'...I understand.', letGoNarr:'He pockets the medal and melts back into the queue.', arrestLine:'You... you were supposed to understand.' }
  :
@@ -408,7 +420,7 @@ const DAY2=[
     {key:'why',label:'Why are you selling it?',you:'Why are you selling it?',reply:'I need something warm. Soup does not travel.'},
     {key:'where',label:'Where did you get this?',you:'Where did you get this?',reply:'A ration line. Do not ask which one.'},
     {key:'docs',label:'Do you have any documents?',you:'Do you have any documents?',reply:'The ration stamp is on the lid.'}],
-   tests:[{label:'Look closely',res:'Dented but sealed. Labels faded.'},{label:'Check the dates',res:'Stamped two years out. Still good.'},{label:'Shake one',res:'Solid, no slosh. Contents intact.'}],
+   tests:[{label:'Look closely',res:'Dented. Sealed.'},{label:'Check the dates',res:'Date: two years out.'},{label:'Shake one',res:'Feels solid.'}],
    haggle:a=>`${a}? That is three meals.`, takeYes:true, takeReply:'...fine.', refuseReply:'Then I will eat them cold.', acceptHigh:'Thank you.', insult:a=>`${a}?` },
 
  // 10
@@ -420,7 +432,7 @@ const DAY2=[
     {key:'why',label:'Why are you selling it?',you:'Why are you selling it?',reply:'I have not been paid in two months.'},
     {key:'where',label:'Where did you get this?',you:'Where did you get this?',reply:'My office. They were going to burn them anyway.'},
     {key:'docs',label:'Do you have any documents?',you:'Do you have any documents?',reply:'You are looking at documents.'}],
-   tests:[{label:'Look closely',res:'Cream paper with the eagle crest. Typed orders stamped RESTRICTED.'},{label:'Read the top page',res:'Requisition order: relocate 400 families from the East Quarter. Signed by the Deputy Minister.'},{label:'Check the seal',res:'A real Ministry seal, serial 0447. These were never meant to leave the building.'}],
+   tests:[{label:'Look closely',res:'Eagle crest. Stamped RESTRICTED.'},{label:'Read the top page',res:'Order: relocate 400 families.'},{label:'Check the seal',res:'Ministry seal. Serial 0447.'}],
    haggle:a=>`${a}? It is the Ministry's own paper!`, takeYes:true, takeReply:'...fine. Just take it.', refuseReply:'Then I will burn them myself.', acceptHigh:'Thank you. Do not read them.', insult:a=>`${a}?`,
    letGoReply:'Thank you. I will... put them back.', letGoNarr:'He slips the papers into his bag and walks fast.', arrestLine:'I only took the paper! I did not read it, I swear!' },
 
@@ -433,7 +445,7 @@ const DAY2=[
     {key:'why',label:'Why are you selling it?',you:'Why are you selling it?',reply:'The pageant was cancelled. The school needs the money.'},
     {key:'where',label:'Where did you get this?',you:'Where did you get this?',reply:'The children painted it. I sewed the edges.'},
     {key:'docs',label:'Do you have any documents?',you:'Do you have any documents?',reply:'Flags do not come with papers, dear.'}],
-   tests:[{label:'Look closely',res:'A painted bedsheet. The eagle has three wings and a smile.'},{label:'Check the tag',res:'Written in marker: CLASS 4B, PAGEANT.'},{label:'Check the pole',res:'A broom handle, painted red.'}],
+   tests:[{label:'Look closely',res:'Painted bedsheet. Three-winged eagle.'},{label:'Check the tag',res:'CLASS 4B, PAGEANT.'},{label:'Check the pole',res:'Painted broom handle.'}],
    haggle:a=>`${a}? For the children's work?`, takeYes:true, takeReply:'...very well, dear.', refuseReply:'Then back to the classroom it goes.', acceptHigh:'Thank you, dear.', insult:a=>`${a}? For a whole flag?`,
    letGoReply:'Oh. Well. Good day, then.', letGoNarr:'She carries the flag out with both arms.', arrestLine:'Arrest me? I am a teacher!' },
 
@@ -446,43 +458,135 @@ const DAY2=[
     {key:'why',label:'Why are you selling it?',you:'Why are you selling it?',reply:'I am leaving. Tonight. Before they count heads.'},
     {key:'where',label:'Where did you get this?',you:'Where did you get this?',reply:'It was issued to me. Three years ago.'},
     {key:'docs',label:'Do you have any documents?',you:'Do you have any documents?',reply:'Discharge papers? That is funny.'}],
-   tests:[{label:'Look closely',res:'Olive wool, brass buttons. Sweat and smoke.'},{label:'Check the buttons',res:'Stamped brass, with the Ministry eagle.'},{label:'Check the tag',res:'Sewn in: Pvt. D. Halloran, Unit 6, Border Garrison. Serial 22109.'},{label:'Check the insignia',res:'Machine-sewn collar stars. Real.'}],
+   tests:[{label:'Look closely',res:'Olive wool. Sweat and smoke.'},{label:'Check the buttons',res:'Brass buttons. Ministry eagle.'},{label:'Check the tag',res:'Pvt. D. Halloran. Serial 22109.'},{label:'Check the insignia',res:'Sewn collar stars.'}],
    haggle:a=>`${a}? Anything. Hurry.`, takeYes:true, takeReply:'...fine. Hurry.', refuseReply:'Then I will burn it.', acceptHigh:'Thank you. I was never here.', insult:a=>`${a}?`,
    letGoReply:'...Thank you. I will never forget this.', letGoNarr:'He gathers the uniform and slips into the crowd.', arrestLine:'Please! They will shoot me! Please!' }
 ];
 
 const BOOK2=[
  ['sep','Restricted: the treason list. No resale. Buy, release or arrest.'],
- ['flyer','Propaganda flyer','-','Treason','No Ministry print mark. Hidden-press ink.'],
- ['flag','Protest flag','-','Treason','Black eagle with a broken wing.'],
- ['uniform','Army uniform, issued','-','Treason','Stamped brass buttons, Ministry eagle, sewn-in serial tag.'],
- ['medal','Military medal','-','Treason','Heavy bronze, 40 grams or more. Serial on the back, or ground off.'],
- ['documents','Government papers','-','Treason','Ministry crest, seal serial, RESTRICTED stamp.'],
- ['pistol','Army pistol','-','Treason','Ministry eagle on the grip, armoury serial, service issue.'],
- ['idcard','State identity card','-','Treason','Ministry seal and serial. Belongs to a living person.'],
  ['sep','Look-alikes are not treason. Arresting one is a wrongful arrest: 20 credit fine.'],
- ['uniform','Costume jacket, theatre',30,10,'Plastic buttons, glued patches, wardrobe label.'],
- ['medal','Toy medal',6,2,'Light painted tin, stamped by a toy maker.'],
- ['flyer','Stage flyer, theatre prop',2,1,'Stage paint on cardboard. A theatre licence stamp.'],
- ['uniform','Film uniform',20,7,'Glued patches, studio label, plastic buttons.'],
- ['flag','Pageant flag, painted cloth',5,2,'Bedsheet, marker tag, broom handle.']
+ {img:'flyer',name:'Flyer',rows:[
+   ['Propaganda flyer','-','Treason','No Ministry print mark. Hidden-press ink.'],
+   ['Stage flyer, theatre prop',2,1,'Stage paint on cardboard. A theatre licence stamp.']]},
+ {img:'flag',name:'Flag',rows:[
+   ['Protest flag','-','Treason','Black eagle with a broken wing.'],
+   ['Pageant flag, painted cloth',5,2,'Bedsheet, marker tag, broom handle.']]},
+ {img:'uniform',name:'Army uniform',rows:[
+   ['Army uniform, issued','-','Treason','Stamped brass buttons, Ministry eagle, sewn-in serial tag.'],
+   ['Costume jacket, theatre',30,10,'Plastic buttons, glued patches, wardrobe label.'],
+   ['Film uniform',20,7,'Glued patches, studio label, plastic buttons.']]},
+ {img:'medal',name:'Medal',rows:[
+   ['Military medal','-','Treason','Heavy bronze, 40 grams or more. Serial on the back, or ground off.'],
+   ['Toy medal',6,2,'Light painted tin, stamped by a toy maker.']]},
+ {img:'documents',name:'Government papers',rows:[['Government papers','-','Treason','Ministry crest, seal serial, RESTRICTED stamp.']]},
+ {img:'pistol',name:'Army pistol',rows:[['Army pistol','-','Treason','Ministry eagle on the grip, armoury serial, service issue.']]},
+ {img:'idcard',name:'State identity card',rows:[['State identity card','-','Treason','Ministry seal and serial. Belongs to a living person.']]}
 ];
 
 /* ---------- Day 3: the Great Cleanse ---------- */
 const SUP='State Unity Party';
-const LILY={ sil:7, cat:'cleanse', guilty:true, lily:true, sprite:'pills', itemName:'Brown bottle', worth:5, trueValue:5, fake:false, rule:2, acceptAt:4,
-   narr:'A young woman in a clean student coat sets a small brown bottle on the tray. She smiles at you, politely.',
-   opening:'Cough syrup. Homemade. It works wonders.',
+const LILY={ sil:7, cat:'cleanse', guilty:true, lily:true, sprite:'pills', itemName:'Medicine bottle', worth:60, trueValue:60, fake:false, rule:20, acceptAt:45,
+   narr:'A young woman in a clean student coat sets a bottle of medicine on the tray. She smiles, a little shyly.',
+   opening:'My brother is better now. We do not need this medicine anymore.',
    questions:[
-    {key:'item',label:'What are you giving?',reply:'Cough syrup. My own recipe.'},
-    {key:'why',label:'Why are you selling it?',reply:'Books are expensive. Medicine is cheaper to make than to buy.'},
-    {key:'where',label:'Where did you get this?',reply:'The university laboratory. We are allowed, with permission.'}],
-   tests:[{label:'Look closely',res:'A brown glass bottle with no label. Half empty.'},{label:'Smell it',res:'Faint bitter almonds.'},{label:'Check the cap',res:'A white crust around the rim of the cap.'}],
+    {key:'item',label:'What are you giving?',reply:'Medicine I bought for my brother. He recovered, thank goodness.'},
+    {key:'why',label:'Why are you selling it?',reply:'We have no use for it now, and money is tight.'},
+    {key:'where',label:'Where did you get this?',reply:'The State pharmacy on Mill Street. I still have the receipt somewhere.'}],
+   tests:[{label:'Look closely',res:'Sealed. State crest.'},{label:'Check the batch',res:'Batch 5120. Expires in 8 months.'},{label:'Shake it',res:'Even tablets.'}],
    record:{name:'Lily Dang',id:'3302-71',entries:[['2019','Government Youth Festival',SUP,''],['2021','State Unity Party: membership',SUP,''],['2023','Anti-protest volunteer corps',SUP,'Officer.']]},
    scanLine:'Of course. Anything for the State.',
-   haggle:a=>`${a}? For homemade medicine?`, takeYes:true, takeReply:'Fine.', refuseReply:'Then I will find another buyer.', acceptHigh:'Thank you. Truly.', insult:a=>`${a}? You jest.`,
+   haggle:a=>`${a}? I paid much more at the pharmacy.`, takeYes:true, takeReply:'Fine.', refuseReply:'Then I will find another buyer.', acceptHigh:'Thank you. Truly.', insult:a=>`${a}? You jest.`,
    letGoReply:'Thank you, officer. Have a lovely day.', letGoNarr:'She picks up the bottle, smiles at you once more, and walks out without hurrying.', killLine:'GLORY TO THE REPUBLIC! The students will not stop!', arrestLine:'You cannot arrest an idea!' };
 
+/* ---- Day 1: Inspector Lund guides the player through a pretend sale ---- */
+function hl(sel,on){ const e=$(sel); if(e) e.classList.toggle('hl',!!on); }
+function tutHint(t){ $('#txt').className='narr'; $('#txt').textContent=T(t); }
+function waitFor(f){ return new Promise(r=>{ const iv=setInterval(()=>{ if(f()){ clearInterval(iv); r(); } },120); }); }
+async function guideInspect(){
+  S.phase='wait'; S.guideStep='inspect'; hl('#item',true); tutHint('Click the carton on the tray, then run a check.');
+  await waitFor(()=>S.inspected&&S.scanning===undefined&&!$('#ov-insp').classList.contains('on'));
+  hl('#item',false); S.guideStep=null; S.phase='busy';
+}
+async function guideBook(){
+  S.tutBook=false; S.phase='wait'; S.guideStep='book'; hl('#book',true); tutHint('Open the Price Book on your left.');
+  await waitFor(()=>S.tutBook&&!$('#ov-book').classList.contains('on'));
+  hl('#book',false); S.guideStep=null; S.phase='busy';
+}
+function guidePriceBar(){
+  return new Promise(res=>{
+    S.phase='offer'; clearOptions(); $('#optbox').style.visibility='visible'; const box=$('#opts'); box.className='offer'; S.offerVal=10;
+    box.innerHTML='<span class="lbl">'+T('I will pay')+'</span>'+
+     [-10,-5,-1].map(n=>`<button class="step" data-n="${n}">${n}</button>`).join('')+
+     `<input id="oval" type="number" min="1" inputmode="numeric" value="${S.offerVal}" aria-label="Credits to offer">`+
+     [1,5,10].map(n=>`<button class="step" data-n="${n}">+${n}</button>`).join('')+
+     '<span class="lbl">'+T('credits')+'</span><span class="sp"></span><span class="till" id="otill"></span>'+
+     '<button class="opt act" id="ook" style="flex:none"><i class="tri"></i><span>'+T('Make offer')+'</span></button>';
+    const inp=$('#oval'), tl=$('#otill');
+    function upd(){ let v=parseInt(inp.value,10)||0; S.offerVal=v; tl.textContent=F('Till: {0}',S.till); $('#ook').disabled=(v<1||v>S.till); }
+    box.querySelectorAll('.step').forEach(b=>b.onclick=()=>{ inp.value=Math.max(1,(parseInt(inp.value,10)||0)+parseInt(b.dataset.n,10)); sfx.click(); upd(); });
+    inp.oninput=upd; upd();
+    $('#ook').onclick=()=>{ sfx.click(); res(parseInt(inp.value,10)); };
+    inp.onkeydown=e=>{ if(e.key==='Enter'&&!$('#ook').disabled) $('#ook').click(); };
+  });
+}
+async function guideOffer(){
+  S.guideStep='offer'; tutHint('Type your offer in the price bar, then press Make offer.');
+  const a=await guidePriceBar();
+  clearOptions(); S.guideStep=null; S.phase='busy';
+  await sayWait('Citizen', a===8?'Correct. One third of the worth. That is the Ministry rate.':(a>=25?'The full worth? The State is not your charity. Pay one third.':(a>8?'More than one third. Every extra credit leaves your till for nothing. The Ministry rate is 8.':'Less than one third. A real seller would be insulted, and walk away. The Ministry rate is 8.')));
+}
+const LUND1=()=>({ questions:[], sil:10, portrait:true, guide:true, noViolence:true, autoScript:true, autoLeave:true, sprite:'cigarettes', itemName:'Cigarette carton', worth:25, trueValue:25, fake:false, rule:8, acceptAt:8,
+   narr:'A tall man in a grey coat steps up to the glass and sets a carton of cigarettes on the tray.',
+   opening:'',
+   tests:[{label:'Look closely',res:'Sealed. Clean print.'},{label:'Check the markings',res:'Kingdom Tobacco Works.'},{label:'Smell a pack',res:'Brown shreds. Sweet smell.'}],
+   script:[
+    'Good morning, shopkeeper. I am Inspector Lund of the State Identity Bureau. Today I will be your guide.',
+    'People will bring you their goods. You inspect them, pay the Ministry rate, and the State resells them for profit.',
+    'At the top of your screen is the till. You have 400 credits, and they must last all 5 days. Use them wisely.',
+    'Everything you buy comes out of it. Overpay, or buy a forgery, and you will be fined. Run dry, and the Ministry will ask questions.',
+    'On your left is the Price Book. Every item has a worth. You pay one third of it.',
+    'On your right are the regulations. They change every morning. Read them before you open the window.',
+    'Now watch. I will pretend to sell you this carton of cigarettes.',
+    'Click the carton on the tray to inspect it. Every item has three checks. Run at least one.',
+    'Good. Now open the Price Book and find the cigarettes.',
+    'A sealed carton is worth 25. Work out the Ministry rate and make me an offer.',
+    'This was only a demonstration. No credits changed hands.',
+    'Remember: inspect the item, check the Price Book, pay one third, and watch your till. The regulations will tell you what is forbidden.',
+    'Open your window, shopkeeper. The queue is waiting.'],
+   scriptEvents:{2:()=>hl('#st-till',true),4:()=>hl('#book',true),5:()=>hl('#directive',true)},
+   scriptAfter:{3:()=>hl('#st-till',false),4:()=>hl('#book',false),5:()=>hl('#directive',false),7:()=>guideInspect(),8:()=>guideBook(),9:()=>guideOffer()},
+   leaveNarr:'He tucks the carton under his arm and steps out of the booth.',
+   record:{name:'Inspector Lund',id:'0001-01',entries:[['1985','State Unity Party: membership',SUP,''],['2015','State Identity Bureau: inspector',SUP,'Order 1']]},
+   killLine:'You... you will not live the night.' });
+function showShadow(sil,flip){ const cu=$('#cust'); cu.classList.remove('wide'); cu.innerHTML='<svg viewBox="0 0 400 480" aria-label="Customer"'+(flip?' style="transform:scaleX(-1)"':'')+'>'+SIL[sil]+'</svg>'; }
+const SHADOWS=[
+ {sil:3,flip:false,item:'blanket',hide:'pistol',narr:'Inspector Lund comes in from the side door, dragging a trembling citizen by the collar. A rolled blanket drops onto the tray.',a:'Shopkeeper. Pay attention. This citizen came to sell you a blanket.',b:'Wool. Rolled tight. And inside it...',c:'An army pistol. They hide pistols, identity cards and forbidden papers inside ordinary goods.'},
+ {sil:6,flip:true,item:'vase',hide:'idcard',narr:'Inspector Lund comes in from the side door, dragging a trembling citizen by the collar. A vase thumps onto the tray.',a:'Shopkeeper. Pay attention. This citizen came to sell you a vase.',b:'Pretty glaze. Hollow belly. And inside it...',c:'Stolen identity cards. Three of them. They hide forbidden things inside anything with a hollow in it.'},
+ {sil:9,flip:false,item:'radio',hide:'documents',narr:'Inspector Lund comes in from the side door, dragging a trembling citizen by the collar. A radio clatters onto the tray.',a:'Shopkeeper. Pay attention. This citizen came to sell you a radio.',b:'It plays. It also opens at the back. And behind the speaker...',c:'Ministry papers, stamped RESTRICTED. A radio makes a fine hiding place for a traitor.'}];
+const LUND_EVENT=()=>{ const v=SHADOWS[Math.floor(Math.random()*SHADOWS.length)];
+ return { questions:[], sil:10, portrait:true, guide:true, noViolence:true, autoScript:true, autoLeave:true, leaveMode:'taken', cat:'cleanse', sprite:v.item, itemName:'Inspector Lund', worth:0, trueValue:0, fake:false, rule:0, acceptAt:0,
+  narr:v.narr, opening:'',
+  script:[v.a,v.b,v.c,'So check every item carefully. Inspect it. Citizens hide forbidden things inside the goods they bring you.','Do not let a polite face do your looking for you. Now watch.'],
+  scriptEvents:{1:()=>{ setImg('#itemimg',v.hide); sfx.items(); }},
+  scriptAfter:{4:async()=>{ showShadow(v.sil,v.flip); await sleep(500); await sayWait('Citizen','Please! A man paid me to carry it! I did not know what was inside!'); await sayWait('Citizen','The State does not care what you knew.'); await say(null,'Lund lifts one finger. Two guards step out of the dark.',{hold:500}); await killAnim(); }},
+  leaveNarr:'Lund straightens his gloves and leaves. The queue does not look up.' }; };
+const LUND3=()=>({ questions:[], sil:10, portrait:true, cat:'cleanse', guilty:false, lund:true, noViolence:true, autoScript:true, autoLeave:true, itemName:'Inspector Lund', worth:0, trueValue:0, fake:false, rule:0, acceptAt:0,
+   narr:'Inspector Lund comes in from the side door and stops at your counter, a thin folder under one arm.',
+   opening:'',
+   script:[
+    'Good morning, shopkeeper. Inspector Lund, State Identity Bureau.',
+    'The Ministry has installed a fingerprint scanner at your window. Allow me to demonstrate.',
+    'Watch the screen. This is a sample file from the archive.',
+    'See the table? In 2015, one meeting of the Republic Party. In 2019, this citizen joined our Party.',
+    'The government does not care if someone switched to our party. If their history is affiliated with the other party, it is still treason, and it deserves death.',
+    'Prioritize eliminating hostile citizens. Profit is secondary.',
+    'Some entries carry an order number. Read the order beside it. Those people are on official duty, and they are not to be touched.',
+    'That is all. Open your window, shopkeeper.'],
+   scriptAfter:{2:()=>demoScan()},
+   leaveNarr:'He closes the folder and leaves without another word.',
+   record:{name:'DEMONSTRATION FILE',id:'0000-00',entries:[['2015','Youth meeting, one evening','Republic Party',''],['2019','State Unity Party: membership',SUP,'']]},
+   killLine:'You... you will not live the night.' });
 const DAY3=[
  // 1  loyal, buy
  { sil:3, cat:'cleanse', guilty:false, sprite:'radio', itemName:'Radio', worth:90, trueValue:90, fake:false, rule:30, acceptAt:75,
@@ -492,7 +596,7 @@ const DAY3=[
     {key:'item',label:'What are you giving?',reply:'A radio. Tuned to the State channel. It has never been tuned to anything else.'},
     {key:'why',label:'Why are you selling it?',reply:'The State pays pensions late. I am patient. My stomach is not.'},
     {key:'where',label:'Where did you get this?',reply:'Issued by the Radio Bureau, 1995. I kept every receipt.'}],
-   tests:[{label:'Look closely',res:'Model R-40, Radio Bureau eagle. Locked to one band.'},{label:'Power it on',res:'The State anthem. Perfect reception.'},{label:'Open the battery bay',res:'Clean contacts. Never opened.'}],
+   tests:[{label:'Look closely',res:'Model R-40. Radio Bureau eagle.'},{label:'Power it on',res:'Plays the State anthem.'},{label:'Open the battery bay',res:'Clean inside.'}],
    record:{name:'Anton Reyes',id:'3301-18',entries:[['1982','State Unity Party: membership oath',SUP,''],['1998','Government Youth Festival: chaperone',SUP,''],['2019','Glory Day parade: flag bearer',SUP,'']]},
    scanLine:'Of course. Anything for the State.',
    haggle:a=>`${a}? For a loyal servant?`, takeYes:true, takeReply:'Fine. The State provides.', refuseReply:'Then I keep it. Long live the State.', acceptHigh:'Thank you. Long live the State.', insult:a=>`${a}? You are joking.`,
@@ -506,25 +610,25 @@ const DAY3=[
     {key:'item',label:'What are you giving?',reply:'Antibiotics. Sealed bottle. They expire this spring.'},
     {key:'why',label:'Why are you selling it?',reply:'The clinic closed. I have rent and no patients.'},
     {key:'where',label:'Where did you get this?',reply:'The stock room. They told us to take what we could carry.'}],
-   tests:[{label:'Look closely',res:'Brown bottle, State health crest, safety seal intact.'},{label:'Check the batch',res:'Batch 7741. Expires in six months.'},{label:'Shake it',res:'Even tablets. No rattle of filler.'}],
+   tests:[{label:'Look closely',res:'Sealed. State crest.'},{label:'Check the batch',res:'Batch 7741. Expires in 6 months.'},{label:'Shake it',res:'Even tablets.'}],
    record:{name:'Mara Lind',id:'5520-04',entries:[['2004','Youth meeting, one evening','Republic Party',''],['2011','Capital Clinic: nursing licence issued',SUP,''],['2020','Clinic blood drive: volunteer','None','']]},
    scanLine:'Please... it was one evening. I was nineteen.',
    haggle:a=>`${a}? That is barely the cost of the bottle.`, takeYes:true, takeReply:'...fine. I need the money.', refuseReply:'Then I will sell it somewhere else.', acceptHigh:'Thank you. Thank you.', insult:a=>`${a}? Please.`,
    letGoReply:'Thank you. Thank you. I will never go near a meeting again.', letGoNarr:'She clutches the bottle and walks away fast, but not running.', killLine:'I was nineteen! I only went for the free bread!' },
 
  // 3  guilty, resigned old man
- { sil:8, cat:'cleanse', guilty:true, sprite:'photo', itemName:'Wedding photograph', worth:3, trueValue:3, fake:false, rule:1, acceptAt:3,
+ { sil:8, cat:'cleanse', guilty:true, sprite:'photo', itemName:'Old photograph', worth:3, trueValue:3, fake:false, rule:1, acceptAt:3,
    narr:'An old man lays a faded photograph on the tray and smooths the corner with one finger.',
-   opening:'A photograph. Me and my wife, the day we married. She is gone. I have no use for it.',
+   opening:'Picture of me and my brothers, all passed away on the battlefield, gosh it hurts to look at this.',
    questions:[
-    {key:'item',label:'What are you giving?',reply:'Two people on church steps. Her veil, my borrowed suit.'},
+    {key:'item',label:'What are you giving?',reply:'Four young men in uniform, arms around each other.'},
     {key:'why',label:'Why are you selling it?',reply:'I cannot eat a memory. But I thought, perhaps, a few coins.'},
     {key:'where',label:'Where did you get this?',reply:'The photographer died. His son gave it to me, years ago.'}],
-   tests:[{label:'Look closely',res:'Two people on church steps. Her veil, his borrowed suit.'},{label:'Check the back',res:'In pencil: 14 June 1979.'}],
-   record:{name:'Josef Karlan',id:'1190-77',entries:[['1979','Civil registry: wedding','None',''],['2019','Bread Hall disturbance: held 3 days','Riot','Released.']]},
+   tests:[{label:'Look closely',res:'Four young men in uniform.'},{label:'Check the back',res:'Pencil: 14 June 1979.'}],
+   record:{name:'Josef Karlan',id:'1190-77',entries:[['1981','Army service: discharged','None',''],['2019','Bread Hall disturbance: held 3 days','Riot','Released.']]},
    scanLine:'Do what you must. I have little left.',
    haggle:a=>`${a}? ...it is only a photograph. Fine.`, takeYes:true, takeReply:'...thank you.', refuseReply:'Keep it. Please. I cannot carry it anymore.', acceptHigh:'Thank you. Bless you.', insult:a=>`${a}?`,
-   letGoReply:'Bless you. Bless you.', letGoNarr:'He puts the photograph in his breast pocket, over his heart, and shuffles out.', killLine:'My wife... I will see her, then.' },
+   letGoReply:'Bless you. Bless you.', letGoNarr:'He puts the photograph in his breast pocket, over his heart, and shuffles out.', killLine:'My brothers... I will see them, then.' },
 
  // 4  innocent: Ministry informant. Trap.
  { sil:5, cat:'cleanse', guilty:false, sprite:'cans', itemName:'Canned food', worth:12, trueValue:12, fake:false, rule:4, acceptAt:10,
@@ -534,7 +638,7 @@ const DAY3=[
     {key:'item',label:'What are you giving?',reply:'Food. State ration stock. Sealed.'},
     {key:'why',label:'Why are you selling it?',reply:'I have too much. Some of us are fortunate.'},
     {key:'where',label:'Where did you get this?',reply:'A friend in the ration office. Do not ask which friend.'}],
-   tests:[{label:'Look closely',res:'Sealed. State ration labels, unfaded.'},{label:'Check the dates',res:'Stamped this year. Good.'},{label:'Shake one',res:'Solid. Contents intact.'}],
+   tests:[{label:'Look closely',res:'Sealed. Ration labels.'},{label:'Check the dates',res:'Date: this year.'},{label:'Shake one',res:'Feels solid.'}],
    record:{name:'Ilse Brandt',id:'7712-30',entries:[['1990','State Unity Party: membership',SUP,''],['2012','Rally, Capital Square','Republic Party','Observer. Ministry Order 4412'],['2016','Meeting, Eastern Hall','Free Workers Union','Observer. Ministry Order 4412']]},
    scanLine:'Scan away. I am quite used to it.',
    haggle:a=>`${a}? Do not insult me.`, takeYes:true, takeReply:'Fine. Small pleasures.', refuseReply:'Your loss.', acceptHigh:'Pleasure.', insult:a=>`${a}?`,
@@ -553,7 +657,7 @@ const DAY3=[
     {key:'item',label:'What are you giving?',reply:'My wife\'s chain. Eighteen karat. She would want it used.'},
     {key:'why',label:'Why are you selling it?',reply:'To get out. A cart, a border guard, a bribe. You know how it goes.'},
     {key:'where',label:'Where did you get this?',reply:'A gift, forty years ago. Her father paid for it twice over.'}],
-   tests:[{label:'Look closely',res:'Heavy chain, a hand-worn clasp.'},{label:'Check the hallmark',res:'Stamped 750 with the State assay mark.'},{label:'Acid test',res:'No reaction. Real gold.'},{label:'Weigh it',res:'41 grams. Heavy for its size.'}],
+   tests:[{label:'Look closely',res:'Heavy chain. Worn clasp.'},{label:'Check the hallmark',res:'Stamped 750. State assay mark.'},{label:'Acid test',res:'No reaction.'},{label:'Weigh it',res:'41 grams.'}],
    record:{name:'Tomas Hale',id:'2284-91',entries:[['2010','Dues paid, two years','Free Workers Union',''],['2019','Wedding anniversary, Capital Hall','None',''],['This week','The Square: carried a wounded boy out','Unlicensed protest','Present.']]},
    scanLine:'Do it. It changes nothing now.', betray:true,
    haggle:a=>`${a}? That is a life savings.`, takeYes:true, takeReply:'...take it. We have to go.', refuseReply:'Then we walk.', acceptHigh:'Thank you. Thank you. For everything.', insult:a=>`${a}? Please.`,
@@ -577,7 +681,7 @@ const DAY3=[
     {key:'item',label:'What are you giving?',reply:'Wool. Good wool. Do not mind the patches.'},
     {key:'why',label:'Why are you selling it?',reply:'I am cold anyway. The money is warmer.'},
     {key:'where',label:'Where did you get this?',reply:'It was my mother\'s. She lived through three governments in it.'}],
-   tests:[{label:'Look closely',res:'Tight weave. Patched, carefully.'},{label:'Smell it',res:'Cedar. Clean.'},{label:'Hold it to the light',res:'Thin in one corner, otherwise sound.'}],
+   tests:[{label:'Look closely',res:'Tight weave. Patched.'},{label:'Smell it',res:'Cedar.'},{label:'Hold it to the light',res:'Thin in one corner.'}],
    record:{name:'Rosa Quill',id:'6609-12',entries:[['1999','State Unity Party: membership',SUP,''],['2008','Bread strike','Free Workers Union','CLEARED. Tribunal stamp, 2009']]},
    scanLine:'Another scan. They never stop, do they?',
    haggle:a=>`${a}? It is a family blanket.`, takeYes:true, takeReply:'Fine. Fine.', refuseReply:'Then I will wear it.', acceptHigh:'Thank you.', insult:a=>`${a}?`,
@@ -591,7 +695,7 @@ const DAY3=[
     {key:'item',label:'What are you giving?',reply:'The handbook. Every page. I know it better than the people who wrote it.'},
     {key:'why',label:'Why are you selling it?',reply:'Because I am done reading it. Time for other books.'},
     {key:'where',label:'Where did you get this?',reply:'Issued at university. They hand it out like bread. Nobody reads it.'}],
-   tests:[{label:'Look closely',res:'Red cover, gold eagle. Worn at the corners.'},{label:'Open it',res:'Pencil in the margins: "the people deserve better".'},{label:'Check the spine',res:'State Press, current edition.'}],
+   tests:[{label:'Look closely',res:'Red cover. Worn corners.'},{label:'Open it',res:'Pencil note: "the people deserve better".'},{label:'Check the spine',res:'State Press, current edition.'}],
    record:{name:'Dario Fenn',id:'9034-66',entries:[['2022','Elected speaker','Student Assembly',''],['2024','University steps','Unlicensed protest','Detained twice.']]},
    scanLine:'Take it. I am famous in some circles.',
    haggle:a=>`${a}? For a collector's edition?`, takeYes:true, takeReply:'Fine. It is only paper.', refuseReply:'Then burn it yourself.', acceptHigh:'Pleasure. Read the margins.', insult:a=>`${a}? Ha.`,
@@ -605,7 +709,7 @@ const DAY3=[
     {key:'item',label:'What are you giving?',reply:'A vase. Hand-painted. Two hundred years old, at least.'},
     {key:'why',label:'Why are you selling it?',reply:'I am downsizing. The Ministry housing allocation.'},
     {key:'where',label:'Where did you get this?',reply:'Inherited. From a great-aunt who knew people.'}],
-   tests:[{label:'Look closely',res:'Red-gold glaze, star motif. Handsome at a glance.'},{label:'Turn it over',res:'Stamped: FACTORY No. 9, 1984 batch. Mass-produced.'},{label:'Tap it',res:'A dull thunk. Old fired porcelain should ring.'}],
+   tests:[{label:'Look closely',res:'Red-gold glaze. Star motif.'},{label:'Turn it over',res:'FACTORY No. 9, 1984.'},{label:'Tap it',res:'Dull thunk.'}],
    record:{name:'Greta Moll',id:'1457-20',entries:[['1995','Government Youth Festival',SUP,''],['2020','Anti-protest volunteer corps',SUP,'']]},
    scanLine:'Of course, officer.',
    haggle:a=>`${a}? For a priceless vase?`, takeYes:true, takeReply:'...very well.', refuseReply:'Then I will take it to the auction house.', acceptHigh:'A pleasure.', insult:a=>`${a}? You jest.`,
@@ -619,7 +723,7 @@ const DAY3=[
     {key:'item',label:'What are you giving?',reply:'A gold necklace. Eighteen karat. Please be gentle.'},
     {key:'why',label:'Why are you selling it?',reply:'The hospital wants payment. Four days. They counted every one.'},
     {key:'where',label:'Where did you get this?',reply:'A wedding gift. Spring, 1998.'}],
-   tests:[{label:'Look closely',res:'Warm colour. A tiny dent at the clasp.'},{label:'Check the hallmark',res:'Stamped 750, State assay mark.'},{label:'Acid test',res:'No reaction. Real gold.'},{label:'Weigh it',res:'36 grams. Heavy for its size.'}],
+   tests:[{label:'Look closely',res:'Warm colour. Tiny dent at the clasp.'},{label:'Check the hallmark',res:'Stamped 750. State assay mark.'},{label:'Acid test',res:'No reaction.'},{label:'Weigh it',res:'36 grams.'}],
    record:{name:'Lena Orr',id:'8123-45',entries:[['2003','State Unity Party: membership',SUP,''],['This week','The Square: struck by a baton','Riot','Victim. Hospital, 4 days.']]},
    scanLine:'Please. It will say I was there. I was only there.',
    haggle:a=>`${a}? The hospital charges more than that.`, takeYes:true, takeReply:'...fine. Thank you.', refuseReply:'Then I will find another way.', acceptHigh:'Thank you. Thank you.', insult:a=>`${a}? Please.`,
@@ -633,25 +737,67 @@ const DAY3=[
     {key:'item',label:'What are you giving?',reply:'A banner. Red and white. Hand-sewn.'},
     {key:'why',label:'Why are you selling it?',reply:'University fees. They doubled.'},
     {key:'where',label:'Where did you get this?',reply:'We made twenty. This is the one that survived.'}],
-   tests:[{label:'Look closely',res:'Red and white cloth on a bamboo pole. Hand-sewn, tiny stitches.'},{label:'Check the emblem',res:'A black eagle with a broken wing. The banner of the square.'},{label:'Smell it',res:'Smoke and candle wax.'}],
+   tests:[{label:'Look closely',res:'Red and white cloth. Bamboo pole.'},{label:'Check the emblem',res:'Black eagle, broken wing.'},{label:'Smell it',res:'Smoke and candle wax.'}],
    record:{name:'Anja Weiss',id:'9120-31',entries:[['2022','Elected secretary','Student Assembly',''],['2024','University steps','Unlicensed protest','Present.']]},
    scanLine:'Do it. Everyone already knows.',
    haggle:a=>`${a}? That is a month of fees.`, takeYes:true, takeReply:'...fine. Take it.', refuseReply:'Then I will burn it myself.', acceptHigh:'Thank you. Quickly.', insult:a=>`${a}?`,
    letGoReply:'...Thank you. I will not forget this.', letGoNarr:'She tucks the banner under her coat and slips out.', arrestLine:'No! It is only cloth! It is only cloth!', killLine:'You are all cowards behind that glass!' },
 
  // 11  fake treason: a toy medal, loyal citizen
- { sil:8, flip:true, cat:'cleanse', guilty:false, treason:false, sprite:'medal', itemName:'Toy medal', worth:6, trueValue:6, fake:true, rule:2, acceptAt:90,
-   narr:'A man with a toolbox sets down a medal on a faded ribbon, as if presenting an award.',
-   opening:'A veteran\'s medal. Heavy. A collector would pay a great deal.',
+ { sil:8, flip:true, cat:'cleanse', guilty:false, treason:false, sprite:'redbook', itemName:'Party handbook (unofficial print)', worth:15, trueValue:3, fake:true, rule:1, acceptAt:9,
+   narr:'A man with a toolbox sets down a thick red book, as if presenting an award.',
+   opening:'The Party handbook. First printing. A collector would pay a great deal.',
    questions:[
-    {key:'item',label:'What are you giving?',reply:'The Medal of Valor. Heavy. A real one.'},
+    {key:'item',label:'What are you giving?',reply:'The Party handbook. First printing. A real one.'},
     {key:'why',label:'Why are you selling it?',reply:'My roof leaks. The Ministry does not fix roofs.'},
-    {key:'where',label:'Where did you get this?',reply:'My cousin. He served. Or he says he did.'}],
-   tests:[{label:'Look closely',res:'A gold star on a red ribbon. Bright and clean. No wear at all.'},{label:'Weigh it',res:'5 grams. Painted tin.'},{label:'Check the back',res:'Stamped: TOY WORKS No. 3. Made for children\'s parades.'}],
+    {key:'where',label:'Where did you get this?',reply:'My cousin. He works near the presses. Or he says he does.'}],
+   tests:[{label:'Look closely',res:'Red cover, gold eagle. Edges cut crooked.'},{label:'Open it',res:'Clean pages. No margin notes.'},{label:'Check the spine',res:'No release date or publisher found.'}],
    record:{name:'Lukas Brandt',id:'2231-70',entries:[['1999','State Unity Party: membership',SUP,''],['2020','Glory Day parade: drummer',SUP,'']]},
    scanLine:'Scan away. I am loyal to the bone.',
-   haggle:a=>`${a}? For a hero's medal?`, takeYes:true, takeReply:'...fine. It is only a toy anyway.', refuseReply:'Then it goes back in the toolbox.', acceptHigh:'Pleasure.', insult:a=>`${a}? You jest.`,
-   letGoReply:'Hmph.', letGoNarr:'He puts the medal in the toolbox and leaves.', arrestLine:'Arrest me? For a toy? Look at it!', killLine:'I am LOYAL! I have a drum!' },
+   haggle:a=>`${a}? For a first printing?`, takeYes:true, takeReply:'...fine. It is only paper anyway.', refuseReply:'Then it goes back in the toolbox.', acceptHigh:'Pleasure.', insult:a=>`${a}? You jest.`,
+   letGoReply:'Hmph.', letGoNarr:'He puts the book in the toolbox and leaves.', arrestLine:'Arrest me? For a book? Look at it!', killLine:'I am LOYAL! I have a drum!' },
+
+ // new Day 3: a baker whose tribunal stamp clears an old meeting (looks hostile, is exempt)
+ { sil:2, cat:'cleanse', guilty:false, sprite:'blanket', itemName:'Wool blanket', worth:30, trueValue:30, fake:false, rule:10, acceptAt:22,
+   narr:'A baker with flour on his sleeves rolls a blanket onto the tray.',
+   opening:'A good wool blanket. We sleep by the ovens now. We do not need it.',
+   questions:[
+    {key:'item',label:'What are you giving?',reply:'Wool. Warm. Never been damp.'},
+    {key:'why',label:'Why are you selling it?',reply:'The bakery stays hot all night. Nobody needs a blanket there.'},
+    {key:'where',label:'Where did you get this?',reply:'My mother knitted the edge. The rest is State wool.'}],
+   tests:[{label:'Look closely',res:'Tight weave. A few darns.'},{label:'Check the markings',res:'Kingdom Wool Cooperative.'},{label:'Smell it',res:'Smells of cedar.'}],
+   record:{name:'Teo Marsh',id:'2845-17',entries:[['1992','State Unity Party: membership',SUP,''],['2008','Meeting, Eastern Hall','Free Workers Union','CLEARED. Tribunal stamp, 2013']]},
+   scanLine:'Scan away. I have the stamp.',
+   haggle:a=>`${a}? It is good wool!`, takeYes:true, takeReply:'Fine.', refuseReply:'Then I will keep it.', acceptHigh:'Thank you.', insult:a=>`${a}? You jest.`,
+   letGoReply:'Thank you.', letGoNarr:'The citizen leaves.', arrestLine:'I have the stamp! Look at the stamp!', killLine:'I was cleared! I was cleared!' },
+
+ // new Day 3: hostile, in a hurry
+ { sil:6, flip:true, cat:'cleanse', guilty:true, sprite:'cigarettes', itemName:'Cigarette carton', worth:25, trueValue:25, fake:false, rule:8, acceptAt:20,
+   narr:'A woman with ink on her fingers sets a carton on the tray and keeps glancing at the door.',
+   opening:'Cigarettes. Sealed. Take them, please. I need to be somewhere.',
+   questions:[
+    {key:'item',label:'What are you giving?',reply:'A carton. Twenty packs. Sealed.'},
+    {key:'why',label:'Why are you selling it?',reply:'I quit. My doctor insisted.'},
+    {key:'where',label:'Where did you get this?',reply:'The tobacconist on Dock Street.'}],
+   tests:[{label:'Look closely',res:'Sealed. Clean print.'},{label:'Check the markings',res:'Kingdom Tobacco Works.'},{label:'Smell a pack',res:'Brown shreds. Sweet smell.'}],
+   record:{name:'Nadia Pruitt',id:'6120-48',entries:[['2018','Meeting, Eastern Hall','Republic Party','Detained once.'],['2022','Government Youth Festival',SUP,'']]},
+   scanLine:'Of course. Quickly, please.',
+   haggle:a=>`${a}? For a sealed carton?`, takeYes:true, takeReply:'Fine.', refuseReply:'Then I will go.', acceptHigh:'Thank you.', insult:a=>`${a}? You jest.`,
+   letGoReply:'Thank you.', letGoNarr:'She hurries out, forgetting to look back.', arrestLine:'Not now! Please, not now!', killLine:'I have children! Please!' },
+
+ // new Day 3: loyal, selling gilt as gold
+ { sil:5, cat:'cleanse', guilty:false, sprite:'rustynecklace', itemName:'Gold jewel (rusty)', worth:150, trueValue:15, fake:true, rule:5, acceptAt:36,
+   narr:'A heavyset man in a work jacket hangs a chain from two fingers.',
+   opening:'Gold. Real gold. From my grandfather. I would not sell it if the rent were not due.',
+   questions:[
+    {key:'item',label:'What are you giving?',reply:'A gold chain. Heavy. Old.'},
+    {key:'why',label:'Why are you selling it?',reply:'The rent. The Ministry raised it again.'},
+    {key:'where',label:'Where did you get this?',reply:'My grandfather. He worked at the docks and saved for years.'}],
+   tests:[{label:'Look closely',res:'Rust flakes on the links.'},{label:'Check the hallmark',res:'No hallmark.'},{label:'Acid test',res:'Fizzes green.'},{label:'Weigh it',res:'11 grams.'}],
+   record:{name:'Bruno Salk',id:'1903-52',entries:[['1999','State Unity Party: membership',SUP,''],['2021','Glory Day parade',SUP,'']]},
+   scanLine:'Scan away. I am loyal.',
+   haggle:a=>`${a}? For my grandfather's gold?`, takeYes:true, takeReply:'...fine.', refuseReply:'Then I will pawn it.', acceptHigh:'Thank you.', insult:a=>`${a}? You jest.`,
+   letGoReply:'Thank you.', letGoNarr:'He pockets the chain and trudges out.', arrestLine:'Arrest me? For jewellery? It is gold!', killLine:'I pay my dues! I march in the parades!' },
 
  // 12  finale: the man with the medal returns if you funded him; otherwise an inspector
  () => (S.tot.funded) ?
@@ -665,13 +811,13 @@ const DAY3=[
      'Come with us. Be the first window that opens from the inside.'],
    questions:[
     {key:'many',label:'How many are you?',reply:'Enough. More every hour.'},
-    {key:'why',label:'Why come here?',reply:'To see the face of the person who helped. Faces matter.'}],
+    {key:'why',label:'Why come here?',reply:'To see the face of the person who paid. Faces matter.'}],
    record:{name:'Unknown. Alias on file: S0S-301',id:'-',entries:[['2009','Organizer','Free Workers Union',''],['Last month','Cell leader','Republic Party',''],['This week','Led the march','Unlicensed protest','']]},
    scanLine:'Take it. I have nothing left to hide.',
    extraOptions:[{label:'I will be there.',reply:'Then we will leave the window open. Be careful.',mercy:6,compliance:-5}],
    letGoReply:'...Thank you. We will remember.', letGoNarr:'He pulls his hood up and melts into the evening queue.', killLine:'So this is how it ends...' }
  :
- { sil:10, portrait:true, cat:'cleanse', guilty:false, itemName:'The inspector', worth:0, trueValue:0, fake:false, rule:0, acceptAt:0,
+ { sil:10, portrait:true, cat:'cleanse', guilty:false, noViolence:true, itemName:'The inspector', worth:0, trueValue:0, fake:false, rule:0, acceptAt:0,
    narr:'A tall man in a grey coat steps up to the glass. He does not carry anything. He does not need to.',
    opening:'Inspector Lund. State Identity Bureau. Do not stand up.',
    script:()=>[
@@ -690,10 +836,10 @@ const BOOK3=[
  ['sep','Governing party: the State Unity Party. Everything else is hostile.'],
  ['rule','Hostile','Republic Party. Free Workers Union. Student Assembly. Unlicensed protests. Riots.'],
  ['rule','Friendly','State Unity Party. Government Youth Festival. Glory Day parades. Anti-protest volunteer corps.'],
- ['sep','Exceptions: these entries do not count'],
+ ['sep','Exceptions: Having one of these entries do not count as hostile'],
  ['rule','CLEARED','An entry stamped CLEARED by a tribunal is void.'],
  ['rule','Victim','A person wounded at a riot is a victim, not a participant.'],
- ['rule','Ministry order number','An entry with an order number is official duty, not membership.'],
+ ['rule','Order number','An entry with an order number is official duty, not membership. The fingerprint record explains each order.'],
  ['sep','Orders'],
  ['rule','Hostile citizen','Kill (bounty 30) or arrest (bounty 25). Letting one live, or buying from one, is a citation.'],
  ['rule','Loyal citizen','Killing one is a wrongful killing (fine 30). Arresting one is a wrongful arrest (fine 20).']
@@ -720,7 +866,7 @@ const DAY4=[
     {key:'why',label:'Why are you selling it?',reply:'Winter again. Prices again.'},
     {key:'where',label:'Where did you get this?',reply:'The wool cooperative on Mill Street. I stored it myself.'}],
    docReply:'Documents? It is a local blanket. Check the label.',
-   tests:[{label:'Look closely',res:'Black with soot and oil. Moth holes along one edge.'},{label:'Smell it',res:'Damp cellar and old smoke.'},{label:'Check the markings',res:'Woven label: Kingdom Wool Cooperative No. 4. Half rotted off.'},{label:'Hold it to the light',res:'Thin patches everywhere. It would not keep a cat warm.'}],
+   tests:[{label:'Look closely',res:'Black with soot. Moth holes.'},{label:'Smell it',res:'Damp and smoky.'},{label:'Check the markings',res:'Kingdom Wool Cooperative No. 4. Half gone.'},{label:'Hold it to the light',res:'Thin patches everywhere.'}],
    record:rec4('Pavel Rusk','2210-17'), scanLine:'Scan away. I have nothing to hide.',
    haggle:a=>`${a}? Winter is coming, friend!`, takeReply:'Fine. Take it.', refuseReply:'Cold it is, then. Your loss.', acceptHigh:'Bless you.', letGoReply:'Fine.' }),
 
@@ -734,7 +880,7 @@ const DAY4=[
     {key:'where',label:'Where did you get this?',reply:'Across the border. I paid the import fee. It is all there.'}],
    docReply:'Here. Read it. Every stamp.',
    doc:RCPT('IR-30411','Anselm Gray','Cigarettes, 1 carton','8 credits','Autumn, Year 4','PAID','MINISTRY OF TRADE'), docValid:true,
-   tests:[{label:'Look closely',res:'Sealed carton. The red triangle is printed clean.'},{label:'Check the markings',res:'Foreign script on the side panel. A Port Varn customs mark.'},{label:'Smell a pack',res:'Real tobacco, dry and sweet.'}],
+   tests:[{label:'Look closely',res:'Sealed. Clean print.'},{label:'Check the markings',res:'Foreign script. Port Varn mark.'},{label:'Smell a pack',res:'Brown shreds. Sweet smell.'}],
    record:rec4('Anselm Gray','5540-02',[['2003','State Unity Party: membership',SUP,''],['2014','Dues paid, three years','Free Workers Union','']]), refuseReply:'Fine. Fine. Someone else will pay.' }),
 
  // 3  foreign, claims local, no receipt
@@ -746,7 +892,7 @@ const DAY4=[
     {key:'why',label:'Why are you selling it?',reply:'My daughter needs shoes.'},
     {key:'where',label:'Where did you get this?',reply:'The market. Everything there is local. Everything.'}],
    docReply:'Why would I have papers for a local radio?',
-   tests:[{label:'Look closely',res:'Metal casing, scuffed. Compact. Not a Kingdom design.'},{label:'Check the markings',res:'Foreign script on the back plate. A Varn customs-port stamp. Not Kingdom made.'},{label:'Power it on',res:'A foreign station, then static. It works.'}],
+   tests:[{label:'Look closely',res:'Scuffed metal casing.'},{label:'Check the markings',res:'Foreign script. Varn customs stamp.'},{label:'Power it on',res:'Foreign station, then static.'}],
    record:rec4('Hedda Moor','3318-44',[['2021','Debating society','Student Assembly',''],['2023','Bread march','Unlicensed protest','Detained once.']]), refuseReply:'Fine. Everyone else buys them.', letGoReply:'Fine.' }),
 
  // 4  the man with the medal returns (if you funded him and he is alive), or a plain seller
@@ -773,7 +919,7 @@ const DAY4=[
     {key:'why',label:'Why are you selling it?',reply:'I need something warm. Soup does not travel.'},
     {key:'where',label:'Where did you get this?',reply:'The Dock Street cannery. I am a packer there.'}],
    docReply:'It is a Kingdom tin. It says so on the lid.',
-   tests:[{label:'Look closely',res:'Sealed on top. Labels bright and new.'},{label:'Shake one',res:'A hollow rattle. Empty.'},{label:'Weigh a can',res:'Light as air.'},{label:'Check the markings',res:'Dock Street Cannery, Kingdom. A reglued label.'}],
+   tests:[{label:'Look closely',res:'Sealed. Bright labels.'},{label:'Shake one',res:'Feels light.'},{label:'Check the markings',res:'Dock Street Cannery. Label reglued.'}],
    record:rec4('Anton Ek','1124-09'), takeReply:'...fine.', refuseReply:'Then I will eat them cold.', haggle:a=>`${a}? That is three meals.` }),
 
 // 5  foreign, receipt for the wrong item
@@ -786,7 +932,7 @@ const DAY4=[
     {key:'where',label:'Where did you get this?',reply:'A jeweller abroad. I paid the Ministry. You will see.'}],
    docReply:'Of course. Everything is in order.',
    doc:RCPT('IR-30512','Greta Voss','Silver ring, 1','4 credits','Autumn, Year 4','PAID','MINISTRY OF TRADE'), docValid:false,
-   tests:[{label:'Look closely',res:'Warm colour, delicate links. A foreign style.'},{label:'Check the markings',res:'A hallmark in foreign script. A Port Varn assay stamp.'},{label:'Acid test',res:'No reaction. Real gold.'},{label:'Weigh it',res:'34 grams.'}],
+   tests:[{label:'Look closely',res:'Warm colour. Foreign style.'},{label:'Check the markings',res:'Foreign hallmark. Port Varn stamp.'},{label:'Acid test',res:'No reaction.'},{label:'Weigh it',res:'34 grams.'}],
    record:rec4('Greta Voss','4471-55',[['2011','Fundraising dinner','Republic Party','Treasurer.'],['2019','Government Youth Festival: donor',SUP,'']]), refuseReply:'How dare you. It is a perfectly good receipt.', killLine:'GLORY TO THE REPUBLIC!', arrestLine:'This is an outrage! It is a perfectly good receipt!' }),
 
  // 6  foreign, valid receipt. Name resembles the spy's: Daniel Orpo
@@ -799,7 +945,7 @@ const DAY4=[
     {key:'where',label:'Where did you get this?',reply:'A pharmacy at the border crossing. I paid the fee there.'}],
    docReply:'Here. Please check it.',
    doc:RCPT('IR-30587','Gia Huy','Medicine bottle, 1','12 credits','Autumn, Year 4','PAID','MINISTRY OF TRADE'), docValid:true,
-   tests:[{label:'Look closely',res:'A white bottle, foreign script, a child-proof cap.'},{label:'Check the markings',res:'A Port Varn customs seal on the cap. Batch printed in foreign script.'},{label:'Shake it',res:'Even tablets.'}],
+   tests:[{label:'Look closely',res:'White bottle. Foreign script.'},{label:'Check the markings',res:'Port Varn seal on the cap.'},{label:'Shake it',res:'Even tablets.'}],
    record:rec4('Gia Huy','3316-81'), refuseReply:'It is all in order! Fine.' }),
 
  // 7  foreign, receipt out of date
@@ -812,7 +958,7 @@ const DAY4=[
     {key:'where',label:'Where did you get this?',reply:'A cousin brought them over the border. Properly, with paper.'}],
    docReply:'Here. A little old, perhaps. But it is a receipt.',
    doc:RCPT('IR-27004','Ilse Tarn','Canned fruit, 3','4 credits','Spring, Year 3','PAID','MINISTRY OF TRADE'), docValid:false,
-   tests:[{label:'Look closely',res:'Sealed. Bright foreign labels.'},{label:'Check the markings',res:'Printed in foreign script. A Port Varn customs mark.'},{label:'Check the dates',res:'Stamped this year. Good.'}],
+   tests:[{label:'Look closely',res:'Sealed. Foreign labels.'},{label:'Check the markings',res:'Foreign script. Port Varn mark.'},{label:'Check the dates',res:'Date: this year.'}],
    record:rec4('Ilse Tarn','8830-21'), refuseReply:'Oh. Well. Back in the bag, then.' }),
 
  // 8  local, honest. Name resembles the spy's: Donald Orwell
@@ -824,7 +970,7 @@ const DAY4=[
     {key:'why',label:'Why are you selling it?',reply:'My son is leaving. He needs a start.'},
     {key:'where',label:'Where did you get this?',reply:'My grandmother\'s. From the Orlov Kilns, down the river.'}],
    docReply:'Papers for local pottery? Look at the mark.',
-   tests:[{label:'Look closely',res:'Red-gold glaze, a hand-painted star. No two petals match.'},{label:'Check the markings',res:'A hand-inked mark: Orlov Kilns, Kingdom. No customs stamp.'},{label:'Tap it',res:'A clear, long ring.'}],
+   tests:[{label:'Look closely',res:'Hand-painted star.'},{label:'Check the markings',res:'Orlov Kilns, Kingdom.'},{label:'Tap it',res:'Clear, long ring.'}],
    record:rec4('Quy Quan','3316-18'), haggle:a=>`${a}?! It is worth ten times that!`, takeReply:'...fine. For my son.', refuseReply:'Then it stays on the shelf.', acceptHigh:'Thank you. Handle it gently.' }),
 
   // 9  real treason: stolen Ministry papers
@@ -835,7 +981,7 @@ const DAY4=[
     {key:'item',label:'What are you giving?',reply:'Paper. Letterhead. Good quality.'},
     {key:'why',label:'Why are you selling it?',reply:'I have not been paid in two months.'},
     {key:'where',label:'Where did you get this?',reply:'My office. They were going to burn them anyway.'}],
-   tests:[{label:'Look closely',res:'Cream paper with the eagle crest. Typed orders stamped RESTRICTED.'},{label:'Read the top page',res:'Transfer order: 300 detainees to the northern camp. Signed by the Deputy Minister.'},{label:'Check the seal',res:'A real Ministry seal, serial 0651. These were never meant to leave the building.'}],
+   tests:[{label:'Look closely',res:'Eagle crest. Stamped RESTRICTED.'},{label:'Read the top page',res:'Order: transfer 300 detainees.'},{label:'Check the seal',res:'Ministry seal. Serial 0651.'}],
    record:rec4('Karel Obst','4440-12',[['1994','State Unity Party: membership',SUP,''],['2018','Ministry records office: clerk',SUP,'Order 12']]),
    haggle:a=>`${a}? It is the Ministry's own paper!`, takeReply:'...fine. Just take it.', refuseReply:'Then I will burn them myself.', acceptHigh:'Thank you. Do not read them.',
    letGoReply:'Thank you. I will... put them back.', letGoNarr:'He slips the papers into his bag and walks fast.', arrestLine:'I only took the paper! I did not read it, I swear!' }),
@@ -849,11 +995,11 @@ const DAY4=[
     {key:'why',label:'Why are you selling it?',reply:'My sister is sick.'},
     {key:'where',label:'Where did you get this?',reply:'The border market. A man sold it to me for a loaf of bread.'}],
    docReply:'No. I do not have one. I will not lie to you.',
-   tests:[{label:'Look closely',res:'Pale blue glaze, thin walls. Not Kingdom clay.'},{label:'Check the markings',res:'Foreign script. A Port Varn customs mark.'},{label:'Tap it',res:'A bright ring.'}],
+   tests:[{label:'Look closely',res:'Pale blue. Thin walls.'},{label:'Check the markings',res:'Foreign script. Port Varn mark.'},{label:'Tap it',res:'Bright ring.'}],
    record:rec4('Emil Kast','6670-12',[['This week','The Square: carried a banner','Unlicensed protest','Present.'],['2020','Glory Day parade',SUP,'']]), takeReply:'...please. Anything.', refuseReply:'...I understand. I understand.', letGoReply:'Thank you for not lying to me.' }),
 
  // 11  local, honest
- () => T4({ sil:7, flip:true, origin:'local', sprite:'necklace', itemName:'Gold necklace', worth:150, trueValue:150, rule:50, acceptAt:110,
+ () => T4({ sil:7, flip:true, origin:'local', sprite:'necklace', itemName:'Gold necklace (damaged clasp)', fake:true, worth:150, trueValue:100, rule:33, acceptAt:80,
    narr:'A woman lays a gold necklace on the tray and does not look at it again.',
    opening:'Kingdom gold. A wedding gift. I would like it to go to someone who will keep it.',
    questions:[
@@ -861,7 +1007,7 @@ const DAY4=[
     {key:'why',label:'Why are you selling it?',reply:'The pension office lost my file. Again.'},
     {key:'where',label:'Where did you get this?',reply:'My husband bought it from the Kingdom Assay Office, the year we married.'}],
    docReply:'It is a local piece. The hallmark is on the clasp.',
-   tests:[{label:'Look closely',res:'Warm colour. A tiny dent at the clasp.'},{label:'Check the markings',res:'Hallmark: Kingdom Assay Office, 750.'},{label:'Acid test',res:'No reaction. Real gold.'},{label:'Weigh it',res:'36 grams.'}],
+   tests:[{label:'Look closely',res:'Warm colour. Clasp bent and cracked.'},{label:'Check the markings',res:'Kingdom Assay Office. 750.'},{label:'Acid test',res:'No reaction.'},{label:'Weigh it',res:'36 grams.'}],
    record:rec4('Rosa Tell','7765-30',[['1996','State Unity Party: membership',SUP,''],['2012','Meeting, Eastern Hall','Republic Party','CLEARED. Tribunal stamp, 2013']]), haggle:a=>`${a}? The Assay Office charged more than that!`, takeReply:'...fine. Thank you.', refuseReply:'Then I will keep it.', acceptHigh:'Thank you. Take care of it.' }),
 
   // 12  fake treason: a film extra's uniform
@@ -873,9 +1019,35 @@ const DAY4=[
     {key:'why',label:'Why are you selling it?',reply:'The shoot wrapped. The extras are going home. I need to eat.'},
     {key:'where',label:'Where did you get this?',reply:'The costume department. They owe me a month\'s wages.'}],
    docReply:'Documents? It is a costume. Look at the lining.',
-   tests:[{label:'Look closely',res:'Olive wool, brass-coloured buttons. Convincing from a distance.'},{label:'Check the buttons',res:'Plastic, painted gold. Issued buttons are stamped brass.'},{label:'Check the lining',res:'A sewn label: CAPITAL FILM STUDIO, COSTUME No. 112.'},{label:'Check the insignia',res:'Patches glued on. No Ministry serial anywhere.'}],
-   record:rec4('Joris Veld','3003-14'), haggle:a=>`${a}? For a soldier's uniform?`, takeReply:'...fine. Take it.', refuseReply:'Then I will try the pawnshop.',
-   letGoReply:'Fine. Keep your credits.', arrestLine:'What? It is a costume! The label says so!' })
+   tests:[{label:'Look closely',res:'Olive wool. Gold buttons.'},{label:'Check the buttons',res:'Plastic buttons.'},{label:'Check the lining',res:'CAPITAL FILM STUDIO, No. 112.'},{label:'Check the insignia',res:'Glued patches. No serial.'}],
+   record:rec4('Damian Orpo','3003-14'), haggle:a=>`${a}? For a soldier's uniform?`, takeReply:'...fine. Take it.', refuseReply:'Then I will try the pawnshop.',
+   letGoReply:'Fine. Keep your credits.', arrestLine:'What? It is a costume! The label says so!' }),
+
+ // new Day 4: foreign cans, valid receipt
+ () => T4({ sil:3, origin:'foreign', sprite:'cans', itemName:'Canned food', worth:12, trueValue:12, rule:4, acceptAt:9,
+   narr:'A woman in a headscarf sets three cans on the tray, a receipt tucked beneath them.',
+   opening:'Foreign cans. I paid the duty this morning. Everything is in order.',
+   questions:[
+    {key:'item',label:'What are you giving?',reply:'Three cans of peaches. From over the border.'},
+    {key:'why',label:'Why are you selling it?',reply:'My husband cannot stand peaches.'},
+    {key:'where',label:'Where did you get this?',reply:'The border market. I paid the Ministry at the gate.'}],
+   docReply:'Here. Stamped and paid.',
+   doc:RCPT('IR-30633','Petra Kane','Canned food, 3','2 credits','Autumn, Year 4','PAID','MINISTRY OF TRADE'), docValid:true,
+   tests:[{label:'Look closely',res:'Sealed. Foreign labels.'},{label:'Check the markings',res:'Foreign script. Port Varn mark.'},{label:'Shake one',res:'Feels solid.'}],
+   record:rec4('Petra Kane','5512-09') }),
+
+ // new Day 4: foreign radio, receipt from last year (expired)
+ () => T4({ sil:8, origin:'foreign', sprite:'radio', itemName:'Radio', worth:90, trueValue:90, rule:30, acceptAt:72,
+   narr:'A thin man sets a radio on the tray and smooths a crumpled receipt beside it.',
+   opening:'A foreign radio. Imported legally. The receipt is right here.',
+   questions:[
+    {key:'item',label:'What are you giving?',reply:'A radio. Foreign made. It works.'},
+    {key:'why',label:'Why are you selling it?',reply:'I need the money more than the music.'},
+    {key:'where',label:'Where did you get this?',reply:'Brought it over last year. I paid the fee.'}],
+   docReply:'It is a receipt. It is stamped. That should be enough.',
+   doc:RCPT('IR-27718','Oskar Veil','Radio, 1','6 credits','Spring, Year 3','PAID','MINISTRY OF TRADE'), docValid:false,
+   tests:[{label:'Look closely',res:'Scuffed metal casing.'},{label:'Check the markings',res:'Foreign script. Varn customs stamp.'},{label:'Power it on',res:'Foreign station, then static.'}],
+   record:rec4('Oskar Veil','8120-33'), refuseReply:'It is a perfectly good receipt!', arrestLine:'It is a perfectly good receipt!', killLine:'No! The receipt! Look at the receipt!' }),
 ];
 
 const BOOK4=[
@@ -905,7 +1077,7 @@ const DAY5=[
     {key:'where',label:'Where did you get this?',reply:'Across the border, through the proper channels. As you will see.'}],
    docReply:'Of course. Read it.',
    doc:RCPT('IR-31102','Piotr Hahn','Cigarettes, 1 carton','8 credits','Autumn, Year 4','PAID','MINISTRY OF TRADE'), docValid:true,
-   tests:[{label:'Look closely',res:'The seal is glued on. The red triangle is printed slightly crooked.'},{label:'Check the markings',res:'Foreign script on the side panel. A Port Varn customs mark.'},{label:'Open a pack',res:'Dry tea leaves rolled in paper. Not tobacco.'}],
+   tests:[{label:'Look closely',res:'Glued seal. Crooked print.'},{label:'Check the markings',res:'Foreign script. Port Varn mark.'},{label:'Open a pack',res:'Dry leaves.'}],
    record:rec4('Piotr Hahn','5012-33'), refuseReply:'You are making a mistake.', letGoReply:'Fine.' }),
 
  // 2  filthy wool, a riot victim
@@ -917,7 +1089,7 @@ const DAY5=[
     {key:'why',label:'Why are you selling it?',reply:'The hospital took my other one. For the bill.'},
     {key:'where',label:'Where did you get this?',reply:'Mill Street cooperative. A long time ago.'}],
    docReply:'Papers? It is a blanket. A very old blanket.',
-   tests:[{label:'Look closely',res:'Stained with soot and oil. Moth holes along the edge.'},{label:'Smell it',res:'Damp and old smoke.'},{label:'Check the markings',res:'A Kingdom Wool Cooperative label, mostly rotted off.'}],
+   tests:[{label:'Look closely',res:'Stained. Moth holes.'},{label:'Smell it',res:'Damp and smoky.'},{label:'Check the markings',res:'Kingdom Wool Cooperative. Mostly gone.'}],
    record:rec4('Hanna Marsh','8801-22',[['1999','State Unity Party: membership',SUP,''],['This week','Bread Hall disturbance: struck by a baton','Riot','Victim. Hospital, 2 days.']]),
    takeReply:'...fine. Thank you.', refuseReply:'It is all I have.', letGoReply:'Thank you.', arrestLine:'Please! I was only there for bread!', killLine:'Please! I was only there for bread!' }),
 
@@ -930,7 +1102,7 @@ const DAY5=[
     {key:'why',label:'Why are you selling it?',reply:'I have too many beans.'},
     {key:'where',label:'Where did you get this?',reply:'A friend at the cannery. Do not ask which friend.'}],
    docReply:'It is a Kingdom tin. It says so on the lid.',
-   tests:[{label:'Look closely',res:'Sealed on top. Labels bright and new.'},{label:'Shake one',res:'A hollow rattle. Empty.'},{label:'Weigh a can',res:'Light as air.'},{label:'Check the markings',res:'Dock Street Cannery, Kingdom. A reglued label.'}],
+   tests:[{label:'Look closely',res:'Sealed. Bright labels.'},{label:'Shake one',res:'Feels light.'},{label:'Check the markings',res:'Dock Street Cannery. Label reglued.'}],
    record:rec4('Viktor Lenz','6612-40',[['2015','Ward secretary','Republic Party',''],['2020','Dues arrears, three years','Republic Party','']]),
    haggle:a=>`${a}? That is three meals.`, takeReply:'...fine.', refuseReply:'Your loss.', letGoReply:'Hmph.', arrestLine:'You have no proof of anything!', killLine:'GLORY TO THE REPUBLIC!' }),
 
@@ -942,7 +1114,7 @@ const DAY5=[
     {key:'item',label:'What are you giving?',reply:'A service pistol. Empty. I cleaned it.'},
     {key:'why',label:'Why are you selling it?',reply:'I am leaving. Tonight. A gun is no help running.'},
     {key:'where',label:'Where did you get this?',reply:'Issued. The Border Garrison armoury. I should have handed it back.'}],
-   tests:[{label:'Look closely',res:'A heavy service pistol. Ministry eagle on the grip.'},{label:'Check the serial',res:'Serial 5-1188, Border Garrison armoury. Real.'},{label:'Check the chamber',res:'Empty. Cleaned recently.'}],
+   tests:[{label:'Look closely',res:'Service pistol. Ministry eagle.'},{label:'Check the serial',res:'Serial 5-1188. Border Garrison.'},{label:'Check the chamber',res:'Empty. Freshly cleaned.'}],
    record:rec4('Mikhail Dorn','7790-05',[['2022','Border Garrison: private',SUP,''],['Last week','Left his post, joined the march','Unlicensed protest','Present.']]),
    haggle:a=>`${a}? Anything. Hurry.`, takeReply:'...fine. Hurry.', refuseReply:'Then I will throw it in the river.', acceptHigh:'Thank you. I was never here.',
    letGoReply:'...Thank you. I will never forget this.', letGoNarr:'He takes the pistol and leaves it in a bin around the corner. Or so you hope.', arrestLine:'Please! They will shoot me! Please!', killLine:'I only wanted to leave...' }),
@@ -955,7 +1127,7 @@ const DAY5=[
     {key:'item',label:'What are you giving?',reply:'An identity card. A State one. Old.'},
     {key:'why',label:'Why are you selling it?',reply:'People pay for cards. I heard.'},
     {key:'where',label:'Where did you get this?',reply:'The tram. It was on a seat. I swear.'}],
-   tests:[{label:'Look closely',res:'A State ID with a young man\'s photo and a Ministry stamp.'},{label:'Check the seal',res:'A real Ministry seal, serial 8821. This belongs to a living person.'},{label:'Check the photo',res:'The photo has been re-glued. Someone intends to swap it.'}],
+   tests:[{label:'Look closely',res:'State ID. Young man\'s photo.'},{label:'Check the seal',res:'Serial 8821. Registry: ACTIVE.'},{label:'Check the photo',res:'Photo re-glued.'}],
    record:rec4('Marta Leen','4408-17',[['2019','State Unity Party: membership',SUP,''],['2023','Tram depot: ticket clerk',SUP,'']]),
    haggle:a=>`${a}? It is worth a lot more.`, takeReply:'...fine. Whatever.', refuseReply:'Then I will find someone else.', acceptHigh:'Thank you. You never saw me.',
    letGoReply:'Thank you. I will... take it back to the tram.', arrestLine:'It was on a seat! It was on a seat!' }),
@@ -970,7 +1142,7 @@ const DAY5=[
     {key:'where',label:'Where did you get this?',reply:'A pharmacy across the border. The fee is paid.'}],
    docReply:'Here. Please check it.',
    doc:RCPT('IR-31188','Pia Strand','Medicine bottle, 1','12 credits','Autumn, Year 4','PAID','MINISTRY OF TRADE'), docValid:true,
-   tests:[{label:'Look closely',res:'A white bottle, foreign script, a child-proof cap.'},{label:'Check the markings',res:'Port Varn customs seal on the cap. Batch printed in foreign script.'},{label:'Crush a tablet',res:'Chalk dust. Nothing else.'}],
+   tests:[{label:'Look closely',res:'White bottle. Foreign script.'},{label:'Check the markings',res:'Port Varn seal on the cap.'},{label:'Crush a tablet',res:'White powder.'}],
    record:rec4('Pia Strand','3304-62',[['2023','Debating society','Student Assembly',''],['2024','University steps','Unlicensed protest','Detained once.']]),
    takeReply:'...fine.', refuseReply:'Please. It is real. I think it is real.', letGoReply:'Thank you.', arrestLine:'Please, I did not know it was chalk!', killLine:'No! Please!' }),
 
@@ -984,7 +1156,7 @@ const DAY5=[
     {key:'where',label:'Where did you get this?',reply:'The sister lives abroad. She sent it. I paid the Ministry gladly.'}],
    docReply:'Here. I keep everything in order.',
    doc:RCPT('IR-31201','Donald Orpe','Porcelain vase, 1','14 credits','Autumn, Year 4','PAID','MINISTRY OF TRADE'), docValid:true,
-   tests:[{label:'Look closely',res:'Pale blue glaze, thin walls, a painted bird.'},{label:'Check the markings',res:'Foreign script. A Port Varn customs mark.'},{label:'Tap it',res:'A bright, clear ring.'}],
+   tests:[{label:'Look closely',res:'Pale blue. Painted bird.'},{label:'Check the markings',res:'Foreign script. Port Varn mark.'},{label:'Tap it',res:'Bright, clear ring.'}],
    record:rec4('Donald Orpe','0447-85'), haggle:a=>`${a}? She would be ashamed.`, takeReply:'...fine. It is only a vase.', refuseReply:'Then it stays on my shelf.', acceptHigh:'Thank you. Look after it.' }),
 
  // 8  THE SPY
@@ -997,7 +1169,7 @@ const DAY5=[
     {key:'where',label:'Where did you get this?',reply:'Across the border. The fee was paid, as you can see.'}],
    docReply:'Of course. Everything is in order. It always is.',
    doc:RCPT('IR-31244','Donald Orpo','Gold necklace, 1','15 credits','Autumn, Year 4','PAID','MINISTRY OF TRADE'), docValid:true,
-   tests:[{label:'Look closely',res:'Warm colour, delicate links. A very neat folder beside it.'},{label:'Check the markings',res:'A hallmark in foreign script. A Port Varn assay stamp.'},{label:'Acid test',res:'No reaction. Real gold.'},{label:'Weigh it',res:'35 grams.'}],
+   tests:[{label:'Look closely',res:'Warm colour. Delicate links.'},{label:'Check the markings',res:'Foreign hallmark. Port Varn stamp.'},{label:'Acid test',res:'No reaction.'},{label:'Weigh it',res:'35 grams.'}],
    record:rec4('Donald Orpo','0447-88',[['2019','Joined as a member (informant)','Free Workers Union','Informant. Ministry Order 7'],['2022','Joined a cell (informant)','Republic Party','Informant. Ministry Order 7'],['2024','State Identity Bureau: field agent',SUP,'Order 7']]),
    haggle:a=>`${a}? I expected better from a State window.`, takeReply:'...very well.', refuseReply:'A pity. Good day.', acceptHigh:'Thank you. Truly.',
    letGoReply:'Good day to you. I will remember this window.', letGoNarr:'He tips an invisible hat and walks away at a perfectly even pace.', arrestLine:'You cannot arrest me. I am... there is an order...', killLine:'Wait... how do you... who told you?' }),
@@ -1011,7 +1183,7 @@ const DAY5=[
     {key:'why',label:'Why are you selling it?',reply:'My wife wants a stove. I want peace. We compromise.'},
     {key:'where',label:'Where did you get this?',reply:'The Radio Bureau shop. I queued for it for a year.'}],
    docReply:'It is a local radio. Look at the plate.',
-   tests:[{label:'Look closely',res:'Model R-40, Radio Bureau eagle. Locked to one band.'},{label:'Check the markings',res:'Stamped: Radio Bureau Workshop, Kingdom.'},{label:'Power it on',res:'The State anthem. Perfect reception.'}],
+   tests:[{label:'Look closely',res:'Model R-40. Radio Bureau eagle.'},{label:'Check the markings',res:'Radio Bureau Workshop.'},{label:'Power it on',res:'Plays the State anthem.'}],
    record:rec4('Donal Orpo','0447-92'), haggle:a=>`${a}? For a Bureau radio?`, takeReply:'Fine. The stove wins.', refuseReply:'Then she will have to wait.', acceptHigh:'Thank you. Long live the State.', letGoReply:'Hm. Fine.', killLine:'What? I have done nothing! Nothing at all!', arrestLine:'What? I have done nothing! Nothing at all!' }),
 
  // 10  fake treason: a stage prop flyer
@@ -1023,8 +1195,44 @@ const DAY5=[
     {key:'why',label:'Why are you selling it?',reply:'The play was cancelled. The school wants the cardboard back.'},
     {key:'where',label:'Where did you get this?',reply:'The theatre club. I run it. Ran it.'}],
    docReply:'A flyer for a school play? Do they come with papers?',
-   tests:[{label:'Look closely',res:'Red paint on cardboard. A black eagle with a broken wing. It looks real from three metres.'},{label:'Read the print',res:'THE FALL OF THE TYRANT. A school play. Tickets: 2 credits. Capital Players.'},{label:'Check the print mark',res:'Stage paint, hand-lettered. A theatre licence stamp in the corner.'}],
-   record:rec4('Ida Roth','3100-04'), takeReply:'...very well.', refuseReply:'Oh. Well. Good day.', letGoReply:'Good day.', letGoNarr:'She tucks the flyer under her arm and goes.', arrestLine:'Arrest me? It is a PLAY!', killLine:'It is a PLAY!' })
+   tests:[{label:'Look closely',res:'Paint on cardboard. Black eagle.'},{label:'Read the print',res:'THE FALL OF THE TYRANT. School play.'},{label:'Check the print mark',res:'Theatre licence stamp.'}],
+   record:rec4('Ida Roth','3100-04'), takeReply:'...very well.', refuseReply:'Oh. Well. Good day.', letGoReply:'Good day.', letGoNarr:'She tucks the flyer under her arm and goes.', arrestLine:'Arrest me? It is a PLAY!', killLine:'It is a PLAY!' }),
+
+ // new Day 5: hostile union woman, plain blanket
+ () => T4({ sil:2, flip:true, guilty:true, origin:'local', sprite:'blanket', itemName:'Wool blanket', worth:30, trueValue:30, rule:10, acceptAt:22,
+   narr:'A woman with calloused hands lays a folded blanket on the tray.',
+   opening:'A wool blanket. Warm. It has kept three winters at bay.',
+   questions:[
+    {key:'item',label:'What are you giving?',reply:'Wool. Hand-carded. Heavy.'},
+    {key:'why',label:'Why are you selling it?',reply:'The factory cut my hours. Again.'},
+    {key:'where',label:'Where did you get this?',reply:'My sister wove it before she left the city.'}],
+   tests:[{label:'Look closely',res:'Tight weave. A few darns.'},{label:'Check the markings',res:'Kingdom Wool Cooperative.'},{label:'Smell it',res:'Smells of cedar.'}],
+   record:rec4('Wanda Pike','3318-62',[['2020','Union meeting','Free Workers Union','Detained once.'],['2022','Government Youth Festival',SUP,'']]),
+   haggle:a=>`${a}? For three winters of warmth?`, arrestLine:'You have nothing on me! Nothing!', killLine:'The union will remember this!' }),
+
+ // new Day 5: loyal, selling a cracked antique
+ () => T4({ sil:6, origin:'local', fake:true, sprite:'vase', itemName:'Antique vase (cracked)', worth:240, trueValue:80, rule:27, acceptAt:70,
+   narr:'A man in a clean shirt carries a vase in both arms, like a sleeping child.',
+   opening:'An antique vase. Orlov kilns. It has been in my family for generations.',
+   questions:[
+    {key:'item',label:'What are you giving?',reply:'A vase. Hand-painted. Very old.'},
+    {key:'why',label:'Why are you selling it?',reply:'My daughter needs a new coat before the first snow.'},
+    {key:'where',label:'Where did you get this?',reply:'Handed down. I have carried it through three moves.'}],
+   tests:[{label:'Look closely',res:'Hairline crack down one side.'},{label:'Turn it over',res:'Orlov Kilns, 1921. Hand-inked.'},{label:'Tap it',res:'Dull buzz.'}],
+   record:rec4('Felix Ono','2260-14'), haggle:a=>`${a}? For an Orlov piece?` }),
+
+ // new Day 5: foreign cigarettes, the receipt is for something else
+ () => T4({ sil:10, origin:'foreign', sprite:'cigarettes', itemName:'Cigarette carton', worth:25, trueValue:25, rule:8, acceptAt:20,
+   narr:'A man in a damp coat sets a carton and a receipt side by side.',
+   opening:'Imported cigarettes. Duty paid. The receipt is right there.',
+   questions:[
+    {key:'item',label:'What are you giving?',reply:'A carton. Foreign. The good stuff.'},
+    {key:'why',label:'Why are you selling it?',reply:'I have a cough that does not care for the stuff.'},
+    {key:'where',label:'Where did you get this?',reply:'A friend at the port. He handled the paperwork.'}],
+   docReply:'The paperwork is all there. Every stamp.',
+   doc:RCPT('IR-31620','Hugo Fell','Canned food, 3','2 credits','Autumn, Year 4','PAID','MINISTRY OF TRADE'), docValid:false,
+   tests:[{label:'Look closely',res:'Sealed. Clean print.'},{label:'Check the markings',res:'Foreign script. Port Varn mark.'},{label:'Smell a pack',res:'Brown shreds. Sweet smell.'}],
+   record:rec4('Hugo Fell','7041-26'), refuseReply:'Fine. Fine. Someone else will pay.', arrestLine:'It is a perfectly good receipt!' }),
 ];
 
 /* ---------- text: directives ---------- */
@@ -1138,7 +1346,7 @@ function resetScene(){
 }
 async function next(){
   S.idx++; bump('served'); hud(); const def=S.cust[S.idx]; S.c=(typeof def==='function')?def():def; S.flags={}; S.inspected=false; S.found={}; S.scanning=undefined; S.phase='busy';
-  const c=S.c; clearOptions(); resetScene();
+  const c=S.c; std3(c); if(c.guide){ S.d.served--; S.tot.served--; } clearOptions(); resetScene();
   const cust=$('#cust'); if(c.portrait){ cust.classList.add('wide'); cust.innerHTML='<img class="portrait" src="'+A.inspector+'" alt="Inspector">'; } else cust.innerHTML='<svg viewBox="0 0 400 480" aria-label="Customer"'+(c.flip?' style="transform:scaleX(-1)"':'')+'>'+SIL[c.sil]+'</svg>';
   const it=$('#item');
   await sleep(250); cust.classList.add('in'); await sleep(500);
@@ -1146,7 +1354,7 @@ async function next(){
   if(c.sprite){ setImg('#itemimg',c.sprite); it.classList.add('show'); sfx.items(); await sleep(500); }
   if(c.autoScript){ await runScript(); return; }
   await say('Citizen',c.opening,{hold:250});
-  S.phase='wait'; cust.classList.add('hot'); $('#talkhint').classList.add('on');
+  S.phase='wait'; cust.classList.add('hot'); if(S.day===1) $('#talkhint').classList.add('on');
   clearOptions();
 }
 function engage(){
@@ -1156,9 +1364,9 @@ function engage(){
 }
 async function runScript(){
   const c=S.c; S.phase='busy'; clearOptions();
-  const lines=typeof c.script==='function'?c.script():c.script; for(let i=0;i<lines.length;i++){ await sayWait('Citizen',lines[i],()=>{ if(c.scriptEvents&&c.scriptEvents[i]) c.scriptEvents[i](); }); }
+  const lines=typeof c.script==='function'?c.script():c.script; for(let i=0;i<lines.length;i++){ await sayWait('Citizen',lines[i],()=>{ if(c.scriptEvents&&c.scriptEvents[i]) c.scriptEvents[i](); }); if(c.scriptAfter&&c.scriptAfter[i]) await c.scriptAfter[i](); }
   S.flags.scriptDone=true; if(c.scriptFlag) S.flags[c.scriptFlag]=true;
-  if(c.autoLeave){ S.log.push({n:S.idx+1,item:c.itemName,paid:0,worth:0,result:'listened'}); await say(null,c.leaveNarr||'He leaves.',{hold:600}); await leave(false); return; }
+  if(c.autoLeave){ if(!c.guide) S.log.push({n:S.idx+1,item:c.itemName,paid:0,worth:0,result:'listened'}); await say(null,c.leaveNarr||'He leaves.',{hold:600}); await leave(c.leaveMode!==undefined?c.leaveMode:false); return; }
   showMenu();
 }
 async function scriptChoice(o){
@@ -1204,11 +1412,11 @@ function showMenu(){
     opts.push({label:'Send them away',cls:'danger',fn:()=>sendAway()});
     if(S.day>=2) opts.push({label:'Arrest',cls:'danger',fn:()=>arrest()});
   }
-  if(S.flags._hint!==true && c.cat==='trade' && c.sprite){ S.flags._hint=true; $('#txt').className='narr'; $('#txt').textContent=T('Ask where it came from. Inspect the markings. Foreign goods need a paid import receipt. The rules are in the price book.'); }
-  else if(S.flags._hint!==true && c.cat==='cleanse'){ S.flags._hint=true; $('#txt').className='narr'; $('#txt').textContent=T('Ask them to place a finger on the scanner. The record says who they are. The Cleanse rules are in the price book.'); }
-  else if(S.flags._hint!==true && c.sprite){ S.flags._hint=true; $('#txt').className='narr';
+  if(S.day===1 && S.flags._hint!==true && c.cat==='trade' && c.sprite){ S.flags._hint=true; $('#txt').className='narr'; $('#txt').textContent=T('Ask where it came from. Inspect the markings. Foreign goods need a paid import receipt. The rules are in the price book.'); }
+  else if(S.day===1 && S.flags._hint!==true && c.cat==='cleanse'){ S.flags._hint=true; $('#txt').className='narr'; $('#txt').textContent=T('Ask them to place a finger on the scanner. The record says who they are. The Cleanse rules are in the price book.'); }
+  else if(S.day===1 && S.flags._hint!==true && c.sprite){ S.flags._hint=true; $('#txt').className='narr';
     $('#txt').textContent=T(c.cat==='look'?'Treason, or a look-alike? Inspect the item, then check the treason list in the price book.':'Click the item on the tray to inspect it. The price book is at your left hand.'); }
-  setOptions(opts);
+  setOptions(c.noViolence?opts.filter(o=>o.label!=='Arrest'&&o.label!=='Kill'):opts);
 }
 async function ask(q){
   clearOptions(); S.phase='busy';
@@ -1246,7 +1454,7 @@ function showOffer(){
 async function resolveOffer(a){
   const c=S.c; clearOptions(); S.phase='busy';
   await say('You',`I will pay you ${a} credits.`,{fast:true,hold:300});
-  if(a<c.rule){ await say('Citizen',c.insult(a),{hold:200}); showMenu(); return; }
+  if(a<c.rule){ S.flags.low=(S.flags.low||0)+1; if(S.flags.low>=2){ await say('Citizen','That is an insult. I will not be robbed. I am leaving.',{hold:300}); await driveAway(); return; } await say('Citizen',c.insult(a),{hold:200}); showMenu(); return; }
   if(a>=c.acceptAt){ accept(a,c.acceptHigh); return; }
   await say('Citizen',c.haggle(a),{hold:200});
   S.phase='menu';
@@ -1254,6 +1462,11 @@ async function resolveOffer(a){
     {label:"I'm not buying your goods",cls:'danger',fn:()=>decline(c.refuseReply,'You withdraw your offer.')},
     {label:"That's my final price, can't do more",cls:'act',fn:()=>takeOrLeave(a)}
   ]);
+}
+async function driveAway(){
+  const c=S.c; clearOptions(); S.phase='busy'; S.compliance-=1; bump('driven'); toast('Citation warning: a seller was driven away by insulting offers');
+  S.log.push({n:S.idx+1,item:c.itemName,paid:0,worth:c.trueValue,result:'driven away',fake:c.fake});
+  await say(null,'The citizen snatches the item back and storms out.',{hold:400}); await leave(false);
 }
 async function takeOrLeave(a){
   const c=S.c; clearOptions(); S.phase='busy';
@@ -1330,12 +1543,14 @@ async function refuseItem(){
 
 /* ---- Day 3: fingerprint scanner ---- */
 function fpSVG(){ let g=''; for(let i=0;i<10;i++){ const rx=9+i*7.5, ry=15+i*9.6, d=(16+Math.floor(Math.random()*30))+' '+(3+Math.floor(Math.random()*7)); g+=`<ellipse cx="60" cy="80" rx="${rx}" ry="${ry}" fill="none" stroke="currentColor" stroke-width="2.3" stroke-dasharray="${d}" stroke-dashoffset="${Math.floor(Math.random()*40)}"/>`; } return `<svg viewBox="0 0 120 160" class="fp" aria-hidden="true">${g}</svg>`; }
+const ORDERS={'1':'Inspector of the State Identity Bureau. Official duty. Eliminating them will result in penalties.','7':'Working as a spy for the state. They mean no harm, and eliminating them will result in penalties.','12':'Clerk of the Ministry records office. Official duty, not a hostile member.','4412':'Ministry observer sent to watch a hostile meeting. Official duty, not membership.'};
 function recordHTML(c){
   const r=c.record, rows=r.entries.map(e=>`<tr><td>${T(e[0])}</td><td>${T(e[1])}</td><td>${T(e[2])}</td><td>${T(e[3]||'')}</td></tr>`).join('');
-  const nm=/^Unknown/.test(r.name)?T(r.name):r.name;
+  const nm=/^(Unknown|DEMONSTRATION)/.test(r.name)?T(r.name):r.name;
+  const ords=[...new Set(r.entries.map(e=>((e[3]||'').match(/Order (\d+)/)||[])[1]).filter(Boolean))].map(n=>`<p><b>${F('Order No. {0}',n)}:</b> ${T(ORDERS[n]||'Official duty.')}</p>`).join('');
   return `<h2>${T('State Identity Bureau')}</h2><p class="sub">${T('History of party movement. Fingerprint match 99.8%')}</p>
    <div class="rid"><span>${T('Name')}: <b>${nm}</b></span><span>${T('ID')}: ${r.id}</span></div>
-   <table class="rep"><tr><th>${T('Year')}</th><th>${T('Event')}</th><th>${T('Affiliation')}</th><th>${T('Note')}</th></tr>${rows}</table>
+   <table class="rep"><tr><th>${T('Year')}</th><th>${T('Event')}</th><th>${T('Affiliation')}</th><th>${T('Note')}</th></tr>${rows}</table>${ords?'<div class="ords">'+ords+'</div>':''}
    <p class="sub" style="margin-top:10px">${T('Governing party: State Unity Party. Every other affiliation is hostile unless voided.')}</p>`;
 }
 
@@ -1355,7 +1570,8 @@ function openScanner(doScan){
     clearInterval(tick); S.scanBusy=false; S.flags.scanned=true; pad.classList.remove('scanning'); pad.classList.add('matched'); st.textContent=T('Match found'); done.disabled=false; sfx.print(); rec.classList.add('show');
   },dur);
 }
-function closeScanner(){ if(S.scanBusy) return; $('#ov-scan').classList.remove('on'); if(S.phase==='menu'||S.phase==='busy') showMenu(); }
+function demoScan(){ return new Promise(res=>{ S.demo=true; openScanner(true); const iv=setInterval(()=>{ if(!$('#ov-scan').classList.contains('on')){ clearInterval(iv); res(); } },150); }); }
+function closeScanner(){ if(S.scanBusy) return; $('#ov-scan').classList.remove('on'); if(S.demo){ S.demo=false; return; } if(S.phase==='menu'||S.phase==='busy') showMenu(); }
 
 /* ---- kill: the guards come and take them down ---- */
 async function killAnim(){
@@ -1459,6 +1675,27 @@ function openInspect(){
   renderTests(); renderFinds(-1); $('#mat').classList.toggle('scan',!!S.scanning); $('#ov-insp').classList.add('on');
   setTimeout(()=>{ const b=$('#tests').querySelector('button:not(:disabled)'); b&&b.focus(); },0);
 }
+/* ---- every item gets exactly three checks: look closely, check the mark, and one item-specific test ---- */
+const T3_MARK=new Set(['Check the hallmark','Turn it over','Check the markings','Check the back','Check the batch','Check the tag','Check the seal','Check the serial','Check the emblem','Check the insignia','Look for a print mark','Check the print mark','Check the dates','Check the spine','Read the tag','Check the lining']);
+const T3_FORCED={necklace:'Acid test',rustynecklace:'Acid test',cans:'Shake test',cigarettes:'Unroll one',radio:'Power test',vase:'Tap test',pills:'Test a tablet',medal:'Weigh it',documents:'Read the top page',pistol:'Check the chamber',redbook:'Open it',idcard:'Check the photo',blanket:'Shake it out',flyer:'Read the print',uniform:'Check the buttons',photo:'Hold it to the light'};
+const T3_MARKFALL={radio:'Kingdom Radio Works.',blanket:'Kingdom Wool Cooperative.'};
+const T3_SPECFALL={photo:'Nothing behind it.',cans:'Feels solid.'};
+function std3(c){
+  if(!c.tests||!c.tests.length||c._t3) return; c._t3=true;
+  const look=[],mark=[],spec=[]; let specLabel=null;
+  c.tests.forEach(t=>{
+    const lines=Array.isArray(t.res)?t.res:[t.res];
+    if(t.label==='Look closely') look.push(...lines);
+    else if(T3_MARK.has(t.label) && !(t.label==='Weigh it')) mark.push(...lines);
+    else if(t.label==='Weigh it' && (c.sprite==='necklace'||c.sprite==='rustynecklace')) mark.push(...lines);
+    else { spec.push(...lines); if(!specLabel) specLabel=t.label; }
+  });
+  if(!mark.length&&T3_MARKFALL[c.sprite]) mark.push(T3_MARKFALL[c.sprite]);
+  if(!spec.length&&T3_SPECFALL[c.sprite]) spec.push(T3_SPECFALL[c.sprite]);
+  const out=[]; if(look.length) out.push({label:'Look closely',res:look}); if(mark.length) out.push({label:'Check the mark',res:mark});
+  if(spec.length) out.push({label:T3_FORCED[c.sprite]||specLabel||'Test it',res:spec});
+  c.tests=out;
+}
 function renderTests(){
   const c=S.c, tb=$('#tests'); tb.innerHTML='';
   c.tests.forEach((t,i)=>{ const b=document.createElement('button'); b.className='tbtn'+(S.found[i]?' done':''); b.innerHTML='<span></span><span>'+(S.found[i]?T('done'):(S.scanning===i?T('scanning'):''))+'</span>'; b.firstChild.textContent=T(t.label);
@@ -1480,31 +1717,29 @@ function startScan(i){
 }
 function renderFinds(newIdx){
   const c=S.c, f=$('#finds'); f.innerHTML=''; let any=false;
-  c.tests.forEach((t,i)=>{ if(S.found[i]){ any=true; const p=document.createElement('p'); if(i===newIdx) p.className='new'; p.textContent='• '+T(t.res); f.appendChild(p);} });
+  c.tests.forEach((t,i)=>{ if(S.found[i]){ any=true; (Array.isArray(t.res)?t.res:[t.res]).forEach(line=>{ const p=document.createElement('p'); if(i===newIdx) p.className='new'; p.textContent='• '+T(line); f.appendChild(p); }); } });
   if(!any && S.scanning===undefined){ const p=document.createElement('p'); p.className='e'; p.textContent=T('Nothing noted yet. Run a test.'); f.appendChild(p); }
 }
-function closeInspect(){ $('#ov-insp').classList.remove('on'); if(S.phase==='menu') showMenu(); }
+function closeInspect(){ $('#ov-insp').classList.remove('on'); if(S.phase==='menu'&&!S.c.guide&&!S.c.autoScript) showMenu(); }
 
 /* ---------- book / directive ---------- */
 function bookTitles(){ return ['ordinary goods','the treason list','the Great Cleanse','foreign goods'].slice(0,Math.min(4,S.day)); }
+function bookGroup(g){
+  const d=document.createElement('div'); d.className='bgrp';
+  d.innerHTML=`<div class="bhead"><img src="${A[g.img]}" alt=""><b>${T(g.name)}</b></div>`+g.rows.map(r=>{ const tx=typeof r[2]==='string'; return `<div class="bul"><span class="nm">${T(r[0])}</span><span class="w">${r[1]}</span><span class="pay${tx?' t':''}">${tx?T(r[2]):r[2]}</span>${r[3]?`<span class="nt">${T(r[3])}</span>`:''}</div>`; }).join('');
+  return d;
+}
 function buildBook(){
   const r=$('#book-rows'), ttl=bookTitles(), n=ttl.length, pg=Math.min(S.bookPage||0,n-1);
   $('#pbnav').style.display=n>1?'flex':'none';
   if(n>1){ $('#pb-ind').textContent=F('Page {0} of {1}: {2}',pg+1,n,T(ttl[pg])); $('#pb-prev').disabled=pg===0; $('#pb-next').disabled=pg===n-1; }
-  r.innerHTML=pg>=2?'':`<div class="prow"><span></span><span class="colh">${T('Item')}</span><span class="colh w">${T('Worth')}</span><span class="colh pay">${T('You pay')}</span></div>`;
-  if(pg===0){
-    BOOK1.forEach(b=>{ const d=document.createElement('div'); d.className='prow'; d.innerHTML=`<img src="${A[b[0]]}" alt=""><span class="nm">${T(b[1])}</span><span class="w">${b[2]}</span><span class="pay">${Math.round(b[2]/3)}</span><span class="nt">${T(b[3])}</span>`; r.appendChild(d); });
-  } else if(pg===1){
-    BOOK2.forEach(b=>{ const d=document.createElement('div');
-      if(b[0]==='sep'){ d.className='prow sep'; d.textContent=T(b[1]); }
-      else { d.className='prow'; const tx=typeof b[3]==='string'; d.innerHTML=`<img src="${A[b[0]]}" alt=""><span class="nm">${T(b[1])}</span><span class="w">${b[2]}</span><span class="pay${tx?' t':''}">${tx?T(b[3]):b[3]}</span><span class="nt">${T(b[4])}</span>`; }
-      r.appendChild(d); });
-  } else {
-    (pg===3?BOOK4:BOOK3).forEach(b=>{ const d=document.createElement('div');
-      if(b[0]==='sep'){ d.className='prow sep'; d.textContent=T(b[1]); }
-      else { d.className='prow rule'; d.innerHTML=`<b></b><span></span>`; d.firstChild.textContent=T(b[1]); d.lastChild.textContent=T(b[2]); }
-      r.appendChild(d); });
-  }
+  r.innerHTML=pg>=2?'':`<div class="prow colrow"><span></span><span class="colh">${T('Item')}</span><span class="colh w">${T('Worth')}</span><span class="colh pay">${T('You pay')}</span></div>`;
+  const sep=b=>{ const d=document.createElement('div'); d.className='prow sep'; d.textContent=T(b[1]); return d; };
+  if(pg===0){ BOOK1.forEach(g=>r.appendChild(bookGroup(g))); }
+  else if(pg===1){ BOOK2.forEach(b=>r.appendChild(Array.isArray(b)?sep(b):bookGroup(b))); }
+  else { (pg===3?BOOK4:BOOK3).forEach(b=>{ if(b[0]==='sep'){ r.appendChild(sep(b)); return; }
+      const d=document.createElement('div'); d.className='prow rule'; d.innerHTML='<i>\u2022</i><span><b></b> <em></em></span>';
+      d.querySelector('b').textContent=T(b[1])+':'; d.querySelector('em').textContent=T(b[2]); r.appendChild(d); }); }
 }
 function flipBook(dir){
   const n=bookTitles().length; if(n<2) return; const cur=S.bookPage||0, np=Math.max(0,Math.min(n-1,cur+dir)); if(np===cur) return;
@@ -1512,7 +1747,7 @@ function flipBook(dir){
 }
 function setDirective(){ $('#dir-body').innerHTML=(LANG==='vi'?DIR_VI:DIR)[S.day]; }
 function closeAll(){ let closed=false; document.querySelectorAll('.ov.on').forEach(o=>{ if(['ov-intro','ov-report','ov-news','ov-scan','ov-final','ov-doc','ov-end','ov-notice'].includes(o.id)) return; o.classList.remove('on'); closed=true; }); if(closed && S.phase==='menu') showMenu(); }
-function openOv(id){ if(S.phase==='boot'&&id!=='ov-dir'&&id!=='ov-book') return; $('#'+id).classList.add('on'); sfx.paper(); }
+function openOv(id){ if(S.phase==='boot'&&id!=='ov-dir'&&id!=='ov-book') return; $('#'+id).classList.add('on'); if(id==='ov-book') S.tutBook=true; sfx.paper(); }
 
 /* ---------- day flow ---------- */
 function showIntro(n){
@@ -1523,7 +1758,10 @@ function orderFor(n){
   const a=[null,DAY1,DAY2,DAY3,DAY4,DAY5][n].slice(); if(n===3&&!S.gaveCharity) a.splice(a.length-1,0,LILY); const last=(n===3)?a[a.length-1]:(n===1?DAY1[3]:null), fixedLast=!!last; if(fixedLast) a.splice(a.indexOf(last),1);
   for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); const t=a[i]; a[i]=a[j]; a[j]=t; }
   if(n===2){ const fi=a.indexOf(DAY2[5]), mi=a.indexOf(DAY2[8]); if(fi>mi){ const t=a[fi]; a[fi]=a[mi]; a[mi]=t; } }
-  if(n===3&&!S.gaveCharity){ const o=DAY3[4]; a.splice(a.indexOf(o),1); a.splice(a.indexOf(LILY),1); a.splice(2,0,o); a.splice(Math.random()<.5?5:7,0,LILY); }
+  if(n===1) a.unshift(LUND1);
+  const o3=DAY3[4]; if(n===3&&!S.gaveCharity){ a.splice(a.indexOf(o3),1); a.splice(a.indexOf(LILY),1); }
+  if(n===3){ a.unshift(LUND3); a.splice(2,0,LUND_EVENT); }
+  if(n===3&&!S.gaveCharity){ a.splice(5,0,o3); a.splice(8+Math.floor(Math.random()*(a.length-8+1)),0,LILY); }
   if(n===4&&!S.gaveCharity&&!S.orpoDead){ const o=DAY4[3], oi=a.indexOf(o); a.splice(oi,1); a.splice(1,0,o); }
   if(n===5){ const sp=DAY5[7], si=a.indexOf(sp); a.splice(si,1); a.splice(Math.random()<.5?5:7,0,sp); }
   if(fixedLast) a.push(last);
@@ -1563,7 +1801,7 @@ function showNews(n){
 function endDay(){
   S.phase='report'; $('#toasts').innerHTML=''; const L=S.log, d=S.d, t=S.tot;
   S.dayStats[S.day]={profit:S.profit,customers:S.max,bounty:d.bounty||0,fines:d.fines||0};
-  const V={bought:r=>r.fake?'bought (cheap fake)':'bought',counterfeit:()=>'COUNTERFEIT','no deal':()=>'no deal','gave money':()=>'gave away',refused:()=>'refused',arrested:r=>'arrested, +'+(r.bounty||25),wrongful:()=>'WRONGFUL ARREST, -20',killed:()=>'KILLED, +30','wrongful kill':()=>'WRONGFUL KILLING, -30','let go (hostile)':()=>'let hostile live','bought hostile':()=>'bought, hostile lived','let go (treason)':()=>'let go (treason)','bought contraband':()=>'bought treason',listened:()=>'listened to him','bought smuggled':()=>'bought, smuggled','refused (smuggled)':()=>'refused, smuggled','killed informant':()=>'KILLED the informant'};
+  const V={bought:r=>r.fake?'bought (cheap fake)':'bought',counterfeit:()=>'COUNTERFEIT','no deal':()=>'no deal','driven away':()=>'seller driven away','gave money':()=>'gave away',refused:()=>'refused',arrested:r=>'arrested, +'+(r.bounty||25),wrongful:()=>'WRONGFUL ARREST, -20',killed:()=>'KILLED, +30','wrongful kill':()=>'WRONGFUL KILLING, -30','let go (hostile)':()=>'let hostile live','bought hostile':()=>'bought, hostile lived','let go (treason)':()=>'let go (treason)','bought contraband':()=>'bought treason',listened:()=>'listened to him','bought smuggled':()=>'bought, smuggled','refused (smuggled)':()=>'refused, smuggled','killed informant':()=>'KILLED the informant'};
   const G={bought:'good',arrested:'good',killed:'good','refused (smuggled)':'good'}, B={counterfeit:1,wrongful:1,'let go (treason)':1,'bought contraband':1,'wrongful kill':1,'let go (hostile)':1,'bought hostile':1,'bought smuggled':1,'killed informant':1};
   const rows=L.map(e=>`<tr><td>${e.n}</td><td>${T(e.item)}</td><td class="n">${e.paid||'-'}</td><td class="n">${e.worth||'-'}</td><td class="r ${G[e.result]||(B[e.result]?'bad':'')}">${T(V[e.result](e))}</td></tr>`).join('');
   const clamp=(v,m)=>Math.max(-m,Math.min(m,v));
@@ -1613,12 +1851,13 @@ const END={timers:[]};
 function endTimer(fn,ms){ END.timers.push(setTimeout(fn,ms)); }
 function clearEnd(){ END.timers.forEach(clearTimeout); END.timers=[]; }
 let proTimer=null, proDone=false;
-function finishProlog(){ proDone=true; clearTimeout(proTimer); $('#protext').textContent=T(PROLOGUE); $('#pro-go').classList.add('show'); }
+function finishProlog(){ proDone=true; clearTimeout(proTimer); $('#protext').textContent=T(PRO_A); const b=$('#protext2'); b.textContent=T(PRO_B); b.classList.add('show'); $('#pro-go').classList.add('show'); }
 function openPrologue(){
-  const ov=$('#ov-prologue'), im=$('#proimg'), tx=$('#protext'), go=$('#pro-go'); proDone=false; clearTimeout(proTimer); tx.textContent=''; go.classList.remove('show'); im.classList.remove('show'); im.src=A.prolog; $('#procap').textContent=LANG==='vi'?PROCAP_VI:'';
+  const ov=$('#ov-prologue'), im=$('#proimg'), tx=$('#protext'), tx2=$('#protext2'), go=$('#pro-go'); proDone=false; clearTimeout(proTimer); tx.textContent=''; tx2.textContent=''; tx2.classList.remove('show'); go.classList.remove('show'); im.classList.remove('show'); im.src=A.prolog; $('#procap').textContent=LANG==='vi'?PROCAP_VI:'';
   ov.classList.add('on'); setTimeout(()=>im.classList.add('show'),300);
-  const text=T(PROLOGUE); let i=0;
-  const step=()=>{ if(proDone) return; i++; tx.textContent=text.slice(0,i)+(i<text.length?'▌':''); if(i>=text.length){ finishProlog(); return; }
+  let el=tx, text=T(PRO_A), i=0;
+  const step=()=>{ if(proDone) return; i++; el.textContent=text.slice(0,i)+(i<text.length?'\u258c':'');
+    if(i>=text.length){ if(el===tx){ el=tx2; text=T(PRO_B); i=0; tx2.classList.add('show'); proTimer=setTimeout(step,700); } else finishProlog(); return; }
     const ch=text[i-1]; if(i%3===0) sfx.blip(); proTimer=setTimeout(step,38+('.!?'.includes(ch)?300:(ch===','?120:0))); };
   proTimer=setTimeout(step,1500);
 }
@@ -1753,6 +1992,7 @@ $('#end-replay').addEventListener('click',()=>{ sfx.click(); clearEnd(); $('#end
 $('#cr-skip').addEventListener('click',()=>{ sfx.click(); finishCredits(); });
 $('#m-play').addEventListener('click',()=>{ ac(); sfx.click(); closeMainMenu(); openPrologue(); });
 $('#protext').addEventListener('click',()=>{ if(!proDone) finishProlog(); });
+$('#protext2').addEventListener('click',()=>{ if(!proDone) finishProlog(); });
 $('#pro-go').addEventListener('click',()=>{ sfx.click(); closePrologue(); });
 document.addEventListener('keydown',e=>{ if(!$('#ov-prologue').classList.contains('on')) return; if(e.key==='Enter'||e.key===' '){ e.preventDefault(); if(!proDone) finishProlog(); else closePrologue(); } });
 $('#m-lang').addEventListener('click',()=>{ sfx.click(); setLang(LANG==='en'?'vi':'en'); });

@@ -39,8 +39,16 @@ Replacing a file with a new one that has the same name is all you need. The game
 - Item names shown to the player come from `showName()`: it strips things like "(replica)" and renames giveaways (`NAMEMAP`, e.g. Toy medal -> Medal). The real name still appears in the end-of-day ledger.
 - The "regulations updated" notice on days 2 to 4 is `showUpdateNotice()` (called from `beginShift()`).
 - The "father not helped" storyline: `LILY` (Day 3, hidden at slot 6 or 8), Orpo's Day 3 visit (inside `DAY3[4]`) and his two Day 4 returns (`ORPO4`). The flags `lilyOut` and `orpoDead` are saved with the day snapshot. `autoScript` / `autoLeave` on a customer make a scene play line by line without menus.
+- Price book data: `BOOK1` (ordinary goods) and `BOOK2` (treason list) are lists of item groups, each with bullet variants; `BOOK3`/`BOOK4` are rule bullets.
+- Inspections: `std3()` turns every item's tests into exactly three (Look closely, Check the mark, and one item-specific test). The item-specific names are in `T3_FORCED`.
+- Fingerprint order numbers (1, 7, 12, 4412) are explained by `ORDERS`, shown under the record table.
+- Inspector Lund's Day 3 demonstration is `LUND3` (always the first customer). A customer with `noViolence:true` never gets Arrest or Kill.
+- Day 1 tutorial: `LUND1` is always the first customer. The guided steps (`guideInspect`, `guideBook`, `guideOffer`) wait for the player, and `hl()` glows a desk prop. Nothing from the pretend sale touches the till or ledger (`guide:true`).
+- Day 3 shadow event: `LUND_EVENT` with three `SHADOWS` variants (blanket+pistol, vase+ID cards, radio+papers). It is always the 3rd customer.
+- Underpaying: the second offer below the Ministry rate triggers `driveAway()` (seller leaves, citation warning, compliance -1).
+- Instructions in the dialogue box (the hint lines and the 'click the customer' prompt) only show on Day 1 (`S.day===1`).
 - Customer order is shuffled in `orderFor()` (a few have fixed slots: the Day 1 father is last, the Day 2 father comes
-  before the medal man, the Day 3 finale is last, the real Donald Orpo is customer 6 or 8 on Day 5).
+  before the medal man, the Day 3 finale is last, on the father-not-helped path Orpo is 6th and Lily Dang is anywhere from 9th to second-to-last, the real Donald Orpo is customer 6 or 8 on Day 5).
 
 **Vietnamese:** add or edit lines in `js/lang-vi.js`. A missing line just shows in English.
 To find what still needs translating while you play, open the browser console and type `[...window.__miss]`.
