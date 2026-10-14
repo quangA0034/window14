@@ -1,6 +1,6 @@
 # Window 14
 
-A browser game: you run a state-funded shop window in a tyranny. Five days, rules that get worse each day, three endings.
+A browser game: you run a state-funded shop window in a Authoritarian Kingdom. Five days, rules that get worse each day, three endings.
 Plain HTML, CSS and JavaScript. No framework, no build step needed to play.
 
 ## Run it
