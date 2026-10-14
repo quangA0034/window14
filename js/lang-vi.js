@@ -947,7 +947,7 @@ window.VI_DICT = {
  "Crush one. Chalk dust is not medicine.": "Nghiền một viên. Bột phấn không phải thuốc.",
  "Counterfeit cigarettes": "Thuốc lá giả",
  "Tea leaves or sawdust. Open a pack.": "Lá trà hoặc mùn cưa. Hãy mở một gói.",
- "Restricted: the treason list. No resale. Buy, release or arrest.": "Hạn chế: danh sách phản quốc. Không bán lại. Mua, thả hoặc bắt.",
+ "Restricted: the treason list. Buying items on this list is supporting the enemy.": "Hạn chế: danh sách phản quốc. Mua các mặt hàng trên danh sách này là ủng hộ kẻ thù.",
  "Propaganda flyer": "Tờ rơi tuyên truyền",
  "Treason": "Phản quốc",
  "No Ministry print mark. Hidden-press ink.": "Không có dấu in của Bộ. Mực in lậu.",
