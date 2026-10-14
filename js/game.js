@@ -464,7 +464,7 @@ const DAY2=[
 ];
 
 const BOOK2=[
- ['sep','Restricted: the treason list. No resale. Buy, release or arrest.'],
+ ['sep','Buying Items from the treason list is supporting the enemy.'],
  ['sep','Look-alikes are not treason. Arresting one is a wrongful arrest: 20 credit fine.'],
  {img:'flyer',name:'Flyer',rows:[
    ['Propaganda flyer','-','Treason','No Ministry print mark. Hidden-press ink.'],
