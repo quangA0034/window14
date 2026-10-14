@@ -21,6 +21,12 @@ tools/build_single.py   packs everything into one html file: dist/window14_singl
 ```
 Scripts load in this order: `assets.js`, `lang-vi.js`, `game.js`.
 
+## Putting it online (GitHub Pages and similar)
+Upload **everything in this folder together**: `index.html`, the whole `css/` and `js/` folders (and `assets/` if you want the source files). The three code files go together as a set, so replace all of them on every update.
+- Look at the small grey **build** number at the bottom-left of the main menu. It must match the build number in `index.html` of the zip you uploaded. If it does not, the site is still serving old files.
+- After uploading, wait a minute or two for the host to rebuild, then do a hard refresh (Ctrl+F5, or Cmd+Shift+R on a Mac).
+- The links in `index.html` carry a `?v=build` tag, so browsers fetch fresh copies when a new build is uploaded.
+
 ## Changing things
 After you add, replace or delete anything in `assets/`, run `python tools/build_assets.py`.
 Replacing a file with a new one that has the same name is all you need. The game reads each file by its name.
@@ -49,7 +55,6 @@ Replacing a file with a new one that has the same name is all you need. The game
 - Instructions in the dialogue box (the hint lines and the 'click the customer' prompt) only show on Day 1 (`S.day===1`).
 - Hidden contraband: `HIDDEN` holds three customers (ID cards in a blanket, a banned radio broadcast, a pistol magazine in a vase). `hiddenFor()` gives each of Days 3, 4 and 5 exactly one of them, in a random order per game (`S.hid`). On Day 3 they never come before Lund's event.
 - Citation toasts (red) stay about 5 seconds before fading; positive ones are shorter. See the `.toast` CSS and `toast()`.
-- The main menu has a small sign (`#motionsign`) about the OS animation settings. It turns gold and adds a warning line when the browser reports `prefers-reduced-motion` (`paintMotionSign()`).
 - Customer order is shuffled in `orderFor()` (a few have fixed slots: the Day 1 father is last, the Day 2 father comes
   before the medal man, the Day 3 finale is last, on the father-not-helped path Orpo is 6th and Lily Dang is anywhere from 9th to second-to-last, the real Donald Orpo is customer 6 or 8 on Day 5).
 
