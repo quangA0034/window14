@@ -1,6 +1,6 @@
 # Window 14
 
-A browser game: you run a state-funded shop window in a Authoritarian Kingdom. Five days, rules that get worse each day, three endings.
+A browser game: you run a state-funded shop window in a tyranny. Five days, rules that get worse each day, three endings.
 Plain HTML, CSS and JavaScript. No framework, no build step needed to play.
 
 ## Run it
@@ -47,6 +47,9 @@ Replacing a file with a new one that has the same name is all you need. The game
 - Day 3 shadow event: `LUND_EVENT` with three `SHADOWS` variants (blanket+pistol, vase+ID cards, radio+papers). It is always the 3rd customer.
 - Underpaying: the second offer below the Ministry rate triggers `driveAway()` (seller leaves, citation warning, compliance -1).
 - Instructions in the dialogue box (the hint lines and the 'click the customer' prompt) only show on Day 1 (`S.day===1`).
+- Hidden contraband: `HIDDEN` holds three customers (ID cards in a blanket, a banned radio broadcast, a pistol magazine in a vase). `hiddenFor()` gives each of Days 3, 4 and 5 exactly one of them, in a random order per game (`S.hid`). On Day 3 they never come before Lund's event.
+- Citation toasts (red) stay about 5 seconds before fading; positive ones are shorter. See the `.toast` CSS and `toast()`.
+- The main menu has a small sign (`#motionsign`) about the OS animation settings. It turns gold and adds a warning line when the browser reports `prefers-reduced-motion` (`paintMotionSign()`).
 - Customer order is shuffled in `orderFor()` (a few have fixed slots: the Day 1 father is last, the Day 2 father comes
   before the medal man, the Day 3 finale is last, on the father-not-helped path Orpo is 6th and Lily Dang is anywhere from 9th to second-to-last, the real Donald Orpo is customer 6 or 8 on Day 5).
 

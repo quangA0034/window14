@@ -947,7 +947,7 @@ window.VI_DICT = {
  "Crush one. Chalk dust is not medicine.": "Nghiền một viên. Bột phấn không phải thuốc.",
  "Counterfeit cigarettes": "Thuốc lá giả",
  "Tea leaves or sawdust. Open a pack.": "Lá trà hoặc mùn cưa. Hãy mở một gói.",
- "Buying Items from the treason list is supporting the enemy.": "Mua hàng từ danh sách những hàng hóa phản quốc là ủng hộ kẻ thù.",
+ "Restricted: the treason list. No resale. Buy, release or arrest.": "Hạn chế: danh sách phản quốc. Không bán lại. Mua, thả hoặc bắt.",
  "Propaganda flyer": "Tờ rơi tuyên truyền",
  "Treason": "Phản quốc",
  "No Ministry print mark. Hidden-press ink.": "Không có dấu in của Bộ. Mực in lậu.",
@@ -1254,7 +1254,7 @@ window.VI_DICT = {
  "Killed": "Bị giết",
  "Still alive": "Còn sống",
  "Final verdict": "Phán quyết cuối cùng",
- "In memory of the fifteen.": "Tưởng nhớ sự kiện mười lăm người.",
+ "In memory of the fifteen.": "Tưởng nhớ mười lăm người.",
  "Thank you for playing.": "Cảm ơn đã chơi.",
  "Window 14": "Cửa sổ số 14",
  "Unknown. Alias on file: S0S-301": "Không rõ. Bí danh trong hồ sơ: S0S-301"

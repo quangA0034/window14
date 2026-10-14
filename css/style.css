@@ -143,8 +143,8 @@ button{font-family:inherit;color:inherit;cursor:pointer;border:0;background:none
 .finds .e{color:var(--dim)}
 @keyframes flash{from{background:rgba(224,169,63,.35)}to{background:transparent}}
 .tstack{position:fixed;top:56px;left:50%;transform:translateX(-50%);z-index:45;display:flex;flex-direction:column;gap:6px;align-items:center;pointer-events:none}
-.toast{background:#1b0c08;border:2px solid var(--red);color:#f0b8a8;padding:2px 14px;font-size:24px;animation:toast 3.4s forwards;max-width:92vw;text-align:center}
-.toast.ok{border-color:#6b8f4a;color:#c8e0a8;background:#0e150a}
+.toast{background:#1b0c08;border:2px solid var(--red);color:#f0b8a8;padding:2px 14px;font-size:24px;animation:toast 6.3s forwards;max-width:92vw;text-align:center}
+.toast.ok{border-color:#6b8f4a;color:#c8e0a8;background:#0e150a;animation-duration:3.4s}
 @keyframes toast{0%{opacity:0;transform:translateY(-10px)}8%{opacity:1;transform:none}85%{opacity:1}100%{opacity:0}}
 .meter{display:grid;grid-template-columns:130px 1fr 40px;gap:8px;align-items:center;font-size:13px;margin:4px 0}
 .meter .bar{height:12px;background:rgba(42,29,18,.25);position:relative;border:1px solid var(--paper-ink)}
@@ -289,6 +289,12 @@ table.rep th.r,table.rep td.r{padding-left:14px}
 #endbig{position:absolute;top:0;right:0;bottom:0;left:0;display:flex;align-items:center;justify-content:center;text-align:center;color:var(--red);font-size:clamp(46px,11vw,150px);letter-spacing:.05em;line-height:1;padding:0 4vw;opacity:0;transform:scale(1.1);transition:opacity 2.4s ease,transform 3.2s ease;text-shadow:0 0 42px rgba(179,55,42,.6);pointer-events:none;z-index:4}
 #endbig.show{opacity:1;transform:scale(1)}
 #endbtns{position:relative;z-index:6}
+#motionsign{position:absolute;left:50%;top:clamp(10px,2.4vh,26px);transform:translateX(-50%);pointer-events:none;width:min(660px,92vw);padding:8px 14px 9px;border:2px solid var(--tan-dim);background:rgba(10,6,3,.78);text-align:center;font-size:clamp(13px,1.45vw,17px);line-height:1.25;color:var(--dim);z-index:3}
+#motionsign b{display:block;font-weight:400;color:var(--tan);letter-spacing:.08em;text-transform:uppercase;font-size:.9em;margin-bottom:2px}
+#motionsign span{display:block}
+#motionsign #motionwarn{display:none;margin-top:4px;color:#ffd770}
+#motionsign.warn{border-color:#f0b030;background:rgba(40,24,6,.88);color:var(--text)}
+#motionsign.warn #motionwarn{display:block}
 #sndhint{font-size:clamp(16px,2vw,20px);color:var(--dim);margin-top:14px;opacity:0;transition:opacity 1s;letter-spacing:.06em;min-height:1.2em}
 #sndhint.show{opacity:.85}
 #ov-news.hascap #newsimg{max-height:calc(100vh - 210px)}
